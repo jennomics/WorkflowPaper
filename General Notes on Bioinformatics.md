@@ -17,13 +17,20 @@ http://www.ee.surrey.ac.uk/Teaching/Unix/
 
 Summary of commands and terms
 $ ls			lists files and directories (folders) in directory you are currently in
+
 $ cd			use to change directories
+
 $ cd ..    			use to move up one directory
+
 $ cd directory_name 	use to move to that directory
+
 $ cd ~ 			use to move to the home directory	
+
 $ grep file_name
+
 $ grep –c “what you want to count” file_name 	counts the number of times a file 
 contains a specific character or sequence of characters
+
 $ less file_name					view a file
 
 command line – the command line is where you type commands in a terminal window
