@@ -1,5 +1,5 @@
 #General Notes on Bioinformatics
-Command Line/Terminal Tutorial
+##Command Line/Terminal Tutorial
 Some parts of this workflow require use of the UNIX command line. While potentially intimidating to the first-time user, we have attempted to provide all the information required to run scripts or software in this environment.
 Here are a few simple commands needed for this workflow.
 
@@ -15,7 +15,7 @@ http://www.ee.surrey.ac.uk/Teaching/Unix/
 
 
 
-Summary of commands and terms
+##Summary of commands and terms
 $ ls			lists files and directories (folders) in directory you are currently in
 
 $ cd			use to change directories
@@ -34,11 +34,13 @@ contains a specific character or sequence of characters
 $ less file_name					view a file
 
 command line – the command line is where you type commands in a terminal window
+
 script – a computer program. Usually computer programs are called scripts when they perform relatively simple functions that are limited in scope. Scripts are typically only run from the command line
+
 directory – a folder
 
 
-Software updates
+##Software updates
 Software packages are updated with varying frequencies. Some software updates will render the instructions offered here obsolete. When this occurs, you should consult with the software manual for help, or an internet search with a description of the problem you are having can prove helpful. Another option is to email the software developer; many are remarkably responsive. As a last resort, consult with a colleague who is more comfortable with bioinformatics. It is customary to offer a small favor or gift. Most software updates will require only minor modifications. For example, we might provide you with instructions to type:
 
 ./software_1.2.0/software.py
