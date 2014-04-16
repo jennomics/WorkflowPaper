@@ -10,7 +10,7 @@ Throughout this section we refer to "agar" and "culture media". The choice of me
 
 3. how much time is available for growth and isolation?
 
-3.1. things will grow faster at higher temperatures, but at some point, a threshhold will be reached and many will die
+\t things will grow faster at higher temperatures, but at some point, a threshhold will be reached and many will die
 
 3.2. you will be able to isolate a greater diversity of organisms if you allow a long time for slow-growing things to grow
 	
