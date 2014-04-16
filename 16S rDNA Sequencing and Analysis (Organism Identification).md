@@ -1,5 +1,5 @@
 #16S rDNA Sequencing and Analysis (Organism Identification)
-##16s rDNA PCR
+
 Following the second dilution streaking, the organisms need to be identified. This is accomplished by Sanger sequencing of a 16S rDNA PCR product.
 
 The samples can be prepared for 16S rDNA PCR via direct PCR (using the liquid culture as the template for the PCR reaction) or following DNA extraction. Direct PCR significantly decreases the amount of work needed for preparation, but it can yield poorer Sanger results, oth in terms of PCR success and resultant sequence quality. We recommend direct PCR when screening a large number of samples. DNA extraction can be used for any recalcitrant samples. DNA extraction is significantly more work, but it often generates better Sanger sequences allowing for more accurate identification.
