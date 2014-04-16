@@ -7,16 +7,16 @@ Throughout this section we refer to "agar" and "culture media". The choice of me
 
 2) are there types of organisms (e.g., pathogens) that you would prefer not to isolate?
 
-	- tips for minimizing pathogen growth
-	- 
+	-tips for minimizing pathogen growth
+
 3) how much time is available for growth and isolation?
 
-	- things will grow faster at higher temperatures, but at some point, a threshhold will be reached and many will die
-	- 
-	- you will be able to isolate a greater diversity of organisms if you allow a long time for slow-growing things to grow
-	- 
+	-things will grow faster at higher temperatures, but at some point, a threshhold will be reached and many will die
+
+	-you will be able to isolate a greater diversity of organisms if you allow a long time for slow-growing things to grow
+	
 4) what types of equipment are available to you?
 
-	- if something grows most happily at 37deg, then you will need to have an incubator and shaker available at that temperature
+	-if something grows most happily at 37deg, then you will need to have an incubator and shaker available at that temperature
 
  For our previous work we have simply used a rich growth media such as lysogeny broth (LB) (REF)
