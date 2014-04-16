@@ -9,8 +9,8 @@ Throughout this section we refer to "agar" and "culture media". The choice of me
    tips for minimizing pathogen growth
 
 3. how much time is available for growth and isolation?
-+ things will grow faster at higher temperatures, but at some point, a threshhold will be reached and many will die
-+ you will be able to isolate a greater diversity of organisms if you allow a long time for slow-growing things to grow
+    + things will grow faster at higher temperatures, but at some point, a threshhold will be reached and many will die
+    + you will be able to isolate a greater diversity of organisms if you allow a long time for slow-growing things to grow
    
 5. what types of equipment are available to you?
 
