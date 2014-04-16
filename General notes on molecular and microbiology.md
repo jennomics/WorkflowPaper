@@ -1,4 +1,4 @@
-##General notes on molecular and microbiology
+#General notes on molecular and microbiology
 This section assumes basic knowledge of molecular biology and sterile technique. The starting point for this workflow is the collection of microbes from a surface with a cotton swab. Here we cover the steps necessary to take a sample through plating, dilution streaking, overnight growth, creating a glycerol stock, 16s rDNA PCR, and preparation for Sanger sequencing to determine the identity of your bacterial isolate.  
 
 Throughout this section we refer to "agar" and "culture media". The choice of media will depend on the goals of the particular project. Some factors to consider when selecting media and conditions for growth include: 
