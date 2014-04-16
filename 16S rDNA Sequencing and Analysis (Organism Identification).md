@@ -27,7 +27,7 @@ Upon receiving Sanger reads from a sequencing facility, typically via email, it 
 
 We have also created a script that will do all of these steps automatically, but does not allow you to adjust any of the parameters The choice of our script (easy, little control) versus SeqTrace (more complex, more control) will depend on the user and the project. 
 
-##SeqTrace
+##Install and run SeqTrace
 Download the program from
 https://code.google.com/p/seqtrace/downloads/list
 
@@ -39,11 +39,12 @@ Installing and running SeqTrace on a PC is simple, installing it on a Mac requir
 To install SeqTrace on a Mac you will need to download the PyGTK package from OSX. 
 http://sourceforge.net/projects/macpkg/files/PyGTK/2.24.0/PyGTK.pkg/download
 
-Confirm that you have Python version 2.7x or earlier. You can do this by typing
+Confirm that you have Python version 2.x. You can do this by typing:
 
     - python --version
     
-If not, seek help to invoke an earlier version directly.
+You should see something that looks like "Python 2.6.9" If you see Python 3.x, seek help to invoke an earlier version directly.
+
 http://www.python.org/download/releases/
 
 After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace must be launched from a Terminal window. For a refresher or introduction to the Terminal see section II. Move SeqTrace to your Applications folder. 
@@ -52,13 +53,13 @@ Open a Terminal window and type
 
 ./Applications/seqtrace-0.9.0/seqtrace.py
 
-This syntax will only work if the SeqTrace folder’s name is seqtrace-0.9.0, if you saved it under a different name you will need to replace seqtrace-0.9.0 with whatever you named your folder
+This syntax will only work if the SeqTrace folder’s name is seqtrace-0.9.0, if you saved it under a different name you will need to replace seqtrace-0.9.0 with the name of that folder
 
-This will launch SeqTrace from the terminal in a Python shell, you will need to keep the terminal window open while you are using the program. 
+This will launch SeqTrace from the terminal in a Python shell; you will need to keep the terminal window open while you are using the program. 
 
 SeqTrace provides excellent directions for using the program at https://code.google.com/p/seqtrace/wiki/WorkingWithProjects
 
-Edit and Create a Consensus Sequence
+##Edit and Create a Consensus Sequence
 For this workflow we have found that the following is the simplest way to edit and create a consensus sequence from a forward and reverse read in SeqTrace.
 
 1. Create a new project (File > New Project) 
