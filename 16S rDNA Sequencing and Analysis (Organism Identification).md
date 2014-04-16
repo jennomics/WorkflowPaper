@@ -47,3 +47,23 @@ After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace m
 Open a Terminal window and type 
 
 ./Applications/seqtrace-0.9.0/seqtrace.py
+
+This syntax will only work if the SeqTrace folder’s name is seqtrace-0.9.0, if you saved it under a different name you will need to replace seqtrace-0.9.0 with whatever you named your folder
+
+This will launch SeqTrace from the terminal in a Python shell, you will need to keep the terminal window open while you are using the program. 
+
+SeqTrace provides excellent directions for using the program at https://code.google.com/p/seqtrace/wiki/WorkingWithProjects
+
+Edit and Create a Consensus Sequence
+For this workflow we have found that the following is the simplest way to edit and create a consensus sequence from a forward and reverse read in SeqTrace.
+
+1. Create a new project (File > New Project) 
+Add your forward and reverse primer sequences here, we used 27F (AGAGTTTGATCMTGGCTCAG) 
+and 1391R (GACGGGCGGTGTGTRCA) 
+click ok
+2. To add files go to Traces and click on Add trace files, then select the reads 
+(.abi files) you want to work with. 
+3. The program is able to recognize forward and reverse reads from information in the file name if they are properly formatted.
+
+Go to Traces and click on Find and mark forward/reverse. The default setting looks for _F for forward and _R for reverse. This can be edited in the Project settings (you can pull it up by clicking on the picture of the tools at the top of the page) and changing the search strings under trace settings
+
