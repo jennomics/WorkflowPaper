@@ -1,1 +1,1 @@
-Replace this text with your caption
+Somehow relate this figure to the words in the workflow that describe it.
