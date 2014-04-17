@@ -76,7 +76,7 @@ click ok
 8. The Trace View shows the quality scores, the chromatogram display, and the raw base calls from both the forward and reverse reads, as well as the consensus sequence. The consensus sequence is the middle list of nucleotides. If the program is giving you a string of Ns where your forward and reverse reads do not overlap, you need to decrease the Min confidence score.
 9. To export the consensus from the trace view, go to File and click on Export working sequence. This will create a file containing the consensus sequence, which you can upload to BLAST and use to identify the organism.
 
-##Custom Script to Create a Consensus Sequence (merge\_sanger\_16s.pl)
+##Custom Script to Create a Consensus Sequence (merge_sanger_16s.pl)
 ###Download/Install
 1. Create a new folder called Sanger_seq somewhere on your computer
 2. Download the script from https://github.com/gjospin/scripts
@@ -87,7 +87,7 @@ In order to run this script you will need to download MUSCLE (REF) from here: ht
 
 ###Convert Files from .abi to . fastq
 
-To run the merge\_sanger\_16s.pl you will first need to convert your read files from .abi to .fastq
+To run the merge_sanger_16s.pl you will first need to convert your read files from .abi to .fastq
 
 This can be done at 
 http://sequenceconversion.bugaco.com/converter/biology/sequences/
@@ -97,9 +97,18 @@ Use the drop down menus to set it to convert .abi files to .fastq. Upload a file
 ###Edit and Create a Consensus Sequence
 Once all of your files are in the fastq format, move all of them to the Sanger_seq folder in which you saved the merge_sanger_16s.pl script. Use the terminal to navigate to within this folder. Then, type:
  
-    cd Desktop/Sanger_seq/
+    cd Desktop/Sanger_seq
 
-The syntax to run the script is 
+Then, to run the script, type:
+
+    perl merge\_sanger\_16s.pl file1.fastq file2.fastq
+The script will return one of 2 messages:
+    +"Found N conflicting case(s) during merging of X residues" 
+or
+    +"Not enough data to overlap confidently." 
+
+The newly merged file will be saved as file1_merged.fasta and can be uploaded to BLAST for identification.
+
 
 
 
