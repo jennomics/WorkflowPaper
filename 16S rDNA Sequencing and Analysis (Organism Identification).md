@@ -39,6 +39,7 @@ To install SeqTrace on a Mac you will need to download the PyGTK package from OS
 http://sourceforge.net/projects/macpkg/files/PyGTK/2.24.0/PyGTK.pkg/download
 
 Confirm that you have Python version 2.x. You can do this by typing:
+
     - python --version
 You should see something that looks like "Python 2.6.9" If you see Python 3.x, seek help to invoke an earlier version directly.
 
@@ -48,7 +49,7 @@ After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace m
 
 Open a Terminal window and type 
 
- -./Applications/seqtrace-0.9.0/seqtrace.py
+ - ./Applications/seqtrace-0.9.0/seqtrace.py
 
 This syntax will only work if the SeqTrace folder’s name is seqtrace-0.9.0, if you saved it under a different name you will need to replace seqtrace-0.9.0 with the name of that folder
 
