@@ -1,1 +1,1 @@
-Replace this text with your caption
+Align2Seqs page.
