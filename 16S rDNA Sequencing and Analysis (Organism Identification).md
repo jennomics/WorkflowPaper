@@ -101,7 +101,7 @@ Once all of your files are in the fastq format, move all of them to the Sanger_s
 
 Then, to run the script, type:
 
-    perl merge\_sanger\_16s.pl file1.fastq file2.fastq
+    perl merge_sanger_16s.pl file1.fastq file2.fastq
 The script will return one of 2 messages:
     +"Found N conflicting case(s) during merging of X residues" 
 or
