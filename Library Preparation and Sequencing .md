@@ -10,8 +10,8 @@ Whether you chose to make libraries yourself, or use a provider the next major c
 
 When growing bacteria in culture, as described in this workflow, it should almost always be possible to get enough DNA to use PCR-free TruSeq and therefore minimize library preparation biases in the assembly.
 
-#Considerations in Library Preparation
+##Considerations in Library Preparation
 Insert size: The tradeoff with insert size is between utility for assembly (larger is better) and ability of those fragments to amplify on the Illumina flowcell for sequencing (smaller is better). The optimal fragment size also depends on the length of reads used (the longer the read, the longer of an insert size is needed for scaffolding). The final consideration is the amount of DNA available for sequencing. While having all inserts be exactly 750bp would be handy, it would be extremely difficult to get enough DNA to sequence. In our lab, with paired end 300bp reads on the Illumina MiSeq, we shoot for an insert size range of 600-900 bp. Different sequencing facilities have different opinions on this topic and it is worth having this discussion before making libraries.
 
-#Multiplexing
+##Multiplexing
 The capacity of an Ilumina MiSeq with PE300bp reads is ???? which would result in a coverage of ???X for a typical bacterium with a 3.5MB genome.  On the HiSeq with PE 150bp reads this would be ???X coverage. Typically the recommended coverage for a bacterial genome assembly is 30-100X depending on the choice of assembler.  Therefore, sequencing a single genome on a run is a waste of money and reagents, furthermore many assemblers do worse with too much data, requiring downsampling.  We typically multiplex 10-20 genomes on a PE300bp MiSeq run and many more on a HiSeq run.  If using a kit for library prep, multiplexing is quite straightforward since there are a number of barcoded adaptors that come with the kit. Demultiplexing can be performed by the sequencing facility.
