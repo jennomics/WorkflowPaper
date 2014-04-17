@@ -1,1 +1,1 @@
-Replace this text with your caption
+This is what the GOLD search page looks like.
