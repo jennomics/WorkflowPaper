@@ -19,6 +19,7 @@ figures/NCBI16Ssearch/NCBI16Ssearch.png
 figures/align2seqs/align2seqs.png
 figures/align2seqsresults/align2seqsresults.png
 Library Preparation and Sequencing .md
+Genome Assembly and Annotation.md
 General notes on molecular and microbiology..md
 General notes on molecular and microbiology..md
 Discussion.md
