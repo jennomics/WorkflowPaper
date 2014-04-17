@@ -1,0 +1,18 @@
+#Library Preparation and Sequencing 
+#Library Preparation
+The first choice in library preparation is whether to do the library prep yourself, or to have the library made by your sequencing provider. The economics of this decision are usually dependant on the number of sample involved. For example an Illumina TruSeq library prep kit costs around $2600 for 48 samples.  That's far cheaper than the $??? To $??? that a typical sequencing provider would charge per sample.  However, if you're only preparing a couple of samples there's no reason to buy an entire kit.  Many sequencing facilities offer library preparation including ???, ???, and ??? (include prices here if possible).
+
+#Kit Options
+Whether you chose to make libraries yourself, or use a provider the next major choice is of the type of kit.  The two major different choices with Illumina kits are the Nextera transposase-based kits or the TruSeq kits (with or without PCR). These kits are available from Illumina, but there are also comparable options from other vendors (e.g. ??? and ???). The pros and cons of each type of kit are listed below:
+
+##Nextera: Pro – Can use very low amounts of input DNA, down to 1ng in the case of the Nextera XT kit. Con – the transposase has an insertion bias and the extensive PCR required for low input samples will also impact the final assembly.
+
+##TruSeq (our recommendation): Pro – If the PCR-free protocol is used this minimizes bias due to fragmentation (via mechanical shearing) and PCR, resulting in better assemblies. Con – requires a large amount of DNA (1µg for PCR-free).  There is also now a TruSeq LT kit which only requires 100ng of DNA but does entail some PCR so may provide a middle option between PCR-free TruSeq and Nextera.
+
+When growing bacteria in culture, as described in this workflow, it should almost always be possible to get enough DNA to use PCR-free TruSeq and therefore minimize library preparation biases in the assembly.
+
+#Considerations in Library Preparation
+Insert size: The tradeoff with insert size is between utility for assembly (larger is better) and ability of those fragments to amplify on the Illumina flowcell for sequencing (smaller is better). The optimal fragment size also depends on the length of reads used (the longer the read, the longer of an insert size is needed for scaffolding). The final consideration is the amount of DNA available for sequencing. While having all inserts be exactly 750bp would be handy, it would be extremely difficult to get enough DNA to sequence. In our lab, with paired end 300bp reads on the Illumina MiSeq, we shoot for an insert size range of 600-900 bp. Different sequencing facilities have different opinions on this topic and it is worth having this discussion before making libraries.
+
+#Multiplexing
+The capacity of an Ilumina MiSeq with PE300bp reads is ???? which would result in a coverage of ???X for a typical bacterium with a 3.5MB genome.  On the HiSeq with PE 150bp reads this would be ???X coverage. Typically the recommended coverage for a bacterial genome assembly is 30-100X depending on the choice of assembler.  Therefore, sequencing a single genome on a run is a waste of money and reagents, furthermore many assemblers do worse with too much data, requiring downsampling.  We typically multiplex 10-20 genomes on a PE300bp MiSeq run and many more on a HiSeq run.  If using a kit for library prep, multiplexing is quite straightforward since there are a number of barcoded adaptors that come with the kit. Demultiplexing can be performed by the sequencing facility.
