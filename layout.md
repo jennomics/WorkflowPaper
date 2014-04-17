@@ -11,6 +11,7 @@ figures/SeqTrace4/SeqTrace4.png
 Organism Identification using 16s rRNA gene sequence.md
 figures/BLAST/BLAST.png
 figures/BLASTuseGOLD/BLASTuseGOLD.png
+figures/BLASTuseTREE/BLASTuseTREE.png
 General notes on molecular and microbiology..md
 General notes on molecular and microbiology..md
 Discussion.md
