@@ -87,7 +87,7 @@ In order to run this script you will need to download MUSCLE (REF) from here: ht
 
 ###Convert Files from .abi to . fastq
 
-To run the merge_sanger_16s.pl you will first need to convert your read files from .abi to .fastq
+To run the merge\_sanger\_16s.pl you will first need to convert your read files from .abi to .fastq
 
 This can be done at 
 http://sequenceconversion.bugaco.com/converter/biology/sequences/
