@@ -1,1 +1,1 @@
-Replace this text with your caption
+This is a close-up of the Lysinibacillus GOLD search results.
