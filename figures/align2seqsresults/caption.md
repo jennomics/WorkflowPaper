@@ -1,1 +1,1 @@
-Replace this text with your caption
+align2seqs results page.
