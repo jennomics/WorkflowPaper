@@ -23,6 +23,7 @@ Genome Assembly and Annotation.md
 Building a 16S rDNA Phylogenetic Tree.md
 figures/phylo1/phylo1.png
 figures/phylo2/phylo2.png
+figures/phylo3/phylo3.png
 Submitting your genome to GenBank.md
 General notes on molecular and microbiology..md
 General notes on molecular and microbiology..md
