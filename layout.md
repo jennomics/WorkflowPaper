@@ -14,6 +14,7 @@ figures/BLASTuseGOLD/BLASTuseGOLD.png
 figures/BLASTuseTREE/BLASTuseTREE.png
 figures/GOLD/GOLD.png
 figures/lysinibacillus1/lysinibacillus1.png
+figures/GOLDresults2/GOLDresults2.png
 General notes on molecular and microbiology..md
 General notes on molecular and microbiology..md
 Discussion.md
