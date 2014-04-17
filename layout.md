@@ -20,6 +20,7 @@ figures/align2seqs/align2seqs.png
 figures/align2seqsresults/align2seqsresults.png
 Library Preparation and Sequencing .md
 Genome Assembly and Annotation.md
+Building a 16S rDNA Phylogenetic Tree.md
 General notes on molecular and microbiology..md
 General notes on molecular and microbiology..md
 Discussion.md
