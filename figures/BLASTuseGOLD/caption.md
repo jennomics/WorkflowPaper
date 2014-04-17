@@ -1,1 +1,1 @@
-Replace this text with your caption
+If your BLAST results look like this, proceed to "Using GOLD."
