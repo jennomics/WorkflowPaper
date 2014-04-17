@@ -105,19 +105,19 @@ Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift anal
 ###Options
 There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka, IMG, RAST, PGAP and others.
 
-####Prokka
++ Prokka
 Command line based
 http://www.vicbioinformatics.com/software.prokka.shtml
 
-####Integrated Microbial Genomes (IMG)
++ Integrated Microbial Genomes (IMG)
 Requires a login and they do the annotation
 http://img.jgi.doe.gov/
 
-####Rapid Annotation using Subsystem Technology (RAST)
++ Rapid Annotation using Subsystem Technology (RAST)
 Web-based, using closed (unknown) algorithms
 http://rast.nmpdr.org/
 
-####Prokaryotic Genome Automatic Annotation Pipeline (PGAAP)
++ Prokaryotic Genome Automatic Annotation Pipeline (PGAAP)
 Built into NCBI and only accessible upon request
 http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
 
