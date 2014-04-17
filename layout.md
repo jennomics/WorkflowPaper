@@ -17,6 +17,7 @@ figures/lysinibacillus1/lysinibacillus1.png
 figures/GOLDresults2/GOLDresults2.png
 figures/NCBI16Ssearch/NCBI16Ssearch.png
 figures/align2seqs/align2seqs.png
+figures/align2seqsresults/align2seqsresults.png
 General notes on molecular and microbiology..md
 General notes on molecular and microbiology..md
 Discussion.md
