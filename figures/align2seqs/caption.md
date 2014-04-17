@@ -1,1 +1,1 @@
-Align2Seqs page.
+align2seqs page.
