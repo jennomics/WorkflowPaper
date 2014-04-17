@@ -1,1 +1,1 @@
-Replace this text with your caption
+Search results for a particular 16S sequence.
