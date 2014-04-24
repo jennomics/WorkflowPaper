@@ -1,4 +1,4 @@
-#Building a 16S rDNA Phylogenetic Tree
+#Constructing a Phylogenetic Tree using 16S rDNA sequence
 There are two points during the workflow where making a 16S phylogenetic tree may be useful. The first is after identification of candidate organisms by Sanger sequencing and the second is after assembly of the genome. The process is identical in both cases, but the additional length and improved quality of the post-assembly full-length 16S rRNA gene sequence may generate a better tree. The tree can be used for identification of the candidate (e.g. is the candidate found in a single species clade?), for naming of the candidate (does it fall in a clade containing only members of that species, and other members of the species are not found outside that clade?), and for placement of the organism into a phylogenetic context.
 
 The outline of the workflow is to use the Ribosomal Database Project (RDP) to generate an alignment of the sequence with close relatives and an outgroup, following by cleanup of the RDP headers, tree-building with FastTree and viewing/analysis of the tree in Dendroscope.
