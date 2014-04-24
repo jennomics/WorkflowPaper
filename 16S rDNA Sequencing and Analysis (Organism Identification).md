@@ -76,7 +76,7 @@ click ok
 8. The Trace View shows the quality scores, the chromatogram display, and the raw base calls from both the forward and reverse reads, as well as the consensus sequence. The consensus sequence is the middle list of nucleotides. If the program is giving you a string of Ns where your forward and reverse reads do not overlap, you need to decrease the Min confidence score.
 9. To export the consensus from the trace view, go to File and click on Export working sequence. This will create a file containing the consensus sequence, which you can upload to BLAST and use to identify the organism.
 
-##Custom Script to Create a Consensus Sequence (merge_sanger_16s.pl)
+##Custom Script to Create a Consensus Sequence (merge\_sanger\_16s.pl)
 ###Download/Install
 1. Create a new folder called Sanger_seq somewhere on your computer
 2. Download the script from https://github.com/gjospin/scripts
