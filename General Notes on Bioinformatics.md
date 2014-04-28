@@ -44,6 +44,6 @@ directory – a folder
 Software packages are updated with varying frequencies. Some software updates will render the instructions offered here obsolete. When this occurs, you should consult with the software manual for help, or an internet search with a description of the problem you are having can prove helpful. Another option is to email the software developer; many are remarkably responsive. As a last resort, consult with a colleague who is more comfortable with bioinformatics. It is customary to offer a small favor or gift. Most software updates will require only minor modifications. For example, we might provide you with instructions to type:
 
     ./software_1.2.0/software.py
-    but a more recent release might necessitate:
+but a more recent release might necessitate:
 
     ./software_1.3.0/software.py
