@@ -154,7 +154,7 @@ Do you have sequence files for scaffolds and/or chromosomes and/or plasmids? No
 
 Click Submit and you're done! You will receive a series of e-mails from NCBI confirming your submission and notifying you of any problems. Once the submission is pre-processed you'll get an Accession Number. Note however that the data will not be released until final processing.  The Accession Number is not acceptable for publication until after the final release of the data.
 
-Submitting Raw Reads to ENA/SRA
+**Submitting Raw Reads to ENA/SRA**
 We recommend using Safari or Firefox for this step, Chrome can have issues with the Java requirements for uploading files.
 
 Go to:
@@ -179,13 +179,15 @@ In the WebinDataUploader, in the blank area to the right of the Local Upload dir
 
 Select the file(s) containing the reads and click Upload. 
 
+(Note that paired-end data is required to be in two separate fastq files, these files can be found in the A5 assembly directory as ???)
+
 Note that the only acceptable file types for fastq files are gzip (.gz) and bzip (.bz2). To gzip files in the Terminal use the following syntax:
 
 $ gzip [filename] 
 
 After completion, return to EMBL (the new submission tab of the SRA Webin submission system) and select the Next button.
 
-Click Create a New Study. Fill in descriptions of the project and proceed to next tab. Select the appropriate metatdata format, or the ENL default sample checklist at the bottom.
+Click Create a New Study. Fill in descriptions of the project and proceed to next tab. Select the appropriate metatdata format, or in most cases the ENL default sample checklist at the bottom.
 
 You should now be at the Sample page. Required fields are listed on the right and optional additional fields can be selected from the options on the right. Fill out the appropriate fields and click on Next.
 
@@ -197,7 +199,7 @@ Click the + Add button under sample group details
 Fill in the unique name under basic details, add the Tax ID if it wasn’t added previously and click next
 
 On the Run page
-Select the appropriate data type (Note that paired-end data is required to be in two separate fastq files, these files can be found in the A5 assembly directory as ???
+Select the appropriate data type
 
 Fill in the required fields (they change with data type)
 
