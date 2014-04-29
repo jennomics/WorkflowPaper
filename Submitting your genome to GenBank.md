@@ -1,4 +1,4 @@
-#GenBank Submission
+#Data Submission
 This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing Genbank to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.
 
 Genbank submission requires a .sqn file containing the contigs and an .agp file describing the scaffolds (if applicable). A5 outputs a fasta file of scaffolds which can be converted to a .fsa and a .agp file through a command line script included in the A5 program package. The .fsa file, along with a .sbt template file (created on the NCBI website) can then be converted to a .sqn file via a script available through NCBI. 
