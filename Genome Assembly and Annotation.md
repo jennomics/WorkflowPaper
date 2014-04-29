@@ -29,14 +29,14 @@ A5 is a command line based program, on a mac you will need to run it from the te
 ###Running A5
 Once you have opened the terminal navigate to the folder you just created because A5 will output the files your location when you call the program. In this example I created the folder on the desktop and named it a5_ouput so the syntax for navigating to the folder is 
 
-$ cd Desktop/a5_output/
+    $ cd Desktop/a5_output/
 
 Once there the easiest way to run the program is to drag and drop the a5 pipeline into the terminal. Open the bin folder located in the downloaded folder. Drag the file labeled a5_pipeline.pl into the terminal 
 __add arrow to picture___
 then drag in the input file(s) (the paired end read files). Finally name the output files 
 the final syntax will read 
 
-$ a5_pipeline.pl read_1.fastq read_2.fastq mygenome
+    $ a5_pipeline.pl read_1.fastq read_2.fastq mygenome
 
 /Users/Madison/Desktop/a5_miseq_macOS_20140113/bin/a5_pipeline.pl is the pipeline and its location
 /Users/Madison/Desktop/a5_miseq_macOS_20140113/example/phiX_p1.fastq is the first paired end read
