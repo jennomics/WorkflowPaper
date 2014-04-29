@@ -25,7 +25,7 @@ figures/phylo1/phylo1.png
 figures/phylo2/phylo2.png
 figures/phylo3/phylo3.png
 figures/phylo4/phylo4.png
-Submitting your genome to GenBank.md
+Data Submission.md
 General notes on molecular and microbiology..md
 General notes on molecular and microbiology..md
 Discussion.md
