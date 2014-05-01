@@ -1,11 +1,13 @@
 #General Notes on Bioinformatics
 ##Command Line/Terminal Tutorial
+This workflow is written assuming that the user is using a Mac or Linux.  It is possible to perform much of this workflow in a Windows environment but would require details outside the scope of this project.
+
 Some parts of this workflow require use of the UNIX command line. While potentially intimidating to the first-time user, we have attempted to provide all the information required to run scripts or software in this environment.
-Here are a few simple commands needed for this workflow.
 
-A terminal window will appear. In the terminal window, you can interact with your computer without using a mouse. Many of the programs that are commonly used have a GUI (Graphical User Interface,) but many of the ones used in this workflow will not. So, instead of double-clicking to make a program run, you will type a command in the terminal window. We will walk you through how to run all of the programs required for this workflow, but you must first acquire a basic familiarity with how to interact with your computer through the terminal window. Below is a list of commands that will be required to use this workflow. There are many tutorials available to help you get started. 
+To access the command line on a Mac navigate to Applications > Utilities > Terminal
 
-More information on the terminal
+A terminal window will appear. In the terminal window, you can interact with your computer without using a mouse. Many popular programs in common use have a GUI (Graphical User Interface,) but many of the ones used in this workflow will not. So, instead of double-clicking to make a program run, you will type a command in the terminal window. We will walk you through how to run all of the programs required for this workflow, but you must first acquire a basic familiarity with how to interact with your computer through the terminal window. Below is a list of commands that will be required to use this workflow. There are many tutorials available to help you get started. 
+
 For more information on operating in the terminal, check out
 this video:
 http://comailab.genomecenter.ucdavis.edu/index.php/Video
@@ -14,9 +16,8 @@ And this interactive tutorial:
 http://www.ee.surrey.ac.uk/Teaching/Unix/
 
 
-
 ##Summary of commands and terms
-$ ls			lists files and directories (folders) in directory you are currently in
+$ **ls**			lists files and directories (folders) in directory you are currently in
 
 $ cd			use to change directories
 
