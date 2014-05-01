@@ -5,7 +5,7 @@ Throughout this section we refer to "agar" and "culture media". The choice of me
 
 1. What type of organism do you want to isolate?
 
-2. Are there types of organisms (e.g., pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at 37\(10\,^{\circ}\mathrm{C}\)C is probably not advised in most cases.
+2. Are there types of organisms (e.g., pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at \(37\,^{\circ}\mathrm{C}\) is probably not advised in most cases.
   
 
 3. How much time is available for growth and isolation?
