@@ -41,9 +41,11 @@ In the terminal, navigate to the directory containing your scaffolds file
 
 Run the fasta2agp.pl script included with A5 on the scaffold file outputted from the A5 assembly "my_scaffolds.fasta". 
 Syntax is: 
+
     perl fasta2agp.pl my_scaffolds.fasta > my_scaffolds.agp
 
-eg 
+eg: 
+
     perl /Users/Madison/Desktop/a5_miseq_macOS_20140113/bin/fasta2agp.pl /Users/Madison/Desktop/a5_miseq_macOS_20140113/example/phiX.a5.final.scaffolds.fasta > phiX.a5.scaffolds.agp 
 
 
@@ -52,6 +54,7 @@ If this runs successfully then you should see a both the .fsa and .agp files in 
 Important Note: NCBI considers a gap of less than 10 nucleotides to be "missing information" in a contig, not a gap between contigs (whereas A5 has no minimum gap size). Therefore NCBI requires that contigs separated by less than 10 nucleotides be merged. This script performs that merging, meaning that the number of contigs in the .fsa file may be less than in your input file.  Therefore we recommend counting the contigs in the .fsa file:
 
 To count them in the terminal use the syntax
+
     grep -c “>” name_of_your_.fsa_file
 
 Important Note: If after running the fasta2agp.pl script and counting the contigs you have the same number of contigs as starting scaffolds, then you should only submit the .sqn file to Genbank and say that scaffolding did not take place (otherwise NCBI will reject the .agp file). 
@@ -86,6 +89,7 @@ Run the tbl2asn program using the following syntax. You will need to fill out th
 Following the -p is the path to the directory containing the .fsa file, following the -t is the path to and name of the template file
 
 Sample syntax
+
     Desktop/ncbi/tbl2asn -p ~/Desktop/ncbi -t ~/Desktop/ncbi/template-1.sbt -M n -Z discrep –j "[organism=Ruthia magnifica str. UCD-CM][strain=UCD-CM] [country=USA: Davis, CA][collection_date=2002][isolation-source=Calyptogena magnifica tissue][gcode=11]"
 
  
