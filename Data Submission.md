@@ -185,9 +185,9 @@ Note that the only acceptable file types for fastq files are gzip (.gz) and bzip
 
 $ gzip [filename] 
 
-After completion, return to EMBL (the new submission tab of the SRA Webin submission system) and select the Next button.
+After completion, return to EMBL (the new submission tab of the SRA Webin submission system) and select the Next button.   During this process, refreshing the page or navigating away from the page will reset the form and the information will be lost.
 
-Click Create a New Study. Fill in descriptions of the project and proceed to next tab. Select the appropriate metatdata format, or in most cases the ENL default sample checklist at the bottom.
+Click Create a New Study. Fill in descriptions of the project and proceed to next tab. Select the appropriate metatdata format, or in most cases the ENL default sample checklist at the bottom.  Note that the default release date is three months from the current date, change this if the data should be released sooner.
 
 You should now be at the Sample page. Required fields are listed on the right and optional additional fields can be selected from the options on the right. Fill out the appropriate fields and click on Next.
 
