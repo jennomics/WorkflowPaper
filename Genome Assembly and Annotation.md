@@ -29,14 +29,14 @@ A5 is a command line based program, on a mac you will need to run it from the te
 ###Running A5
 Once you have opened the terminal navigate to the folder you just created because A5 will output the files your location when you call the program. In this example I created the folder on the desktop and named it a5_ouput so the syntax for navigating to the folder is 
 
-    $ cd Desktop/a5_output/
+    cd Desktop/a5_output/
 
 Once there the easiest way to run the program is to drag and drop the a5 pipeline into the terminal. Open the bin folder located in the downloaded folder. Drag the file labeled a5_pipeline.pl into the terminal 
 __add arrow to picture___
 then drag in the input file(s) (the paired end read files). Finally name the output files 
 the final syntax will read 
 
-    $ a5_pipeline.pl read_1.fastq read_2.fastq mygenome
+    a5_pipeline.pl read_1.fastq read_2.fastq mygenome
 
 /Users/Madison/Desktop/a5_miseq_macOS_20140113/bin/a5_pipeline.pl is the pipeline and its location
 /Users/Madison/Desktop/a5_miseq_macOS_20140113/example/phiX_p1.fastq is the first paired end read
@@ -51,7 +51,7 @@ In addition, A5 generates a file containing information about the quality of the
 
 To view this file use the "less" command:
 
-$ less assembly_stats.csv
+    less assembly_stats.csv
 
 
 For more on interpreting these numbers proceed to Section VII, "Verification of the Assembly".
@@ -81,10 +81,10 @@ Download and unzip the latest version of phylosift
 In the terminal, navigate to the directory containing the unzipped phylosift 
 
 Run
-$ ./phylosift search contig_file_name
+    ./phylosift search contig_file_name
 
 For example:
-$ ./phylosift search /Users/microBEnet/Desktop/Data-Genomes/Pantoea_Tatumella/tatumella/tatumella.final.scaffolds.fasta.contigs.fsa 
+    ./phylosift search /Users/microBEnet/Desktop/Data-Genomes/Pantoea_Tatumella/tatumella/tatumella.final.scaffolds.fasta.contigs.fsa 
 
 Note: The first time you run PhyloSift it has to download a marker gene database so it may take a few minutes.
 
@@ -95,7 +95,7 @@ Within this directoy, Phylosift has created a directory with the same name as th
 
 Open the marker_summary.txt file in the blastDir
 
-$ less marker_summary.txt
+    less marker_summary.txt
 
 The DNGNGWU0001-00040 markers represent 40 highly conserved bacterial genes, if one is missing it won't show up as a zero, it is necessary to manually verify the list. Most of the genes should only appear once. An occasional 2 is fine, but if all/a majority of the genes appear twice or even three times you have most likely sequenced multiple bacteria together. Additionally check to make sure there is no 18S RNA (at the top of the list) to ensure your sample has not been contaminated with a eukaryotes (e.g. yeast). 
 
