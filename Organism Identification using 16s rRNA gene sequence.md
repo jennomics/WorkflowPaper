@@ -36,8 +36,3 @@ Paste in the two 16S rDNA sequences and click on the "BLAST" button. In FigureX 
 
 A choice of whether to sequence an organism based on these results depends on the project goal. For example an identity of 100% suggests that at least at the 16S level, the candidate organism is very similar to what is already in the database. However, many organisms vary greatly in gene content between strains and an additional genome may still be informative. There is also significant debate over what level of relatedness at the 16S level should be used to determine the difference between species, or if this is even a relevant question (REFS).
 
-
-
-
-
-
