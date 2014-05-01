@@ -10,7 +10,7 @@ After incubation, choose desired colonies (we typically attempt to maximize the 
 
 http://www.umsl.edu/~microbes/streakplates.pdf
 
-After growth to visible colonies, repeat the dilution streaking to help ensure purity of the culture. If you have access to a X microscope, visually inspect a smear of cells to confirm a single cell type. Some organisms will only grow in tight association with others, and a mixed culture will prove difficult to work with. If no microscope is available, just proceed with the overnight culture.
+After growth to visible colonies, repeat the dilution streaking to help ensure purity of the culture.  Some organisms will only grow in tight association with others, and a mixed culture will prove difficult to work with. 
 
 ##Liquid Culture
 After the second dilution streaking, a liquid culture is needed both for long-term storage and for DNA extraction. Pick a single colony from each dilution streak plate into 5mls of culture media and grow for 1-3 days until cloudy. Once the liquid culture is ready, prepare a 10% final concentration glycerol stock for long-term storage at -80C from 2mL of the sample.
