@@ -19,26 +19,28 @@ http://www.ee.surrey.ac.uk/Teaching/Unix/
 ##Summary of commands and terms
 $ **ls**			lists files and directories (folders) in directory you are currently in
 
-$ cd			use to change directories
+$ **cd**			use to change directories
 
-$ cd ..    			use to move up one directory
+$ **cd ..**    			use to move up one directory
 
-$ cd directory_name 	use to move to that directory
+$ **cd directory_name** 	use to move to that directory
 
-$ cd ~ 			use to move to the home directory	
+$ **cd ~ **			use to move to the home directory	
 
-$ grep file_name
+$ **grep file_name**
 
-$ grep –c “what you want to count” file_name 	counts the number of times a file 
+$ **grep –c “what you want to count” file_name** 	counts the number of times a file 
 contains a specific character or sequence of characters
 
-$ less file_name					view a file
+$ **less file_name**					view a file
 
-command line – the command line is where you type commands in a terminal window
+A few quick definitions:
 
-script – a computer program. Usually computer programs are called scripts when they perform relatively simple functions that are limited in scope. Scripts are typically only run from the command line
+_command line_ – the command line is where you type commands in a terminal window
 
-directory – a folder
+_script_ – a computer program. Usually computer programs are called scripts when they perform relatively simple functions that are limited in scope. Scripts are typically only run from the command line
+
+_directory_ – a folder
 
 
 ##Software updates
