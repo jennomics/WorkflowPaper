@@ -1,44 +1,37 @@
-#Constructing a Phylogenetic Tree using 16S rDNA sequence
+#Building a 16S rDNA Phylogenetic Tree
 
-There are two points during the workflow where making a 16S phylogenetic tree may be useful. The first is after identification of candidate organisms by Sanger sequencing and the second is after assembly of the genome. The process is identical in both cases, but the additional length and improved quality of the post-assembly full-length 16S rRNA gene sequence may generate a better tree. The tree can be used for identification of the candidate (e.g. is the candidate found in a single species clade?), for naming of the candidate (does it fall in a clade containing only members of that species, and other members of the species are not found outside that clade?), and for placement of the organism into a phylogenetic context.
+What _is_ this thing? At this point, you have an organism in pure culture, but you don't know what it is. If you found an creature crawling on the ground and
+wanted to identify (or classify) it, you might look at it's morphology and ask what it most _looks_ like. If it has six legs, you might guess it's some kind of
+insect. If it has hard outer wings folded over its back, you might guess that it's some kind of beetle. If it also had antler-style horns on its head, you might
+guess that it's some kind of stag beetle. If you don't have enough information available to guess what kind of stag beetle you have, then you have reached the
+limit of *taxonomic resolution* for your creature. With an unknown microbial species, the best way to identify it is to sequence one of its genes (most people
+use the 16S rRNA gene) and ask what _it_ most looks like. With animal classification, the key features to examine are things like legs and wings and horns; with microbial
+classification, the key features to examine are the nucleotides in different positions in a DNA sequence. Fortunately, we have computer programs to help us make
+sense of the DNA sequence information. Our preferred approach to identifying a microbial species is to place the unknown sequence in the context of a
+phylogenetic tree of known sequences. Building a phylogenetic tree from a 16S rRNA sequence is fairly straightforward, but the interpretation of the tree can be
+a bit of an art. Here, we attempt to guide you through both. However, some complicated cases will require consultation with an expert in the field of
+phylogenetics or systematics.
 
-The outline of the workflow is to use the Ribosomal Database Project (RDP) to generate an alignment of the sequence with close relatives and an outgroup, following by cleanup of the RDP headers, tree-building with FastTree and viewing/analysis of the tree in Dendroscope.
+The outline of the workflow is to use the Ribosomal Database Project (RDP) to generate an alignment of the sequence with close relatives and an outgroup,
+following by cleanup of the RDP headers, tree-building with FastTree and viewing/interpretation of the tree using Dendroscope.
 
-Obtain the Full-Length 16S Sequence from the Assembly
-(Skip this step if you are building the tree using the 16S sequence from Sanger sequencing)
+##Obtain an RDP alignment
 
-1. Go to RAST and sign in
-On the “Jobs Overview" page, click on view details (under annotation progress) for the microbe you are working with.
-2. Click on Browse annotated genome in SEED viewer (At the top of the page)
-3. Click on Browse through the features of [organism name]
-4. Under Function search for “ssurna” or “SSU rRNA”
- (if it doesn't work at first then refresh the page)
-5. Find the ssuRNA that is 1400-1800 bp in length (often Illumina assemblies also have fragments of 16S sequence that are only a few hundred bp long)
-6. Click on the Feature ID for that sequence
-7. Click on the Sequences tab (around the middle of the page )
-8. Click on Show Fasta
-9. Click on Download Sequences and save as a fasta file. Rename the file to something useful.
-11. Double check the identity of the sequence at BLAST:
-http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome
+The goal of this section is to obtain a 16S alignment from RDP that can be used to build a tree.
 
-Obtaining an RDP alignment
-The goal of this section is to obtain a 16S alignment from RDP that can be used to build a tree. The "art" is determining which sequences to put in the alignment.
-
-Go to rdp.cme.msu.edu
-Create an account
-Click on my RDP/login
-Upload the fasta file containing your 16s sequence
-Assign it a group name (this is what the program will label your sequence/organism). Choose this carefully since that will be the name on the final tree.
-Upload the fasta file (may take some time to process, status=P (pending) wait until A (aligned)
-If it is taking awhile refresh the screen
-Click the "+" next to the sequence, to add it to your cart
+1. Go to rdp.cme.msu.edu 
+2. Create an account 
+3. Click on my RDP/login 
+4. Upload the fasta file containing your 16s sequence 
+5. Assign it a group name (this is what the program will label your sequence/organism). Choose this carefully since that will be the name on the final tree. 
+6. Click the "+" next to the sequence, to add it to your cart
+7. Click on CLASSIFIER at the top of the page
+8. Click on "Do Classification With Selected Sequences" button. This will show you a hierarchical view of the classification of your sequence (from Phylum to Genus.) You will use this information to find other sequences that you want to include in your alignment that you will use to build your phylogenetic tree. 
+8. Under "Data Set Options," Specify isolates as the Source, leave the rest as defaults
 
 
  
 
-
-click on BROWSERS at the top of the page
-Specify isolates as the Source, leave the rest as defaults
 Click Browse 
  Browse Sequences
 
