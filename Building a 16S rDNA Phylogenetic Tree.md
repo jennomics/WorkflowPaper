@@ -4,7 +4,8 @@ What _is_ this thing? At this point, you have an organism in pure culture, but y
 wanted to identify (or classify) it, you might look at it's morphology and ask what it most _looks_ like. If it has six legs, you might guess it's some kind of
 insect. If it has hard outer wings folded over its back, you might guess that it's some kind of beetle. If it also had antler-style horns on its head, you might
 guess that it's some kind of stag beetle. If you don't have enough information available to guess what kind of stag beetle you have, then you have reached the
-limit of *taxonomic resolution* for your creature. With an unknown microbial species, the best way to identify it is to sequence one of its genes (most people
+limit of *taxonomic resolution* for your creature. 
+With an unknown microbial species, the best way to identify it is to sequence one of its genes (most people
 use the 16S rRNA gene) and ask what _it_ most looks like. With animal classification, the key features to examine are things like legs and wings and horns; with microbial
 classification, the key features to examine are the nucleotides in different positions in a DNA sequence. Fortunately, we have computer programs to help us make
 sense of the DNA sequence information. Our preferred approach to identifying a microbial species is to place the unknown sequence in the context of a
