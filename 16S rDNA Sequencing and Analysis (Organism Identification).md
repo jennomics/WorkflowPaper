@@ -112,4 +112,4 @@ In the first case the merging happened however there may be some conflicting bas
 
 In the second outcome, the sequences were trimmed too much when doing the QC. The length of both sequences end to end was smaller than the fragment length that we are looking for.  This is an indication of poor quality sequence and most users should not proceed (others can lower the quality threshold set by the script).
 
-The newly merged file will be saved as file1_merged.fasta and can be uploaded to BLAST for identification.
+The newly merged file will be saved as file1\_merged.fasta and can be uploaded to BLAST for identification.
