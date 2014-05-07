@@ -41,6 +41,7 @@ _command line_ – the command line is where you type commands in a terminal win
 _script_ – a computer program. Usually computer programs are called scripts when they perform relatively simple functions that are limited in scope. Scripts are typically only run from the command line
 
 _directory_ – a folder
+_compile_ - turning a human-readable file into a computer-executable program
 
 
 ##Software updates
