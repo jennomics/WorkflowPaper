@@ -10,19 +10,19 @@ Follow the protocol or kit instructions provided by the manufacturer and then pr
 
 ##Direct PCR (if not extracting DNA)
 
-Centrifuge 1mL of the overnight culture until the bacteria form a pellet at the bottom of the tube (about 5 minutes at 10,000g), pour off the supernatant and resuspend in 100ul of sterile DNAase-free water. Incubate the samples at 100°C for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below
+Centrifuge 1mL of the overnight culture until the bacteria form a pellet at the bottom of the tube (about 5 minutes at 10,000g), pour off the supernatant and resuspend in 100ul of sterile DNAase-free water. Incubate the samples at \(100\,^{\circ}\mathrm{C}\) for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below
 
 ##PCR reaction
-This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial 16S rRNA gene. Our lab uses either the ___ or the ___ PCR reagents, with an annealing temperature of \(54\,^{\circ}\mathrm{C}\) and an extension at \(72\,^{\circ}\mathrm{C}\) of 90 seconds. Don't forget to include positive (any sample containing bacterial genomic DNA) and negative (water) controls. 
+This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial 16S rRNA gene. Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of \(54\,^{\circ}\mathrm{C}\) and an extension at \(72\,^{\circ}\mathrm{C}\) of 90 seconds. Don't forget to include positive (any sample containing bacterial genomic DNA) and negative (water) controls. 
 
-After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (380bp).  
+After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (~380bp).  
 
 ##Submit Samples for Sequencing
-Very few single-researcher labs maintain Sanger sequencing capacity. However, there are a number of DNA sequencing facilities (commercial and academic) that provide sequencing services for researchers. They will handle as few as 1 single sample, or will allow you to submit an unlimited number of samples, typically arrayed in 96-well plates.  You will typically provide both your PCR product as well as your PCR primers for sequencing. Each facility will have its own guidelines concerning DNA and primer concentration. Our lab uses the UC DNA Sequencing Facility-UC Davis
+Very few single-researcher labs maintain Sanger sequencing capacity. However, there are a number of DNA sequencing facilities (commercial and academic) that provide sequencing services for researchers. They will handle as few as 1 single sample, or will allow you to submit an unlimited number of samples, typically arrayed in 96-well plates.  You will typically provide both your PCR product as well as your PCR primers for sequencing.  Don't forget to submit forward (27F) and reverse (1391R) reactions for each sample. Each facility will have its own guidelines concerning DNA and primer concentration. Our lab uses the UC DNA Sequencing Facility-UC Davis
 http://dnaseq.ucdavis.edu. If a quick internet search does not reveal the presence of a Sequencing Facility near you, most sequencing centers will allow you to ship samples to them for sequencing.
 
 ##Sanger Sequence Processing
-Upon receiving Sanger reads from a sequencing facility, typically via email, it is necessary to do some pre-processing before they can be analyzed.  These steps include quality trimming the reads, reverse complementing the reverse sequence, aligning the reads and generating a consensus sequence. There are very limited options for free software that allow the user to perform these steps. We recommend SeqTrace (REF) for the user who wants to see the trace and process the sequences manually.
+Upon receiving Sanger reads from a sequencing facility, typically via e-mail, it is necessary to do some pre-processing before they can be analyzed.  These steps include quality trimming the reads, reverse complementing the reverse sequence, aligning the reads and generating a consensus sequence. There are very limited options for free software that allow the user to perform these steps. We recommend SeqTrace (REF) for the user who wants to see the trace and process the sequences manually.
 
 We have also created a script that will do all of these steps automatically, but does not allow you to adjust any of the parameters The choice of our script (easy, little control) versus SeqTrace (more complex, more control) will depend on the user and the project. 
 
@@ -46,7 +46,7 @@ You should see something that looks like "Python 2.6.9" If you see Python 3.x, s
 
 http://www.python.org/download/releases/
 
-After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace must be launched from a Terminal window. For a refresher or introduction to the Terminal see section II. Move SeqTrace to your Applications folder. 
+After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace must be launched from a Terminal window. For a refresher or introduction to the Terminal see section 2. Move SeqTrace to your Applications folder. 
 
 Open a Terminal window and type:
 
@@ -59,7 +59,7 @@ This will launch SeqTrace from the terminal in a Python shell; you will need to 
 SeqTrace provides excellent directions for using the program at https://code.google.com/p/seqtrace/wiki/WorkingWithProjects
 
 ##Edit and Create a Consensus Sequence with SeqTrace
-For this workflow we have found that the following is the simplest way to edit and create a consensus sequence from a forward and reverse read in SeqTrace.
+For this workflow we have found that the following is the simplest way to edit and create a consensus sequence from a forward and reverse read in SeqTrace. 
 
 1. Create a new project (File > New Project) 
 Add your forward and reverse primer sequences here, we used 27F (AGAGTTTGATCMTGGCTCAG) 
