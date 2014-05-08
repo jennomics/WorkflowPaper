@@ -5,5 +5,5 @@ In the fall of 2011, with support from the Alfred P. Sloan foundation, our lab b
 
 The sequencing and de novo assembly of genomes has already yielded enormous scientific insight revolutionizing a diverse collection of fields, from epidemiology to ecology.   Our hope is that this workflow will help make this revolution more accessible to all scientists, as well as present educational opportunities for undergraduate researchers and classes.
  
-There are several excellent resources that focus on smaller portions of this entire process, usually assembly and/or annotation.   Examples include the Computational Geneomics Pipeline (Kislyuk et al 2010) and a "Beginner’s guide to comparative bacterial genome analysis" (Edwards and Holt 2013) both of which start with already sequenced reads from a known organism.
+There are several excellent resources that focus on smaller portions of this entire process, usually assembly and/or annotation.   Examples include the Computational Geneomics Pipeline \cite{Kislyuk_2010}  and a "Beginner’s guide to comparative bacterial genome analysis" (Edwards and Holt 2013) both of which start with already sequenced reads from a known organism.
 
