@@ -10,7 +10,7 @@ A terminal window will appear. In the terminal window, you can interact with you
 
 For more information on operating in the terminal, check out
 this video:
-http://comailab.genomecenter.ucdavis.edu/index.php/Video
+https://www.youtube.com/watch?v=zRZT4nQP3sE
 
 And this interactive tutorial:
 http://www.ee.surrey.ac.uk/Teaching/Unix/
