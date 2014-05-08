@@ -81,7 +81,7 @@ click ok
 ###Download/Install
 1. Create a new folder called Sanger_seq somewhere on your computer
 2. Download the script from https://github.com/gjospin/scripts
-3. Download a zip of all of the files, unzip it and move the merge_sanger_16s.pl script to the Sanger_seq folder
+3. Download a zip of all of the files, unzip it and move the merge\_sanger\_16s.pl script to the Sanger_seq folder
 
 ###MUSCLE
 In order to run this script you will need to download MUSCLE (REF) from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31_i86darwin64" to "muscle," and move it into your Applications folder.
