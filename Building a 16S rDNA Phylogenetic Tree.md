@@ -59,29 +59,23 @@ Example:
 $ perl /Users/microBEnet/Desktop/RDPcleanup.pl -i /Users/microBEnet/Desktop/newTatumella.fa -o TatumellaRAST_RDP.fa
 
 ##Building the Tree with FastTree 
-Go to
-http://www.microbesonline.org/fasttree/#Install
-and download the FastTree.c program by right clicking on it and saving the link
+Go to http://www.microbesonline.org/fasttree/#Install
+and download the FastTree.c program by right clicking on it and saving the link. Move the FastTree.c file to your Applications folder. To compile the software, navigate to your Applications folder in a Terminal window
 
-FastTree requires a gcc compiler to function? Which you can download and install from xcode here
-https://developer.apple.com/downloads/index.action?q=xcode
+    cd /Applications
+Then, type:
 
-In order to download xcode you will need to register as a developer with Apple which takes only a couple minutes.
+    gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
 
-After downloading xcode follow your computer’s instructions to install it. Once it is installed open the program and open preferences (under the xcode tab). Click on the downloads option and install the command line tools. 
+FastTree requires a gcc compiler. If your attempt to compile FastTree fails, this is the most likely reason. You can download and install the gcc compiler from Xcode here https://developer.apple.com/downloads/index.action?q=xcode
 
-Once you have successfully downloaded and installed xcode, open the terminal, navigate to your downloads file (or wherever you are storing FastTree) and copy and paste the following syntax
+In order to download Xcode you will need to register as a developer with Apple which takes only a couple minutes. After downloading Xcode follow your computer’s prompts to install it. Once it is installed, open the program and open preferences (under the Xcode tab). Click on the downloads option and install the command line tools. 
 
-$ gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
+Once you have successfully downloaded and installed Xcode, return to your Applications folder in your Terminal window and type:
 
-To run FastTree, type the following in the terminal
-$ FastTree -gtr -nt alignment.file > tree_file 
+    FastTree -gtr -nt your_alignment_file > tree_file.tre 
 
-For Example
-$ /Users/Madison/Downloads/FastTree -gtr -nt /Users/Madison/Desktop/newTatumella > /Users/Madison/Desktop/tree_file_tatumella.tre
-
-The alignment file will be the output file of the cleanup script
-And the tree_file output name should include a path to where you want it to be located. The output name should also end in .tre in order to be recognized by Dendroscope
+The alignment file will be the output file of the cleanup script. And the tree_file output name should include a path to where you want it to be located. The output name ends in .tre to ensure that it will be recognized by Dendroscope.
 
 ##Viewing the Tree in Dendroscope
 Download and install Dendroscope
@@ -90,14 +84,12 @@ http://ab.inf.uni-tuebingen.de/software/dendroscope/
 You will need to obtain a license here
 http://www-ab2.informatik.uni-tuebingen.de/software/dendroscope/register/
 
-Enter the license into Dendrosope and then you can open your alignment to view it (file<open).
- 
- 
+Enter the license into Dendrosope and then you can open your alignment from the File menu to view it.
 
-Once the tree is visible, the first step is to re-root the tree to the outgroup. Expand the tree by clicking the expansion button (labeled in the above screen shot), then scroll through the tree to locate the outgroup. Click on the beginning of the taxa name, to select it, and reroot the tree by going to edit and selecting re-root.  We recommend viewing the tree as a phylogram which can be accomplished by clicking on the phylogram button (labeled in the above screen shot). From this tree it should be possible to determine the phylogenetic placement of the candidate sequence, and in some cases to give it a name with more certainty than a simple BLAST search.  Below are examples of a relatively informative tree and a relatively uninformative tree:
+Once the tree is visible, the first step is to re-root the tree to the outgroup. Expand the tree by clicking the expansion button (labeled in Figure X), then scroll through the tree to locate the outgroup. Click on the beginning of the taxa name, to select it, and reroot the tree by going to edit and selecting re-root.  We recommend viewing the tree as a phylogram which can be accomplished by clicking on the phylogram button (labeled in Figure X). From this tree it should be possible to determine the phylogenetic placement of the candidate sequence, and in some cases to give it a name with more certainty than a simple BLAST search.  Below are examples of a relatively informative tree and a relatively uninformative tree:
 
 TI
  
-In tree shown above (genus Brachybacterium), our sample of interest from an assembly is "Brachybacterium muris UCD-AY4" (REF). It falls within a clade where every named member has the same name "Brachybacterium muris", and this name does not occur elsewhere on the tree. Hence, we were confident enough to name our sample as that species.
+In tree shown above (genus Brachybacterium), our sample of interest from an assembly is "Brachybacterium muris UCD-AY4" (REF). It falls within a clade where every named member has the same name "Brachybacterium muris", and this name does not occur elsewhere on the tree. Hence, we were confident enough to name our sample as that species. In other words, this sequence falls within a well-supported (note 0.999 bootstrap support,) monophyletic clade of _Brachybacterium muris_.
  
 In the tree shown above (genus Microbacterium) our species of interest is Microbacterium sp. str. UCD-TDU (REF). In contrast to the Brachybacterium example, here our species falls within a poorly defined clade containing multiple species. In this case we did not assign a species name to this isolate.
