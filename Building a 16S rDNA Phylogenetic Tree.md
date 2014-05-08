@@ -30,10 +30,11 @@ The goal of this section is to obtain a 16S alignment from RDP that can be used 
 7. Click on CLASSIFIER at the top of the page
 8. Click on "Do Classification With Selected Sequences" button. This will show you a hierarchical view of the classification of your sequence (from Phylum to Genus.) You will use this information to navigate to other sequences that you want to include in your alignment that you will use to build your phylogenetic tree. For example, Figure X shows the Hierarchy for _Bacillus subtilus_. 
 8. Click on BROWSERS. We recommend openining BROWSERS in a new tab so that you can keep the hierarchy information handy.
-9. Click on the + sign next to "Archaea outgroup." This will add an Archaeal sequence to your cart, which will be used to root your phylogenetic tree.
-10. If using the example sequence provided, click on Firmicutes, then Bacilli, then Bacillales, then Bacilaceae. This will take you to the Genus Bacillus, which currently has over 26,000 species in it. One way to reduce this number is to exclude the uncultured taxa in the database. To do this, scroll down to the Data Set Options and click on the "Isolates" button. Click "Refresh" and you will see that there are still more than 22,000 sequences in the Genus. To reduce this number further, click on the "Type" Strain button. This will result in a reasonable number of 181 taxa.
-11. Click on the + sign next to **genus** Bacillus to add all of those sequences to your cart.
-12. 
+9. Click on "Isolates" to select only isolates for further analysis.  Then click "Browse"
+10. Click on the + sign next to "Archaea outgroup." This will add an Archaeal sequence to your cart, which will be used to root your phylogenetic tree.
+11. If using the example sequence provided, click on Firmicutes, then Bacilli, then Bacillales, then Bacilaceae. This will take you to the Genus Bacillus, which currently has over 26,000 species in it. One way to reduce this number is to exclude the uncultured taxa in the database. To do this, scroll down to the Data Set Options and click on the "Isolates" button. Click "Refresh" and you will see that there are still more than 22,000 sequences in the Genus. To reduce this number further, click on the "Type" Strain button. This will result in a reasonable number of 181 taxa.
+12. Click on the + sign next to **genus** Bacillus to add all of those sequences to your cart.
+13. 
 
 
  
