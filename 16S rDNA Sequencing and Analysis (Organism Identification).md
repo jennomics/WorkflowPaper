@@ -84,11 +84,11 @@ click ok
 3. Download a zip of all of the files, unzip it and move the merge\_sanger\_16s.pl script to the Sanger_seq folder
 
 ###MUSCLE
-In order to run this script you will need to download MUSCLE (REF) from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31_i86darwin64" to "muscle," and move it into your Applications folder.
+In order to run this script you will need to download MUSCLE (REF) from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your Applications folder.
 
 ###Convert Files from .abi to . fastq
 
-To run the merge_sanger_16s.pl you will first need to convert your read files from .abi to .fastq
+To run the merge\_sanger\_16s.pl you will first need to convert your read files from .abi to .fastq
 
 This can be done at 
 http://sequenceconversion.bugaco.com/converter/biology/sequences/
@@ -96,7 +96,7 @@ http://sequenceconversion.bugaco.com/converter/biology/sequences/
 Use the drop down menus to set it to convert .abi files to .fastq. Upload a file and convert it. The converted file will save to your downloads folder under the name sample.fastq. If you are working with a lot of reads we recommend immediately renaming the files to match the original abi file name to avoid confusion.
 
 ###Edit and Create a Consensus Sequence
-Once all of your files are in fastq format, move all of them to the Sanger_seq folder in which you saved the merge_sanger_16s.pl script. Use the terminal to navigate to within this folder. Then, type:
+Once all of your files are in fastq format, move all of them to the Sanger\_seq folder in which you saved the merge\_sanger\_16s.pl script. Use the terminal to navigate to within this folder. Then, type:
 
     cd Desktop/Sanger_seq
 
