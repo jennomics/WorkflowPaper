@@ -1,4 +1,4 @@
-#General Notes on Bioinformatics
+
 ##Command Line/Terminal Tutorial
 This workflow is written assuming that the user is using a Mac or Linux.  It is possible to perform much of this workflow in a Windows environment but would require details outside the scope of this project.
 
