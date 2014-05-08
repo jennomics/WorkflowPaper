@@ -104,6 +104,7 @@ Then, to run the script, type:
 
     perl merge_sanger_16s.pl file1.fastq file2.fastq
 The script will return one of 2 messages:
+
 1. "Found N conflicting case(s) during merging of X residues" 
 
 or
