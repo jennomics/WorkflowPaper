@@ -106,12 +106,9 @@ Then, to run the script, type:
 The script will return one of 2 messages:
 
 1. "Found N conflicting case(s) during merging of X residues" 
-
-or
-
 2. "Not enough data to overlap confidently." 
 
-In the first case the merging happened however there may be some conflicting bases. The fewer the better. It can be an indication of how confident the user should be with the results. Since this is a very crude method it should be noted that there is no fancy algorithm behind the merge. There is a crude comparison for which we keep the base that had the highest quality score.
+In the first case the merging happened, however there may be some conflicting bases. The fewer the better. It can be an indication of how confident the user should be with the results. Since this is a very crude method it should be noted that there is no fancy algorithm behind the merge. There is a crude comparison for which we keep the base that had the highest quality score.
 
 In the second outcome, the sequences were trimmed too much when doing the QC. The length of both sequences end to end was smaller than the fragment length that we are looking for.  This is an indication of poor quality sequence and most users should not proceed (others can lower the quality threshold set by the script).
 
