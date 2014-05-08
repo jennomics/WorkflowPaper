@@ -1,6 +1,7 @@
 #Library Preparation and Sequencing 
 ##Library Preparation
-The first choice in library preparation is whether to do the library prep yourself, or to have the library made by your sequencing provider. The economics of this decision are usually dependant on the number of sample involved. For example an Illumina TruSeq library prep kit costs around $2600 for 48 samples.  That's far cheaper than the $??? To $??? that a typical sequencing provider would charge per sample.  However, if you're only preparing a couple of samples there's no reason to buy an entire kit.  Many sequencing facilities offer library preparation. FIND LOCAL PLACE
+The first choice in library preparation is whether to do the library prep yourself, or to have the library made by your sequencing provider. The economics of this decision are usually dependant on the number of samples involved. For example an Illumina TruSeq library prep kit costs around $2600 for 48 samples.  That's far cheaper than the $150 to $300 that a typical sequencing provider would charge per sample.  However, if you're only preparing a couple of samples there's no reason to buy an entire kit.  Most sequencing facilities offer library preparation services.
+
 ##Kit Options
 Whether you chose to make libraries yourself, or use a provider the next major choice is of the type of kit.  The two major different choices with Illumina kits are the Nextera transposase-based kits or the TruSeq kits (with or without PCR). These kits are available from Illumina, but there are also comparable options from other vendors (e.g. ??? and ???). The pros and cons of each type of kit are listed below:
 
