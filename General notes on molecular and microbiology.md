@@ -14,6 +14,6 @@ Throughout this section we refer to "agar" and "culture media". The choice of me
    
 5. What types of equipment are available to you?
 
-   + if something grows most happily at 37C, then you will need to have an incubator and shaker available at that temperature
+   + if something grows most happily at \(37\,^{\circ}\mathrm{C}\), then you will need to have an incubator and shaker available at that temperature
 
  For our previous work we have simply used a rich growth media such as lysogeny broth (LB) (REF)
