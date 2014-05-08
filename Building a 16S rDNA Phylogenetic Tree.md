@@ -33,9 +33,7 @@ The goal of this section is to obtain a 16S alignment from RDP that can be used 
 9. Click on the + sign next to "Archaea outgroup." This will add an Archaeal sequence to your cart, which will be used to root your phylogenetic tree.
 10. If using the example sequence provided, click on Firmicutes, then Bacilli, then Bacillales, then Bacilaceae. This will take you to the Genus Bacillus, which currently has over 26,000 species in it. One way to reduce this number is to exclude the uncultured taxa in the database. To do this, scroll down to the Data Set Options and click on the "Isolates" button. Click "Refresh" and you will see that there are still more than 22,000 sequences in the Genus. To reduce this number further, click on the "Type" Strain button. This will result in a reasonable number of 181 taxa.
 11. Click on the + sign next to **genus** Bacillus to add all of those sequences to your cart.
-12. Click on TREE BUILDER
-13. Specify your outgroup. At the time of publication, the Archaeal outgroup is Methanocaldococcus.
-14. Click "Create Tree"
+12. 
 
 
  
