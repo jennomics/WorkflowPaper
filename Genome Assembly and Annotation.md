@@ -97,13 +97,13 @@ Open the marker_summary.txt file in the blastDir
 
     less marker_summary.txt
 
-The DNGNGWU0001-00040 markers represent 40 highly conserved bacterial genes, if one is missing it won't show up as a zero, it is necessary to manually verify the list. Most of the genes should only appear once. An occasional 2 is fine, but if all/a majority of the genes appear twice or even three times you have most likely sequenced multiple bacteria together. Additionally check to make sure there is no 18S RNA (at the top of the list) to ensure your sample has not been contaminated with a eukaryotes (e.g. yeast). 
+The DNGNGWU0001-00040 markers represent 37 highly conserved bacterial genes, if one is missing it won't show up as a zero, it is necessary to manually verify the list. Most of the genes should only appear once. An occasional 2 is fine, but if all/a majority of the genes appear twice or even three times you have most likely sequenced multiple bacteria together. Additionally check to make sure there is no 18S RNA (at the top of the list) to ensure your sample has not been contaminated with a eukaryotes (e.g. yeast). 
 
 Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift analysis so do not be concerned if they are not listed.
 
 ##Annotation
 ###Options
-There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka, IMG, RAST, PGAP and others.
+There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka (REF), IMG (REF), RAST (REF), PGAP (REF) and others.
 
 + Prokka
 Command line based
@@ -121,7 +121,7 @@ http://rast.nmpdr.org/
 Built into NCBI and only accessible upon request
 http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
 
-Each of these pipelines has advantages and disadvantages, and each will give slightly different results. Here we recommend RAST since it is web-based, easy to use, returns results within hours and provides a framework for analyzing the results.  However, RAST annotations are very difficult to submit to NCBI so we recommend allowing NCBI to annotate the genome with PGAAP upon submission.
+Each of these pipelines has advantages and disadvantages, and each will give slightly different results. Here we recommend RAST since it is web-based, easy to use, returns results within hours and provides a framework for analyzing the results.  However, RAST annotations are very difficult to submit to NCBI so we recommend allowing NCBI to annotate the genome with PGAP upon submission.
 
 ###RAST Annotation
 Annotation of the genome using RAST is also an easy way to locate the full-length 16S gene which is required for the Section IX, "Building A Phylogenetic Tree" portion of the workflow.
