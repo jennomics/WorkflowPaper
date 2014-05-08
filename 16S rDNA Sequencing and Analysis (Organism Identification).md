@@ -1,16 +1,16 @@
 #16S rDNA Sequencing and Analysis (Organism Identification)
 Following the second dilution streaking, the organisms need to be identified. This is accomplished by Sanger sequencing of a 16S rDNA PCR product.
 
-The samples can be prepared for 16S rDNA PCR via direct PCR (using the liquid culture as the template for the PCR reaction) or following DNA extraction. Direct PCR significantly decreases the amount of work needed for preparation, but it can yield poorer Sanger results, both in terms of PCR success and resultant sequence quality. We recommend direct PCR when screening a large number of samples. DNA extraction can be used for any recalcitrant samples. DNA extraction is significantly more work, but it often generates better Sanger sequences allowing for more accurate identification.
+The samples can be prepared for 16S rDNA PCR via direct PCR (using the liquid culture as the template for the PCR reaction) or following DNA extraction. Direct PCR significantly decreases the amount of work needed for preparation, but it can yield poorer Sanger results, both in terms of PCR success and resultant sequence quality. We recommend direct PCR when screening a large number of samples. DNA extraction can then be used for any recalcitrant samples. DNA extraction is significantly more work, but it often generates better Sanger sequences allowing for more accurate identification.
 
 ##DNA Extraction
-Depending on available equipment, experience, and cost there are a number of different options for DNA extraction. The use of Phenol-Chloroform followed by ethanol precipitation is a microbiology standard, and any number of protocols for this method can be found on the internet. There are several advantages to using a commercially available kit for this purpose, notably ease and lack of harmful chemicals, but they typically are more expensive and include reagents for at least 50 samples. Our lab uses the Promega-Wizard Genomic DNA Purification Kit or the MO BIO-Power Soil DNA Isolation Kit
+Depending on available equipment, experience, and cost there are a number of different options for DNA extraction. The use of Phenol-chloroform followed by ethanol precipitation is a microbiology standard, and any number of protocols for this method can be found on the internet. There are several advantages to using a commercially available kit for this purpose, notably ease and lack of harmful chemicals, but they typically are more expensive and include reagents for at least 50 samples. Our lab uses the Promega-Wizard Genomic DNA Purification Kit or the MO BIO-Power Soil DNA Isolation Kit
 
 Follow the protocol or kit instructions provided by the manufacturer and then proceed to "PCR reaction" below.
 
 ##Direct PCR (if not extracting DNA)
 
-Centrifuge 1mL of the overnight culture until the bacteria form a pellet at the bottom of the tube (about 5 minutes at 10,000g), pour off the supernatant and resuspend in 100ul of sterile DNAase-free water. Incubate the samples at 100°C for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below
+Centrifuge 1mL of the overnight culture until the bacteria form a pellet at the bottom of the tube (about 5 minutes at 10,000g), pour off the supernatant and resuspend in 100\(mu) ul of sterile DNAase-free water. Incubate the samples at 100°C for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below
 
 ##PCR reaction
 This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial 16S rRNA gene. Our lab uses either the ___ or the ___ PCR reagents, with an annealing temperature of \(54\,^{\circ}\mathrm{C}\) and an extension at \(72\,^{\circ}\mathrm{C}\) of 90 seconds. Don't forget to include positive (any sample containing bacterial genomic DNA) and negative (water) controls. 
