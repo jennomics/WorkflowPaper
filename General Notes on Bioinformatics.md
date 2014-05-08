@@ -25,7 +25,7 @@ $ **cd ..**    			use to move up one directory
 
 $ **cd directory_name** 	use to move to that directory
 
-$ **cd ~ **			use to move to the home directory	
+$ **cd ~**			use to move to the home directory	
 
 $ **grep file_name**
 
