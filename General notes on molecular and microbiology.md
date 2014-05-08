@@ -16,4 +16,4 @@ Throughout the "Isolation" section we refer to "agar" and "culture media". The c
 
    + if something grows most happily at \(37\,^{\circ}\mathrm{C}\), then you will need to have an incubator and shaker available at that temperature
 
- For our previous work we have simply used a rich growth media such as lysogeny broth (LB) and growth at either room temperature or \(37\,^{\circ}\mathrm{C}\).
+ For our previous work we have simply used a rich media such as lysogeny broth (LB) and growth at either room temperature or \(37\,^{\circ}\mathrm{C}\).
