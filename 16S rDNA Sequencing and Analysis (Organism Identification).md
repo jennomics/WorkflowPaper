@@ -104,9 +104,11 @@ Then, to run the script, type:
 
     perl merge_sanger_16s.pl file1.fastq file2.fastq
 The script will return one of 2 messages:
-    + "Found N conflicting case(s) during merging of X residues" 
+1. "Found N conflicting case(s) during merging of X residues" 
+
 or
-    + "Not enough data to overlap confidently." 
+
+2. "Not enough data to overlap confidently." 
     
 In the first case the merging happened however there may be some conflicting bases. The fewer the better. It can be an indication of how confident the user should be with the results. Since this is a very crude method it should be noted that there is no fancy algorithm behind the merge. There is a crude comparison for which we keep the base that had the highest quality score.
 
