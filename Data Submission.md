@@ -159,6 +159,7 @@ Do you have sequence files for scaffolds and/or chromosomes and/or plasmids? No
 Click Submit and you're done! You will receive a series of e-mails from NCBI confirming your submission and notifying you of any problems. Once the submission is pre-processed you'll get an Accession Number. Note however that the data will not be released until final processing.  The Accession Number is not acceptable for publication until after the final release of the data.
 
 **Submitting Raw Reads to ENA/SRA**
+
 We recommend using Safari or Firefox for this step, Chrome can have issues with the Java requirements for uploading files.
 
 Go to:
