@@ -9,7 +9,7 @@ limit of *taxonomic resolution* for your creature.
 With an unknown microbial species, the best way to identify it is to sequence one of its genes (most people
 use the 16S rRNA gene) and ask what _it_ most looks like. With animal classification, the key features to examine are things like legs and wings and horns; with microbial
 classification, the key features to examine are the nucleotides in different positions in a DNA sequence. Fortunately, we have computer programs to help us make
-sense of the DNA sequence information. Our preferred approach to identifying a microbial species is to place the unknown sequence in the context of a
+sense of the DNA sequence information. Our preferred approach to classifying microbial species is to place an unknown sequence in the context of a
 phylogenetic tree of known sequences. Building a phylogenetic tree from a 16S rRNA sequence is fairly straightforward, but the interpretation of the tree can be
 a bit of an art. Here, we attempt to guide you through both. However, some complicated cases will require consultation with an expert in the field of
 phylogenetics or systematics.
