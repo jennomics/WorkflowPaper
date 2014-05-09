@@ -36,7 +36,7 @@ the final syntax will read
 
     a5_pipeline.pl read_1.fastq read_2.fastq mygenome
 
-/Users/Madison/Desktop/a5_miseq_macOS_20140113/bin/a5_pipeline.pl is the pipeline and its location
+/Users/Madison/Desktop/a5\_miseq\_macOS\_20140113/bin/a5\_pipeline.pl is the pipeline and its location
 /Users/Madison/Desktop/a5_miseq_macOS_20140113/example/phiX_p1.fastq is the first paired end read
 /Users/Madison/Desktop/a5_miseq_macOS_20140113/example/phiX_p2.fastq is the second paired end read
 example_sequence is the name of the output file
