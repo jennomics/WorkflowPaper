@@ -41,11 +41,11 @@ The goal of this section is to obtain a 16S alignment from RDP that can be used 
 
 The RDP alignment will have taxon names that most of the downstream software tools will not tolerate because they consist of special text characters. So, we have written a little Perl script (CleanupRDP.pl) that will remove those special characters and replace them with underscores. This script will be included in the data download from github. To run CleanupRDP.pl, first move it to your Applications folder. Then, in a Terminal window, navigate to the directory that contains the RDP alignment that you've just downloaded. Then, type:
 
-    perl CleanupRDP.pl -i RDP_alignment.fa -o RDP_alignemnt_clean.fa
+    perl /Applications/CleanupRDP.pl -i RDP_alignment.fa -o RDP_alignemnt_clean.fa
 
 ##Building the Tree with FastTree 
 Go to http://www.microbesonline.org/fasttree/#Install
-and download the FastTree.c program by right clicking on it and saving the link. Move the FastTree.c file to your Applications folder. To compile the software, navigate to your Applications folder in a Terminal window
+and download the FastTree.c program by right clicking on it and saving the link to your Applications folder. To compile the software, navigate to your Applications folder in a Terminal window:
 
     cd /Applications
 Then, type:
@@ -54,24 +54,28 @@ Then, type:
 
 FastTree requires a gcc compiler. If your attempt to compile FastTree fails, this is the most likely reason. You can download and install the gcc compiler from Xcode here https://developer.apple.com/downloads/index.action?q=xcode
 
-In order to download Xcode you will need to register as a developer with Apple which takes only a couple minutes. After downloading Xcode follow your computer’s prompts to install it. Once it is installed, open the program and open preferences (under the Xcode tab). Click on the downloads option and install the command line tools. 
+In order to download Xcode you will need to register as a developer with Apple which takes only a couple of minutes. After you register, click on the apple next to "Developer" at the top of the page. Then, click on the Xcode download link, which will ultimately take you to the Mac App Store, where you can follow the instructions to install Xcode. Once it is installed, open the program and open preferences (under the Xcode tab). Click on the downloads option and install the command line tools. 
 
-Once you have successfully downloaded and installed Xcode, return to your Applications folder in your Terminal window and type:
+Once you have successfully downloaded and installed Xcode, return to your Applications folder in a Terminal window and type again:
 
-    FastTree -gtr -nt your_alignment_file > tree_file.tre 
+    gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
+    
+Now, you should have a working version of FastTree. To build your tree, using the cleaned up RDP alignment, type:
 
-The alignment file will be the output file of the cleanup script. And the tree_file output name should include a path to where you want it to be located. The output name ends in .tre to ensure that it will be recognized by Dendroscope.
+    /Applications/FastTree -nt RDP_alignemnt_clean.fa > tree_file.tre 
+
+The output name ends in ".tre" to ensure that it will be recognized by Dendroscope.
 
 ##Viewing the Tree in Dendroscope
-Download and install Dendroscope
+Download and install Dendroscope.
 http://ab.inf.uni-tuebingen.de/software/dendroscope/
 
 You will need to obtain a license here
 http://www-ab2.informatik.uni-tuebingen.de/software/dendroscope/register/
 
-Enter the license into Dendrosope and then you can open your alignment from the File menu to view it.
+Enter the license number into Dendrosope and then you can open your phylogenetic tree from the File menu to view it.
 
-Once the tree is visible, the first step is to re-root the tree to the outgroup. Expand the tree by clicking the expansion button (labeled in Figure X), then scroll through the tree to locate the outgroup. Click on the beginning of the taxa name, to select it, and reroot the tree by going to edit and selecting re-root.  We recommend viewing the tree as a phylogram which can be accomplished by clicking on the phylogram button (labeled in Figure X). From this tree it should be possible to determine the phylogenetic placement of the candidate sequence, and in some cases to give it a name with more certainty than a simple BLAST search.  Below are examples of a relatively informative tree and a relatively uninformative tree:
+Once the tree is visible, the first step is to re-root the tree to the outgroup. Expand the tree by clicking the expansion button (labeled in Figure X) or by , then scroll through the tree to locate the outgroup. Click on the beginning of the taxa name, to select it, and reroot the tree by going to edit and selecting re-root.  We recommend viewing the tree as a phylogram which can be accomplished by clicking on the phylogram button (labeled in Figure X). From this tree it should be possible to determine the phylogenetic placement of the candidate sequence, and in some cases to give it a name with more certainty than a simple BLAST search.  Below are examples of a relatively informative tree and a relatively uninformative tree:
 
 TI
  
