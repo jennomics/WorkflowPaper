@@ -1,5 +1,5 @@
 #Data Submission
-This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing Genbank to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
+This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
 
 Genbank submission requires a .sqn file containing the contigs and an .agp file describing the scaffolds (if applicable). A5 outputs a .fasta file of scaffolds which can be converted to a .fsa and a .agp file through a command line script included in the A5 program package. The .fsa file, along with a .sbt template file (created on the NCBI website) can then be converted to a .sqn file via a script available through NCBI. 
 
@@ -14,32 +14,32 @@ Go to:
 https://submit.ncbi.nlm.nih.gov/subs/bioproject/
 Click on New submission
 
-Submitter-fill in your personal information (a bolded font denotes the section, while information in italics are the responses that we typically give for a genome sequencing project)
+Submitter-fill in your personal information (information in italics are the responses that we typically give for a genome sequencing project)
 Project type
-Project data type-genome sequencing 
-Sample scope-monoisolate
-Material-genome
-Capture-whole
-Methodology-sequencing
-Objective-assembly
+Project data type-_genome sequencing_ 
+Sample scope-_monoisolate_
+Material-_genome_
+Capture-_whole_
+Methodology-_sequencing_
+Objective-_assembly_
 Target
 	Fill out the organism/strain name 
 If you have other information feel free to add it
 General info
-We recommend choosing “Release immediately following curation”
+We recommend choosing “_Release immediately following curation_”
 Project Title
 	Public Description
-Relevance-Environmental
-Biosample-blank
-Publications-blank
+Relevance-_Environmental_
+Biosample-_blank_
+Publications-_blank_
 
 Once the project is submitted, refresh the page and copy down the Bioproject ID (starts with "PRJNA")
 
-FASTA2AGP
+##FASTA2AGP
 To finish this submission you'll need the files as described below
 In the terminal, navigate to the directory containing your scaffolds file
 
-Run the fasta2agp.pl script included with A5 on the scaffold file outputted from the A5 assembly "my_scaffolds.fasta". 
+Run the fasta2agp.pl script included with A5 on the scaffold file outputted from the A5 assembly "my\_scaffolds.fasta". 
 Syntax is: 
 
     perl fasta2agp.pl my_scaffolds.fasta > my_scaffolds.agp
@@ -59,16 +59,16 @@ To count them in the terminal use the syntax
 
 Important Note: If after running the fasta2agp.pl script and counting the contigs you have the same number of contigs as starting scaffolds, then you should only submit the .sqn file to Genbank and say that scaffolding did not take place (otherwise NCBI will reject the .agp file). 
 
-Create a .sbt template
+##Create a .sbt template
 Create a .sbt template file at NCBI 
 http://www.ncbi.nlm.nih.gov/WebSub/template.cgi
 The BioProject # is the Bioproject ID starting with "PRJNA" which you received in a previous step, BioSample can be left blank
 
 When you click create the template, it will automatically download to your computer as template.sbt. We recommend immediately renaming the file to the appropriate project.
 
-Tbl2asn
+##Tbl2asn
 Download the tbl2asn program from 
-ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/tbl2asn/
+ftp://ftp.ncbi.nih.gov/toolbox/ncbi\_tools/converters/by\_program/tbl2asn/
 
 If you are using Safari a window will pop up asking for login information, just choose guest and unzip the version of the program that is compatible with your operating system. Other browsers will take you to a page with a lot of tbl2asn programs, download the one compatible with your operating system.
 
@@ -98,7 +98,7 @@ The program will output the necessary files into the directory you created earli
 
 (ensure no errors were generated by opening the errorsummary.val file and making sure it is blank, or listing the directory contents ($ ls –lh) to ensure it has zero bytes)
 
-Create a Whole Genome Shotgun (WGS) Submission
+##Create a Whole Genome Shotgun (WGS) Submission
 Navigate to
 https://submit.ncbi.nlm.nih.gov/subs/wgs/
 Click on the New Submission button at the top
