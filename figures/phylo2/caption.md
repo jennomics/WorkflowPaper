@@ -1,1 +1,1 @@
-Replace this text with your caption
+The recommended parameters are selected in this screenshot.
