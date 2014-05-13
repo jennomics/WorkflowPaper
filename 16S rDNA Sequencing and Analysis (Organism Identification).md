@@ -22,7 +22,7 @@ Very few single-researcher labs maintain Sanger sequencing capacity. However, th
 http://dnaseq.ucdavis.edu. If a quick internet search does not reveal the presence of a Sequencing Facility near you, most sequencing centers will allow you to ship samples to them for sequencing.
 
 ##Sanger Sequence Processing
-Upon receiving Sanger reads from a sequencing facility, typically via e-mail, it is necessary to do some pre-processing before they can be analyzed.  These steps include quality trimming the reads, reverse complementing the reverse sequence, aligning the reads and generating a consensus sequence. There are very limited options for free software that allow the user to perform these steps. We recommend SeqTrace (REF) for the user who wants to see the trace and process the sequences manually.
+Upon receiving Sanger reads from a sequencing facility, typically via e-mail, it is necessary to do some pre-processing before they can be analyzed.  These steps include quality trimming the reads, reverse complementing the reverse sequence, aligning the reads and generating a consensus sequence. There are very limited options for free software that allow the user to perform these steps. We recommend SeqTrace (\cite{stucky2012seqtrace}) for the user who wants to see the trace and process the sequences manually.
 
 We have also created a script that will do all of these steps automatically, but does not allow you to adjust any of the parameters The choice of our script (easy, little control) versus SeqTrace (more complex, more control) will depend on the user and the project. 
 
@@ -84,7 +84,7 @@ click ok
 3. Download a zip of all of the files, unzip it and move the merge\_sanger\_16s.pl script to the Sanger_seq folder
 
 ###MUSCLE
-In order to run this script you will need to download MUSCLE (REF) from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your Applications folder.
+In order to run this script you will need to download MUSCLE (\cite{Edgar_2004}) from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your Applications folder.
 
 ###Convert Files from .abi to . fastq
 
