@@ -1,1 +1,1 @@
-Replace this text with your caption
+Above is a chromatogram of the .abi files above a consensus sequence
