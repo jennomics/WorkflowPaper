@@ -1,1 +1,2 @@
-Somehow relate this figure to the words in the workflow that describe it.
+
+ Refer to this screenshot of the Trace Settings for step 4 of the "Creating and Editing a Consensus Sequence." 
