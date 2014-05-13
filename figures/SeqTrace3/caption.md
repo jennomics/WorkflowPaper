@@ -1,1 +1,1 @@
-For example, Refer to this screenshot for step 4 of the "Creating and Editing a Consensus Sequence." (or whatever)
+Refer to this screenshot of Trace Settings for step 4 of the "Creating and Editing a Consensus Sequence."  
