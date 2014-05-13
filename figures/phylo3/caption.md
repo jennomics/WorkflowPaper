@@ -1,1 +1,1 @@
-Replace this text with your caption
+This is an example of a poorly constructed, or uninformative tree. The species in question (Brachybacterium muris UCD-AY4) is located within a clade containing multiple species, many of which are located elsewhere on the tree.
