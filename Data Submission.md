@@ -15,23 +15,23 @@ https://submit.ncbi.nlm.nih.gov/subs/bioproject/
 Click on New submission
 
 Submitter-fill in your personal information (information in italics are the responses that we typically give for a genome sequencing project)
-Project type
-Project data type-_genome sequencing_ 
-Sample scope-_monoisolate_
-Material-_genome_
-Capture-_whole_
-Methodology-_sequencing_
-Objective-_assembly_
-Target
++ Project type
++ Project data type-_genome sequencing_ 
++ Sample scope-_monoisolate_
++ Material-_genome_
++ Capture-_whole_
++ Methodology-_sequencing_
++ Objective-_assembly_
++ Target
 	Fill out the organism/strain name 
 If you have other information feel free to add it
 General info
 We recommend choosing “_Release immediately following curation_”
-Project Title
++ Project Title
 	Public Description
-Relevance-_Environmental_
-Biosample-_blank_
-Publications-_blank_
++ Relevance-_Environmental_
++ Biosample-_blank_
++ Publications-_blank_
 
 Once the project is submitted, refresh the page and copy down the Bioproject ID (starts with "PRJNA")
 
