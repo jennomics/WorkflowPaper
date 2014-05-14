@@ -1,6 +1,14 @@
 #Genome Assembly and Annotation
 ##Assembly
-Genome assembly typically consists of data cleaning (quality filtering and adaptor removal), error correction, contig assembly, scaffolding, and verification of scaffolds/contigs. There are a large array of programs that can perform some, or most of these steps. These programs include commercial and open-source options, with some choice being very user friendly and some being extremely difficult to use/install. Good sources for overviews of assemblers and the assembly process include the GAGE project (\cite{Salzberg_2012}), the GAGE-2 project (REF), and the Assemblathon Project (REF). Common assemblers for bacterial genomes include SPADES (REF), MIRA (REF), SGA (REF), Velvet (REF) CLC (REF), and A5 (REF).
+Genome assembly consists of 
+
+1. data pre-processing (quality filtering and adaptor removal)
+2. error correction
+3. contig assembly
+4. scaffolding
+5. verification of scaffolds/contigs 
+
+There are a large array of programs that can perform some, or most of these steps. These programs include commercial and open-source options, with some choice being very user friendly and some being extremely difficult to use/install. Good sources for overviews of assemblers and the assembly process include the GAGE project (\cite{Salzberg_2012}), the GAGE-2 project (REF), and the Assemblathon Project (REF). Common assemblers for bacterial genomes include SPADES (REF), MIRA (REF), SGA (REF), Velvet (REF) CLC (REF), and A5 (REF).
 
 For this workflow we recommend use of the open source A5 assembly pipeline which automates all of the steps described above with a single command (REF). A5 is designed to work with raw, demultiplexed Illumina data and a recent version has been optimized for longer reads from the MiSeq (Coil et al submitted). Input reads can be paired or unpaired, and the files can be separate (forward reads in one file, reverse reads in another) or interleaved.
 
