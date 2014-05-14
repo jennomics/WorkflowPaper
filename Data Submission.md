@@ -134,34 +134,36 @@ General Info
 + Geographic location
 + Isolation source
 
-Files
-	Select We have files for traditional split contigs OR gapped sequences 
-	Select AS.1 (.sqn) and upload your .sqn file
-	“Do you have AGP files that assemble the split contigs into scaffolds and/or chromosomes, OR assemble the gapped sequences into chromosomes?” If you have scaffolds that are not identical to your contigs select yes if not select no and continue onto the next section
-	If you do have scaffolding
-“Do you have an AGP file for unplaced scaffolds built from the split contigs (these are scaffolds without chromosome or plasmid information)?” Yes -upload the AGP file
++ Files
++ Select _We have files for traditional split contigs OR gapped sequences_ 
++ Select _AS.1 (.sqn)___ and upload your .sqn file
+	
++“Do you have AGP files that assemble the split contigs into scaffolds and/or chromosomes, OR assemble the gapped sequences into chromosomes?” If you have scaffolds that are not identical to your contigs select yes, if not select no and continue onto the next section
++ If you do have scaffolding
+“Do you have an AGP file for unplaced scaffolds built from the split contigs (these are scaffolds without chromosome or plasmid information)?” _Yes_ -upload the AGP file
 
-“Are there also AGP files that assemble chromosomes, plasmids and/or unlocalized scaffolds?” No
++ “Are there also AGP files that assemble chromosomes, plasmids and/or unlocalized scaffolds?” _No_
 
-“Did you annotate the scaffolds or chromosomes that are assembled in the AGP files (not gapped submissions)?” No
++ “Did you annotate the scaffolds or chromosomes that are assembled in the AGP files (not gapped submissions)?” _No_
 
-Bacteria is available from-If the bacteria is available in a culture collection, feel free to indicate where. We recommend submission of sequenced strains to a culture collection if possible.
-Source DNA is available from-See above
++ "Bacteria is available from" - If the bacteria is available in a culture collection, feel free to indicate where. We recommend submission of sequenced strains to a culture collection if possible.
+
++ Source DNA is available from-See above
 
 -Check the box below to annotate this prokaryotic genome in the NCBI prokaryotic annotation pipeline before being released. This will allow NCBI to use their PGAAP pipeline to annotate the genome, and this annotation will be automatically attached to the project.
 
 Files
-Click on “We have files for contigs”
-Did you assemble the contigs or other components into scaffolds and/or chromosomes? Yes
-Do you have unplaced scaffolds (scaffolds without chromosome or plasmid information)? Yes-upload AGP file
-Did you assemble chromosomes, plasmids and/or unlocalized scaffolds? No
-Do you have sequence files for scaffolds and/or chromosomes and/or plasmids? No
++ Click on “We have files for contigs”
++ Did you assemble the contigs or other components into scaffolds and/or chromosomes? _Yes_
++ Do you have unplaced scaffolds (scaffolds without chromosome or plasmid information)? _Yes_-upload AGP file
++ Did you assemble chromosomes, plasmids and/or unlocalized scaffolds? _No_
++ Do you have sequence files for scaffolds and/or chromosomes and/or plasmids? _No_
 
-Click Submit and you're done! You will receive a series of e-mails from NCBI confirming your submission and notifying you of any problems. Once the submission is pre-processed you'll get an Accession Number. Note however that the data will not be released until final processing.  The Accession Number is not acceptable for publication until after the final release of the data.
+Click "Submit" and you're done! You will receive a series of e-mails from NCBI confirming your submission and notifying you of any problems. Once the submission is pre-processed you'll get an Accession Number. Note however that the data will not be released until final processing.  The Accession Number is not acceptable for publication until after the final release of the data.
 
 **Submitting Raw Reads to ENA/SRA**
 
-We recommend using Safari or Firefox for this step, Chrome can have issues with the Java requirements for uploading files.
+We recommend using Safari or Firefox for this step, in our hands Chrome can have issues with the Java requirements for uploading files.
 
 Go to:
 
