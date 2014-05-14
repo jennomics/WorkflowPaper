@@ -56,7 +56,7 @@ FastTree requires a gcc compiler. If your attempt to compile FastTree fails, thi
 
 In order to download Xcode you will need to register as a developer with Apple which takes only a couple of minutes. After you register, click on the apple next to "Developer" at the top of the page. Then, click on the Xcode download link, which will ultimately take you to the Mac App Store, where you can follow the instructions to install Xcode. Once it is installed, open the program and open preferences (under the Xcode tab). Click on the downloads option and install the command line tools. 
 
-Once you have successfully downloaded and installed Xcode, return to your Applications folder in a Terminal window and type again:
+Once you have successfully downloaded and installed Xcode and the command line tools, return to your Applications folder in a Terminal window and type again:
 
     gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
     
@@ -75,7 +75,9 @@ http://www-ab2.informatik.uni-tuebingen.de/software/dendroscope/register/
 
 Enter the license number into Dendrosope and then you can open your phylogenetic tree from the File menu to view it.
 
-Once the tree is visible, the first step is to re-root the tree to the outgroup. Expand the tree by clicking the expansion button (labeled in Figure X) or by , then scroll through the tree to locate the outgroup. Click on the beginning of the taxa name, to select it, and reroot the tree by going to edit and selecting re-root.  We recommend viewing the tree as a phylogram which can be accomplished by clicking on the phylogram button (labeled in Figure X). From this tree it should be possible to determine the phylogenetic placement of the candidate sequence, and in some cases to give it a name with more certainty than a simple BLAST search.  Below are examples of a relatively informative tree and a relatively uninformative tree:
+Once the tree is visible, the first step is to re-root the tree to the outgroup. Expand the tree by clicking the expansion button (labeled in Figure X), then scroll through the tree to locate the outgroup. Click on the beginning of the taxa name, to select it, and reroot the tree by going to edit and selecting re-root.
+
+We recommend viewing the tree as a phylogram which can be accomplished by clicking on the phylogram button (labeled in Figure X). From this tree it should be possible to determine the phylogenetic placement of the candidate sequence, and in some cases to give it a name with more certainty than a simple BLAST search.  Below are examples of a relatively informative tree and a relatively uninformative tree:
 
 TI
  
