@@ -15,6 +15,7 @@ https://submit.ncbi.nlm.nih.gov/subs/bioproject/
 Click on New submission
 
 Submitter-fill in your personal information (information in italics are the responses that we typically give for a genome sequencing project)
+
 + Project type
 + Project data type-_genome sequencing_ 
 + Sample scope-_monoisolate_
