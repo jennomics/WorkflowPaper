@@ -139,6 +139,7 @@ General Info
 + Select _AS.1 (.sqn)___ and upload your .sqn file
 	
 +“Do you have AGP files that assemble the split contigs into scaffolds and/or chromosomes, OR assemble the gapped sequences into chromosomes?” If you have scaffolds that are not identical to your contigs select yes, if not select no and continue onto the next section
+
 + If you do have scaffolding
 “Do you have an AGP file for unplaced scaffolds built from the split contigs (these are scaffolds without chromosome or plasmid information)?” _Yes_ -upload the AGP file
 
