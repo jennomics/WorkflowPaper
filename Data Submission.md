@@ -24,12 +24,12 @@ Submitter-fill in your personal information (information in italics are the resp
 + Methodology-_sequencing_
 + Objective-_assembly_
 + Target
-	Fill out the organism/strain name 
-If you have other information feel free to add it
-General info
-We recommend choosing “_Release immediately following curation_”
++   -Fill out the organism/strain name 
++ If you have other information feel free to add it
++ General info
++ We recommend choosing “_Release immediately following curation_”
 + Project Title
-	Public Description
++   -Public Description
 + Relevance-_Environmental_
 + Biosample-_blank_
 + Publications-_blank_
