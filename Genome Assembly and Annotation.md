@@ -38,11 +38,11 @@ Open a Terminal window and navigate to a5\_output. A5 will write all of the asse
 
 Now that you are in the folder where you want your genome assembly to appear, you are ready to run the program. First, type (don't hit return yet!):
 
-    /Applications/a5\_pipeline/bin/a5\_pipeline.pl
+    /Applications/a5_pipeline/bin/a5_pipeline.pl
     
 Then, drag and drop in the input file(s) into the same Terminal window (or type the path to them if you know it). Finally, type a name that will be used as part of all of your output files. So, your command line should look like this:
 
-    /Applications/a5\_pipeline/bin/a5\_pipeline.pl SequenceFile1.fastq SequenceFile2.fastq MyGenome
+    /Applications/a5_pipeline/bin/a5_pipeline.pl SequenceFile1.fastq SequenceFile2.fastq MyGenome
 
 
 Once the program finishes running you will have a complete assembly located in the a5\_output folder.
