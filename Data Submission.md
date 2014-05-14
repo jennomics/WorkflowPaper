@@ -106,33 +106,33 @@ Click on the New Submission button at the top
 Submitter
 -fill in your own information
 General Info
-	BioProject-Yes, add the BioProject identification sequence (from the BioProject submission, starts with PRJNA)
-	Biosample-No
-	Release date-Optional but we recommend “Release immediately following curation”
+	+ BioProject-_Yes_, add the BioProject identification sequence (from the BioProject submission, starts with PRJNA)
+	+ Biosample-_No_
+	+ Release date-Optional but we recommend “_Release immediately following curation_”
 -Don’t check the box stating, “Genome assembly structured comment is in the contig .sq file”
-Assembly Method-Choose other, fill in the blank with A5 Assembly Pipeline
-Version or date program was run – Sample here
-Assembly name – Sample here
-Genome coverage- provided in the output from A5
-Sequencing technology – Illumina (Miseq or HiSeq)
++ Assembly Method-Choose _other_, fill in the blank with A5 Assembly Pipeline
++ Version or date program was run – _SAMPLE HERE_
++ Assembly name – give your assembly an appropriate name
++ Genome coverage- this is provided in the output from A5
++ Sequencing technology – _Illumina_ (Miseq or HiSeq)
 
-Is this the full representation of the genome? Yes
-Is this the final version? Yes
-Do you intend to annotate this version? No
-Is it a part of a multiisolate project? No
-Is it a de novo assembly? Yes
-Is it an update of existing submission? For most projects the answer to this will be no
++ Is this the full representation of the genome? _Yes_
++ Is this the final version? _Yes_
++ Do you intend to annotate this version? _No_
++ Is it a part of a multiisolate project? _No_
++ Is it a de novo assembly? _Yes_
++ Is it an update of existing submission? For most projects the answer to this will be _no_
 
-BioSample Type
--Select Microbe
++ BioSample Type: _Microbe_
 
-BioSample attributes 
-Sample Name
-Organism 
-Strain
-Collection date
-Geographic location
-Isolation source
+
++ BioSample attributes 
++ Sample Name
++ Organism 
++ Strain
++ Collection date
++ Geographic location
++ Isolation source
 
 Files
 	Select We have files for traditional split contigs OR gapped sequences 
