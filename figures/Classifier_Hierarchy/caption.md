@@ -1,1 +1,1 @@
-Replace this text with your caption
+This is the page that will appear after clicking the "Do Classification With Selected Sequences" button. As shown above, a hierarchical view of the classification of your sequence (from Phylum to Genus) is displayed. You can the information displayed here to navigate to other sequences that you want to include in your alignment that you use to build your phylogenetic tree.
