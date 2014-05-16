@@ -81,6 +81,6 @@ We recommend viewing the tree as a phylogram which can be accomplished by clicki
 
 TI
  
-In tree shown above (genus Brachybacterium), our sample of interest from an assembly is "Brachybacterium muris UCD-AY4" (REF). It falls within a clade where every named member has the same name "Brachybacterium muris", and this name does not occur elsewhere on the tree. Hence, we were confident enough to name our sample as that species. In other words, this sequence falls within a well-supported (note 0.999 bootstrap support,) monophyletic clade of _Brachybacterium muris_.
+In tree shown above (genus Brachybacterium), our sample of interest from an assembly is "Brachybacterium muris UCD-AY4" (\cite{Lo_2013}). It falls within a clade where every named member has the same name "Brachybacterium muris", and this name does not occur elsewhere on the tree. Hence, we were confident enough to name our sample as that species. In other words, this sequence falls within a well-supported (note 0.999 bootstrap support,) monophyletic clade of _Brachybacterium muris_.
  
-In the tree shown above (genus Microbacterium) our species of interest is Microbacterium sp. str. UCD-TDU (REF). In contrast to the Brachybacterium example, here our species falls within a poorly defined clade containing multiple species. In this case we did not assign a species name to this isolate.
+In the tree shown above (genus Microbacterium) our species of interest is Microbacterium sp. str. UCD-TDU (\cite{Bendiks_2013}). In contrast to the Brachybacterium example, here our species falls within a poorly defined clade containing multiple species. In this case we did not assign a species name to this isolate.
