@@ -105,6 +105,8 @@ Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift anal
 ###Options
 ***Define annotation and describe how it works (just like you did for assembly)***
 
+Note that we are not describing a genome "analysis" here. While genome annotation marks the final step in our
+
 *There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka (\cite{Seemann_2014}), IMG (\cite{Markowitz_2014}), RAST (\cite{Overbeek_2014}), PGAP (\cite{Angiuoli_2008}) and others.
 
 Each of these pipelines has advantages and disadvantages, and each will give slightly different results. Here we recommend RAST since it is web-based, easy to use, returns results within hours, and provides a toolbox for analyzing the results.  However, RAST annotations are very difficult to submit to NCBI so we recommend allowing NCBI to re-annotate the genome with PGAP upon submission.
