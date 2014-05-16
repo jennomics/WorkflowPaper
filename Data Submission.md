@@ -1,43 +1,10 @@
 #Data Submission
 This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
 
-Genbank submission requires a .sqn file containing the contigs and an .agp file describing the scaffolds (if applicable). A5 outputs a .fasta file of scaffolds which can be converted to a .fsa and a .agp file through a command line script included in the A5 program package. The .fsa file, along with a .sbt template file (created on the NCBI website) can then be converted to a .sqn file via a script available through NCBI. 
-
-Create a BioProject at NCBI
-Go to:
-http://www.ncbi.nlm.nih.gov
-
-Create an account or login with Google or NIH login
-
-Create a BioProject at NCBI:
-Go to:
-https://submit.ncbi.nlm.nih.gov/subs/bioproject/
-Click on New submission
-
-Submitter-fill in your personal information (information in italics are the responses that we typically give for a genome sequencing project)
-
-+ Project type
-+ Project data type-_genome sequencing_ 
-+ Sample scope-_monoisolate_
-+ Material-_genome_
-+ Capture-_whole_
-+ Methodology-_sequencing_
-+ Objective-_assembly_
-+ Target
-+   -Fill out the organism/strain name 
-+ If you have other information feel free to add it
-+ General info
-+ We recommend choosing “_Release immediately following curation_”
-+ Project Title
-+   -Public Description
-+ Relevance-_Environmental_
-+ Biosample-_blank_
-+ Publications-_blank_
-
-Once the project is submitted, refresh the page and copy down the Bioproject ID (starts with "PRJNA")
+Before submitting your genome, you will need to have available 
 
 ##FASTA2AGP
-To finish this submission you'll need the files as described below
+To finish this submission you'll will need to obtain additional files as described below. files as described below
 In the terminal, navigate to the directory containing your scaffolds file
 
 Run the fasta2agp.pl script included with A5 on the scaffold file outputted from the A5 assembly "my\_scaffolds.fasta". 
@@ -58,7 +25,29 @@ To count them in the terminal use the syntax
 
     grep -c “>” name_of_your_.fsa_file
 
-Important Note: If after running the fasta2agp.pl script and counting the contigs you have the same number of contigs as starting scaffolds, then you should only submit the .sqn file to Genbank and say that scaffolding did not take place (otherwise NCBI will reject the .agp file). 
+Important Note: If after running the fasta2agp.pl script and counting the contigs you have the same number of contigs as starting scaffolds, then you should only submit the .sqn file to Genbank and say that scaffolding did not take place (otherwise NCBI will reject the .agp file). First, navigate to http://www.ncbi.nlm.nih.gov. Create an account and/or login. Then, create a BioProject at NCBI by navigating to https://submit.ncbi.nlm.nih.gov/subs/bioproject/ and clicking on "New submission." Fill in the personal information for the submitter.
+
+Below, in italics are the responses that we typically give for a genome sequencing project.
+
++ Project type
++ Project data type-_genome sequencing_ 
++ Sample scope-_monoisolate_
++ Material-_genome_
++ Capture-_whole_
++ Methodology-_sequencing_
++ Objective-_assembly_
++ Target
++   -Fill out the organism/strain name 
++ If you have other information feel free to add it
++ General info
++ We recommend choosing “_Release immediately following curation_”
++ Project Title
++   -Public Description
++ Relevance-_Environmental_
++ Biosample-_blank_
++ Publications-_blank_
+
+Once the project is submitted, refresh the page and copy down the Bioproject ID (it starts with "PRJNA")
 
 ##Create a .sbt template
 Create a .sbt template file at NCBI 
