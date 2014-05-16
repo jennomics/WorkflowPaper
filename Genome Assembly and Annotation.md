@@ -107,35 +107,10 @@ Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift anal
 
 *There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka (\cite{Seemann_2014}), IMG (\cite{Markowitz_2014}), RAST (\cite{Overbeek_2014}), PGAP (\cite{Angiuoli_2008}) and others.
 
-+ Prokka
-Command line based
-http://www.vicbioinformatics.com/software.prokka.shtml
-
-+ Integrated Microbial Genomes (IMG)
-Requires a login and they do the annotation
-http://img.jgi.doe.gov/
-
-+ Rapid Annotation using Subsystem Technology (RAST)
-Web-based, using closed (unknown) algorithms
-http://rast.nmpdr.org/
-
-+ Prokaryotic Genome Automatic Annotation Pipeline (PGAAP)
-Built into NCBI and only accessible upon request
-http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
-
-Each of these pipelines has advantages and disadvantages, and each will give slightly different results. Here we recommend RAST since it is web-based, easy to use, returns results within hours and provides a framework for analyzing the results.  However, RAST annotations are very difficult to submit to NCBI so we recommend allowing NCBI to annotate the genome with PGAP upon submission.
+Each of these pipelines has advantages and disadvantages, and each will give slightly different results. Here we recommend RAST since it is web-based, easy to use, returns results within hours, and provides a toolbox for analyzing the results.  However, RAST annotations are very difficult to submit to NCBI so we recommend allowing NCBI to re-annotate the genome with PGAP upon submission.
 
 ###RAST Annotation
-Annotation of the genome using RAST is also an easy way to locate the full-length 16S gene which is required for the Section ??, "Building A Phylogenetic Tree" portion of the workflow.
-
-Navigate to
-http://rast.nmpdr.org/
-Register a new account
-Once you have created an account, log in 
-Hover over the Your Jobs tab at the top of the page and click on Upload New Job
-
-In order to proceed you must specify a domain, a genus, a species, and the genetic code (usually "11")
-
-Click Finish the Upload
+Navigate to http://rast.nmpdr.org/ and register a new account. Once you have created an account, log in. 
+Hover over the "Your Jobs" tab at the top of the page and click on "Upload New Job." In order to proceed you must specify a domain, a genus, a species, and the genetic code (usually "11".) Click "Finish the Upload."
 
 The annotation will take some time, ranging from 2 hours to a few days, depending on server load. RAST will email you when it is complete. Once the annotation is complete, use their SEED Viewer to explore the annotation and metabolic pathways of the organism. In section ?? we describe how to use the SEED viewer to get the full-length 16S rRNA sequence.
