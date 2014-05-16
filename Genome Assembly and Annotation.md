@@ -103,7 +103,7 @@ Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift anal
 
 ##Annotation
 ###Options
-***Define annotation and describe how it works (just like you did for assembly***
+***Define annotation and describe how it works (just like you did for assembly)***
 
 *There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka (\cite{Seemann_2014}), IMG (\cite{Markowitz_2014}), RAST (\cite{Overbeek_2014}), PGAP (\cite{Angiuoli_2008}) and others.
 
