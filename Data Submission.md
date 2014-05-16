@@ -1,11 +1,13 @@
 #Data Submission
 This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
 
-Before submitting your genome, you will need to have available 
+To submit a genome, you must first creat a BioProject (what is a BioProject?) When, that is complete, a separate process is required to submit the genome sequence. Before submitting your genome, you will need to have available X number of files. 
 
+***Bulleted list of files and what they are. I would actually give them names (e.g., say that you will refer to AGP file instead of .agp file) so that you can stop typing file extensions***
+
+The section below will have to be reconciled with the was the A5 instructions are currently written, but I don't want to change them if you are just going to have to go behind me and change it again...
 ##FASTA2AGP
-To finish this submission you'll will need to obtain additional files as described below. files as described below
-In the terminal, navigate to the directory containing your scaffolds file
+First, obtain the .agp file In the terminal, navigate to the directory containing your scaffolds file
 
 Run the fasta2agp.pl script included with A5 on the scaffold file outputted from the A5 assembly "my\_scaffolds.fasta". 
 Syntax is: 
@@ -25,7 +27,9 @@ To count them in the terminal use the syntax
 
     grep -c “>” name_of_your_.fsa_file
 
-Important Note: If after running the fasta2agp.pl script and counting the contigs you have the same number of contigs as starting scaffolds, then you should only submit the .sqn file to Genbank and say that scaffolding did not take place (otherwise NCBI will reject the .agp file). First, navigate to http://www.ncbi.nlm.nih.gov. Create an account and/or login. Then, create a BioProject at NCBI by navigating to https://submit.ncbi.nlm.nih.gov/subs/bioproject/ and clicking on "New submission." Fill in the personal information for the submitter.
+Important Note: If after running the fasta2agp.pl script and counting the contigs you have the same number of contigs as starting scaffolds, then you should only submit the .sqn file to Genbank and say ***(say where, to whom?)*** that scaffolding did not take place (otherwise NCBI will reject the .agp file). 
+
+Now, navigate to http://www.ncbi.nlm.nih.gov. Create an account and/or login. Then, create a BioProject at NCBI by navigating to https://submit.ncbi.nlm.nih.gov/subs/bioproject/ and clicking on "New submission." Fill in the personal information for the submitter.
 
 Below, in italics are the responses that we typically give for a genome sequencing project.
 
@@ -52,7 +56,7 @@ Once the project is submitted, refresh the page and copy down the Bioproject ID 
 ##Create a .sbt template
 Create a .sbt template file at NCBI 
 http://www.ncbi.nlm.nih.gov/WebSub/template.cgi
-The BioProject # is the Bioproject ID starting with "PRJNA" which you received in a previous step, BioSample can be left blank
+The BioProject # is the Bioproject ID starting with "PRJNA" which you received in the previous step, BioSample can be left blank
 
 When you click create the template, it will automatically download to your computer as template.sbt. We recommend immediately renaming the file to the appropriate project.
 
@@ -60,9 +64,9 @@ When you click create the template, it will automatically download to your compu
 Download the tbl2asn program from 
 ftp://ftp.ncbi.nih.gov/toolbox/ncbi\_tools/converters/by\_program/tbl2asn/
 
-If you are using Safari a window will pop up asking for login information, just choose guest and unzip the version of the program that is compatible with your operating system. Other browsers will take you to a page with a lot of tbl2asn programs, download the one compatible with your operating system.
+If you are using Safari, a window will pop up asking for login information, just choose guest and unzip the version of the program that is compatible with your operating system. Other browsers will take you to a page with a lot of tbl2asn programs, download the one compatible with your operating system.
 
-After downloading the desired command-line program, uncompress the archive and rename the resulting file to remove the platform designation-for example, if the unzipped file is named mac.tbl2asn rename it tbl2asn
+After downloading the desired command-line program, uncompress the archive and rename the resulting file to tbl2asn
 
 Now change the file permissions of the file (in the terminal) since transfer by FTP resets the permissions.
 
