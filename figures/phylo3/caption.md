@@ -1,1 +1,1 @@
-This is an example of a poorly constructed, or uninformative tree. The species in question (Brachybacterium muris UCD-AY4) is located within a clade containing multiple species, many of which are located elsewhere on the tree.
+Above is an example of a well constructed/informative tree. Our species (Brachybacterium muris UCD-AY4) falls within a clade where every named member has the same name "Brachybacterium muris", and this species name does not occur elsewhere on the tree.
