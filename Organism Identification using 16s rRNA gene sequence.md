@@ -4,7 +4,7 @@ In a classroom or undergraduate research setting the project may not have a part
 ##BLAST 16S rDNA sequence
 Begin by navigating to the Standard Nucleotide BLAST at NCBI:
 
-http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE\_TYPE=BlastSearch&LINK_LOC=blasthome
+http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome
 
 Paste in your Sanger consensus sequence.  We recommend checking the box to exclude Uncultured/environmental sample sequences since these will not be informative for identification. Be sure the nucleotide collection (nr/nt) is selected under database and click the BLAST button.
 
