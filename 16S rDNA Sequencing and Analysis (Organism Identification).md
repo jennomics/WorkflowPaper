@@ -15,7 +15,7 @@ Centrifuge 1mL of the overnight culture until the bacteria form a pellet at the 
 ##PCR reaction
 This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial 16S rRNA gene. Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of \(54\,^{\circ}\mathrm{C}\) and an extension at \(72\,^{\circ}\mathrm{C}\) of 90 seconds. Don't forget to include positive (any sample containing bacterial genomic DNA) and negative (water) controls. 
 
-After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (~380bp).  
+After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (~1350bp).  
 
 ##Submit Samples for Sequencing
 Very few single-researcher labs maintain Sanger sequencing capacity. However, there are a number of DNA sequencing facilities (commercial and academic) that provide sequencing services for researchers. They will handle as few as 1 single sample, or will allow you to submit an unlimited number of samples, typically arrayed in 96-well plates.  You will typically provide both your PCR product as well as your PCR primers for sequencing.  Don't forget to submit forward (27F) and reverse (1391R) reactions for each sample. Each facility will have its own guidelines concerning DNA and primer concentration. Our lab uses the UC DNA Sequencing Facility-UC Davis
