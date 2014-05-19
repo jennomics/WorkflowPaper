@@ -12,8 +12,7 @@ There is a plethora of programs that can perform some, or most of these steps. T
 
 For this workflow we recommend use of the open source A5 assembly pipeline which automates all of the steps described above with a single command (\cite{Tritt\_2012}). A5 is designed to work with raw, demultiplexed Illumina data and a recent version has been optimized for longer reads from the MiSeq (Coil et al submitted). Input reads can be paired or unpaired, and the files can be separate (forward reads in one file, reverse reads in another) or interleaved. These files should have the .fastq extension. See (http://en.wikipedia.org/wiki/FASTQ_format) for a description of the fastq format. You may need assistance from your sequencing center in locating and accessing these files. You will need one of the three following (per genome): 1) a single .fastq file that contains your single reads (if paired-end sequencing was not requested), 2) a single .fastq file that contains both forward and reverse reads, or 3) two .fastq files, one with forward reads and one with the corresponding reverse reads.
 
-Download/Install A5
-Download A5 from 
+Download/Install A5 from 
 http://sourceforge.net/projects/ngopt/
 
 Follow the (expert) instructions located 
