@@ -71,7 +71,7 @@ Finally "X\_cov" shows the average coverage across the genome. For Illumina data
 ###Verification of 16S Sequence
 Follow the steps described in Section ??, "Making a Phylogenetic Tree" for obtaining and performing a BLAST search of the full length 16s sequence.
 
-PhyloSift
+#PhyloSift
 Navigate to 
 http://phylosift.wordpress.com
 
