@@ -1,6 +1,4 @@
 #Obtain the Full-Length 16S Sequence from the Assembly
-
-    I moved this into its own little section for now, because I'm not sure exactly where it should fit in.
     
 (Skip this step if you are building the tree using the 16S sequence from Sanger sequencing)
 
