@@ -17,9 +17,9 @@ figures/GOLDresults2/GOLDresults2.png
 figures/NCBI16Ssearch/NCBI16Ssearch.png
 figures/align2seqs/align2seqs.png
 figures/align2seqsresults/align2seqsresults.png
+Building a 16S rDNA Phylogenetic Tree.md
 Library Preparation and Sequencing .md
 Genome Assembly and Annotation.md
-Building a 16S rDNA Phylogenetic Tree.md
 Obtain the Full-Length 16S Sequence from the Assembly.md
 figures/Classifier_Hierarchy/Classifier_Hierarchy.png
 figures/phylo1/phylo1.png
