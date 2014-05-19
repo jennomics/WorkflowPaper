@@ -7,8 +7,8 @@ Isolation.md
 figures/SeqTrace/SeqTrace.png
 figures/SeqTrace3/SeqTrace3.png
 figures/SeqTrace4/SeqTrace4.png
-Organism Identification using 16s rRNA gene sequence.md
 figures/BLAST/BLAST.png
+Organism Identification using 16s rRNA gene sequence.md
 figures/BLASTuseGOLD/BLASTuseGOLD.png
 figures/BLASTuseTREE/BLASTuseTREE.png
 figures/GOLD/GOLD.png
