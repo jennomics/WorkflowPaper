@@ -20,7 +20,7 @@ figures/align2seqsresults/align2seqsresults.png
 Building a 16S rDNA Phylogenetic Tree.md
 Library Preparation and Sequencing .md
 Genome Assembly and Annotation.md
-Obtain the Full-Length 16S Sequence from the Assembly.md
+Obtain the Full Length 16S Sequence from the Assembly.md
 figures/Classifier_Hierarchy/Classifier_Hierarchy.png
 figures/phylo1/phylo1.png
 figures/phylo2/phylo2.png
