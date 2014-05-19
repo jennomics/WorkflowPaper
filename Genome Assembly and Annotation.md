@@ -103,14 +103,10 @@ Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift anal
 
 ##Annotation
 ###Options
-***Define annotation and describe how it works (just like you did for assembly)***
 
-Note that we are not describing a genome "analysis" here. While genome annotation marks the final step in our data wrangling workflow, it is just the beginning of a thorough genome analysis. We recommend performing this step as the bare-minimum analysis required to include a very basic description of the genomic content for the genome announcement publication.
+Genome annotation is the process of predicting genes (open reading frames) within a genome sequence and attempting to assign function to those genes based on homology to known sequences.  Note that we are not describing a genome "analysis" here. While genome annotation marks the final step in our data wrangling workflow, it is just the beginning of a thorough genome analysis. We recommend performing this step as the bare-minimum analysis required to include a very basic description of the genomic content for a genome announcement publication.
 
-*There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka \cite{Seemann_2014}, IMG \cite{Markowitz_2014}, RAST \cite{Overbeek_2014}, GLIMMER \cite{Delcher_2007}, PGAP \cite{Angiuoli_2008} and others. 
-
-
-
+There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka \cite{Seemann_2014}, IMG \cite{Markowitz_2014}, RAST \cite{Overbeek_2014}, GLIMMER \cite{Delcher_2007}, PGAP \cite{Angiuoli_2008} and others. 
 
 Each of these pipelines has advantages and disadvantages, and each will give slightly different results. Here we recommend RAST since it is web-based, easy to use, returns results within hours, and provides a convenient toolbox for analyzing the results. However, RAST annotations are very difficult to submit to NCBI so we recommend allowing NCBI to re-annotate the genome with PGAP upon submission. Also, we recommend reporting the annotation results from the PGAP annotation in the genome announcement (for consistency.) Why do we also run a RAST annotation? Because we are impatient and we like to see results right away. We do not like having to wait for the NCBI sumbission process to be completed before we start exploring our data.
 
@@ -118,4 +114,4 @@ Each of these pipelines has advantages and disadvantages, and each will give sli
 Navigate to http://rast.nmpdr.org/ and register a new account. Once you have created an account, log in. 
 Hover over the "Your Jobs" tab at the top of the page and click on "Upload New Job." In order to proceed you must specify a domain, a genus, a species, and the genetic code (usually "11".) Click "Finish the Upload."
 
-The annotation will take some time, ranging from 2 hours to a few days, depending on server load. RAST will email you when it is complete. Once the annotation is complete, use their SEED Viewer to explore the annotation and metabolic pathways of the organism. From the RAST results, you can obtain information like ***WHAT?*** 
+The annotation will take some time, ranging from 2 hours to a few days, depending on server load. RAST will email you when it is complete. Once the annotation is complete, use their SEED Viewer to explore the annotation and metabolic pathways of the organism. From the RAST results, you can obtain information such as the precense or absence of a particular gene/pathway and you can compare the annotation to other genomes in their database.
