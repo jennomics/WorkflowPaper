@@ -65,7 +65,7 @@ The first two numbers shown are the number of contigs and scaffolds, respectivel
 
 "Genome Size" and "Longest Scaffold" are simply represented as base pairs. While genome size can vary within taxa, this can be a second sanity check for the assembly. When expecting a 5MB genome, if the assembled genome size is 2MB, a red flag should be raised. "N50" represents the contig size at which at least 50% of the assembly is contained in contigs of that size or larger.  This metric, combined with the number of contigs is the most common measure of assembly quality… larger is better.  An N50 of 5,000 bp would be pretty poor... meaning that half of the entire assembly is in contigs smaller than 5,000 bp.  On the other hand an N50 of 1,000,000 bp would be great for a bacterial genome.
 
-The number of raw reads/raw nucleotides "Raw reads"/"Raw nt" and error-corrected reads/nucleotides "EC Reads"/"Raw nt" counts are useful for seeing what percentage of the data has been discarded. A very large difference between these numbers (the "Pct" stats) would indicate either poor quality input data or significant adaptor contamination. Adaptor contamination is high when the insert size is too small **(other causes?) Also, do you want to include a little troubleshooting here?**
+The number of raw reads/raw nucleotides "Raw reads"/"Raw nt" and error-corrected reads/nucleotides "EC Reads"/"Raw nt" counts are useful for seeing what percentage of the data has been discarded. A very large difference between these numbers (the "Pct" stats) would indicate either poor quality input data or significant adaptor contamination. Adaptor contamination can be high when the insert size is too small or if there were problems during library preparation.
 
 Finally "X\_cov" shows the average coverage across the genome. For Illumina data we recommend that this number be between ~30X and 100X.  Much less than 30X coverage and the quality of any given base in the assembly may come into question.  Conversely, too much coverage can reduce the quality of the assembly and require downsampling. **Instructions or reference for downsampling?**
 
@@ -107,9 +107,9 @@ Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift anal
 
 Note that we are not describing a genome "analysis" here. While genome annotation marks the final step in our data wrangling workflow, it is just the beginning of a thorough genome analysis. We recommend performing this step as the bare-minimum analysis required to include a very basic description of the genomic content for the genome announcement publication.
 
-*There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka (\cite{Seemann_2014}), IMG (\cite{Markowitz_2014}), RAST (\cite{Overbeek_2014}), PGAP (\cite{Angiuoli_2008}) and others. 
+*There are a number of different pipelines available for annotation of bacterial genomes. These include Prokka \cite{Seemann_2014}, IMG \cite{Markowitz_2014}, RAST \cite{Overbeek_2014}, GLIMMER \cite{Delcher_2007}, PGAP \cite{Angiuoli_2008} and others. 
 
-        add glimmer http://ccb.jhu.edu/software/glimmer/index.shtml and the JCVI annotation pipeline, http://sourceforge.net/projects/jcviprok/
+
 
 
 Each of these pipelines has advantages and disadvantages, and each will give slightly different results. Here we recommend RAST since it is web-based, easy to use, returns results within hours, and provides a convenient toolbox for analyzing the results. However, RAST annotations are very difficult to submit to NCBI so we recommend allowing NCBI to re-annotate the genome with PGAP upon submission. Also, we recommend reporting the annotation results from the PGAP annotation in the genome announcement (for consistency.) Why do we also run a RAST annotation? Because we are impatient and we like to see results right away. We do not like having to wait for the NCBI sumbission process to be completed before we start exploring our data.
