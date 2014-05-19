@@ -14,16 +14,16 @@ For this workflow we recommend use of the open source A5 assembly pipeline which
 
 Download/Install A5
 Download A5 from 
-https://code.google.com/p/ngopt/downloads/list
+http://sourceforge.net/projects/ngopt/
 
 Follow the (expert) instructions located 
-https://code.google.com/p/ngopt/wiki/A5PipelineREADME
+http://sourceforge.net/projects/ngopt/files/?source=navbar
 
 or
 
 Follow a video made by David Coil 
-https://code.google.com/p/ngopt/
 http://youtu.be/ePGUIj9Qbvc
+
 
 or
  
