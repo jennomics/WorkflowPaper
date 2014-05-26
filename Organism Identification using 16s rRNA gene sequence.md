@@ -14,7 +14,7 @@ Depending on the quality of the Sanger sequencing and the particular bacteria se
 1. In FigureX, it is not necessary to build a phylogenetic tree for further identification. All of the top hits are either Kocuria rosea or Kocuria sp, have e-values of 0.0, perfect query coverage, and 99% to 100% identity. In this case, proceed to "Using GOLD".
 2. In FigureX the results are much more ambiguous. The results show more than 99% identity to multiple species within multiple genera. In this case, proceed to "Making a Phylogenetic Tree", before using GOLD.
 
-##Using GOLD
+##Using GOLD (the Genomes Online Database)
 Go to: http://genomesonline.org/cgi-bin/GOLD/index.cgi
 
 Click the search button on the left side of the page and you should be taken to a page that looks like the screen shot displayed in FigureX.
