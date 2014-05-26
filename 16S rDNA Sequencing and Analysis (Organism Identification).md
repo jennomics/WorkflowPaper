@@ -33,7 +33,7 @@ https://code.google.com/p/seqtrace/downloads/list
 Installation Directions
 https://code.google.com/p/seqtrace/wiki/Installation
 
-Installing and running SeqTrace on a PC is simple, installing it on a Mac requires a few extra steps. The installation guide offers two options for installing SeqTrace on a Mac, we recommend running SeqTrace with native GTK+
+Installing and running SeqTrace on a PC is simple, installing it on a Mac requires a few more steps than for a PC. The installation guide offers two options for installing SeqTrace on a Mac, we recommend running SeqTrace with native GTK+
 
 To install SeqTrace on a Mac you will need to download the PyGTK package from OSX. 
 http://sourceforge.net/projects/macpkg/files/PyGTK/2.24.0/PyGTK.pkg/download
