@@ -1,6 +1,6 @@
 #Building a 16S rDNA Phylogenetic Tree
 
-What _is_ this thing? At this point, you have an organism in pure culture, but you don't know what it is. If you found an creature crawling on the ground and
+What _is_ this thing? At this point, you have an organism in pure culture, but you don't know what it is. If you found a creature crawling on the ground and
 wanted to identify (or classify) it, you might look at it's morphology and ask what it most _looks_ like. If it has six legs, you might guess it's some kind of
 insect. If it has hard outer wings folded over its back, you might guess that it's some kind of beetle. If it also had antler-style horns on its head, you might
 guess that it's some kind of stag beetle. If you don't have enough information available to guess what kind of stag beetle you have, then you have reached the
