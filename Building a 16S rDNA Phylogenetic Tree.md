@@ -48,6 +48,7 @@ Go to http://www.microbesonline.org/fasttree/#Install
 and download the FastTree.c program by right clicking on it and saving the link to your Applications folder. To compile the software, navigate to your Applications folder in a Terminal window:
 
     cd /Applications
+
 Then, type:
 
     gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
@@ -60,11 +61,9 @@ Once you have successfully downloaded and installed Xcode and the command line t
 
     gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
     
-Now, you should have a working version of FastTree. To build your tree, using the cleaned up RDP alignment, type:
+Now, you should have a working version of FastTree. To build your tree, using the cleaned up RDP alignment, type the following (be sure the output name ends in ".tre" to ensure it will be recognized by Dendroscope):
 
     /Applications/FastTree -nt RDP_alignemnt_clean.fa > tree_file.tre 
-
-The output name ends in ".tre" to ensure that it will be recognized by Dendroscope.
 
 ##Viewing the Tree in Dendroscope
 Download and install Dendroscope.
