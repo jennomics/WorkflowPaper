@@ -106,11 +106,12 @@ Click on the New Submission button at the top
 Submitter
 -fill in your own information
 General Info
+
 	+ BioProject-_Yes_, add the BioProject identification sequence (from the BioProject submission, starts with PRJNA)
 	+ Biosample-_No_
 	+ Release date-Optional but we recommend “_Release immediately following curation_”
 -Don’t check the box stating, “Genome assembly structured comment is in the contig .sq file”
-+ Assembly Method-Choose _other_, fill in the blank with A5 Assembly Pipeline
++ Assembly Method-Choose _other_, fill in the blank with A5 Assembly Pipeline (version can be found in the asssembly_stats.csv file)
 + Version or date program was run – _SAMPLE HERE_
 + Assembly name – give your assembly an appropriate name
 + Genome coverage- this is provided in the output from A5
