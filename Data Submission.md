@@ -143,23 +143,20 @@ BioSample attributes
 + Files
 + Select _We have files for traditional split contigs OR gapped sequences_ 
 + Select _AS.1 (.sqn)___ and upload your .sqn file
-	
 +“Do you have AGP files that assemble the split contigs into scaffolds and/or chromosomes, OR assemble the gapped sequences into chromosomes?” If you have scaffolds that are not identical to your contigs select yes, if not select no and continue onto the next section
 
-+ If you do have scaffolding
-“Do you have an AGP file for unplaced scaffolds built from the split contigs (these are scaffolds without chromosome or plasmid information)?” _Yes_ -upload the AGP file
+If you do have scaffolding:
 
++ “Do you have an AGP file for unplaced scaffolds built from the split contigs (these are scaffolds without chromosome or plasmid information)?” _Yes_ -upload the AGP file
 + “Are there also AGP files that assemble chromosomes, plasmids and/or unlocalized scaffolds?” _No_
-
 + “Did you annotate the scaffolds or chromosomes that are assembled in the AGP files (not gapped submissions)?” _No_
-
-+ "Bacteria is available from" - If the bacteria is available in a culture collection, feel free to indicate where. We recommend submission of sequenced strains to a culture collection if possible.
-
-+ Source DNA is available from-See above
++ "Bacteria is available from" _If the bacteria is available in a culture collection, feel free to indicate where. We recommend submission of sequenced strains to a culture collection if possible._
++ Source DNA is available from-_See above_
 
 -Check the box below to annotate this prokaryotic genome in the NCBI prokaryotic annotation pipeline before being released. This will allow NCBI to use their PGAAP pipeline to annotate the genome, and this annotation will be automatically attached to the project.
 
 Files
+
 + Click on “We have files for contigs”
 + Did you assemble the contigs or other components into scaffolds and/or chromosomes? _Yes_
 + Do you have unplaced scaffolds (scaffolds without chromosome or plasmid information)? _Yes_-upload AGP file
@@ -194,7 +191,7 @@ In the WebinDataUploader, in the blank area to the right of the Local Upload dir
 
 Select the file(s) containing the reads and click Upload. 
 
-(Note that paired-end data is required to be in two separate fastq files, these files can be found in the A5 assembly directory as ???)
+(Note that paired-end data is required to be in two separate fastq files.  If your data came as one interleaved file, then the seperated fastq files can be found in the directory where the A5 assembly was performed as [project name].raw1\_p1.fastq.gz and [project name].raw1\_p2.fastq.gz )
 
 Note that the only acceptable file types for fastq files are gzip (.gz) and bzip (.bz2). To gzip files in the Terminal use the following syntax:
 
