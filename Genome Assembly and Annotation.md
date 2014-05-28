@@ -82,11 +82,11 @@ In the terminal, navigate to the directory containing the unzipped phylosift
 
 Run
 
-    ./phylosift search contig\_file\_name
+    ./phylosift search contig_file_name
 
 For example:
 
-    ./phylosift search /Users/microBEnet/Desktop/Data-Genomes/Pantoea\_Tatumella/tatumella/tatumella.final.scaffolds.fasta.contigs.fsa 
+    ./phylosift search /Users/microBEnet/Desktop/Data-Genomes/Pantoea_Tatumella/tatumella/tatumella.final.scaffolds.fasta.contigs.fsa 
 
 Note: The first time you run PhyloSift it has to download a marker gene database so it may take a few minutes.
 
