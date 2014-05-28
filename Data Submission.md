@@ -110,36 +110,36 @@ https://submit.ncbi.nlm.nih.gov/subs/wgs/
 Click on the New Submission button at the top
 Submitter
 -fill in your own information
-General Info
 
-	+ BioProject-_Yes_, add the BioProject identification sequence (from the BioProject submission, starts with PRJNA)
-	+ Biosample-_No_
-	+ Release date-Optional but we recommend “_Release immediately following curation_”
--Don’t check the box stating, “Genome assembly structured comment is in the contig .sq file”
+**General Info**
+
++ BioProject-_Yes_, add the BioProject identification sequence (from the BioProject submission, starts with PRJNA)
++ Biosample-_No_
++ Release date-Optional but we recommend “_Release immediately following curation_”
+
+Don’t check the box stating, “Genome assembly structured comment is in the contig .sq file”
+
 + Assembly Method-Choose _other_, fill in the blank with A5 Assembly Pipeline (version can be found in the asssembly_stats.csv file)
 + Version or date program was run – _SAMPLE HERE_
 + Assembly name – give your assembly an appropriate name
 + Genome coverage- this is provided in the output from A5
 + Sequencing technology – _Illumina_ (Miseq or HiSeq)
-
 + Is this the full representation of the genome? _Yes_
 + Is this the final version? _Yes_
 + Do you intend to annotate this version? _No_
 + Is it a part of a multiisolate project? _No_
 + Is it a de novo assembly? _Yes_
 + Is it an update of existing submission? For most projects the answer to this will be _no_
-
 + BioSample Type: _Microbe_
 
+BioSample attributes 
 
-+ BioSample attributes 
 + Sample Name
 + Organism 
 + Strain
 + Collection date
 + Geographic location
 + Isolation source
-
 + Files
 + Select _We have files for traditional split contigs OR gapped sequences_ 
 + Select _AS.1 (.sqn)___ and upload your .sqn file
