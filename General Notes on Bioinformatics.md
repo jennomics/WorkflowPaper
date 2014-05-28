@@ -2,7 +2,7 @@
 ##Command Line/Terminal Tutorial
 This workflow is written assuming that the user is using a computer running Mac OS or Linux.  It is possible to carry out many of the computational parts of this workflow in a Windows environment but getting these steps to work in Windows is outside the scope of this project.
 
-Some parts of this workflow require the user to provide text instructions for software programs by using a command line interface. While potentially intimidating to computer novices, the use of command line interfaces is sometimes necessary (e.g., some programs do not have graphical interfaces) and is also sometimes much more efficient. To access the command line on a Mac navigate to Applications > Utilities > Terminal (THIS SEEMS AWKWARD -- WHY NOT SAY "OPEN THE TERMINAL PROGRAM IN THE APPLICASTIONS FOLDER")
+Some parts of this workflow require the user to provide text instructions for software programs by using a command line interface. While potentially intimidating to computer novices, the use of command line interfaces is sometimes necessary (e.g., some programs do not have graphical interfaces) and is also sometimes much more efficient. To access the command line on a Mac open the Terminal program in the Utilities folder under Applications.
 
 When this application is launched a new window will appear.  This is known as a "terminal" or a "terminal window." In the terminal window, you can interact with your computer without using a mouse. Many popular programs in common use have a GUI (Graphical User Interface,) but many of the ones used in this workflow will not. So, instead of double-clicking to make a program run, you will type a command in the terminal window. We will walk you through how to run all of the programs required for this workflow, but you must first acquire a basic familiarity with how to interact with your computer through the terminal window. Below is a list of commands that will be required to use this workflow. There are many tutorials available to help you get started. 
 
@@ -25,10 +25,9 @@ $ **cd directory_name** 	use to move to that directory
 
 $ **cd ~**			use to move to the home directory	
 
-$ **grep file_name**
+$ **grep "some pattern" file_name** displays lines that match the pattern you are looking for.   If a line contains the same character multiple times it will only be displayed once.
 
-$ **grep –c “what you want to count” file_name** 	counts the number of times a file 
-contains a specific character or sequence of characters
+$ **grep –c “what you want to count” file_name** 	counts the number of lines containing a specific character or sequence of characters
 
 $ **less file_name**					view a file
 
