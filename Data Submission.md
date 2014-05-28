@@ -132,7 +132,7 @@ Don’t check the box stating, “Genome assembly structured comment is in the c
 + Is it an update of existing submission? For most projects the answer to this will be _no_
 + BioSample Type: _Microbe_
 
-BioSample attributes 
+**BioSample attributes** 
 
 + Sample Name
 + Organism 
@@ -155,7 +155,7 @@ If you do have scaffolding:
 
 -Check the box below to annotate this prokaryotic genome in the NCBI prokaryotic annotation pipeline before being released. This will allow NCBI to use their PGAAP pipeline to annotate the genome, and this annotation will be automatically attached to the project.
 
-Files
+**Files**
 
 + Click on “We have files for contigs”
 + Did you assemble the contigs or other components into scaffolds and/or chromosomes? _Yes_
