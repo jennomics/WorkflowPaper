@@ -41,20 +41,25 @@ Now, navigate to http://www.ncbi.nlm.nih.gov. Create an account and/or login. Th
 
 Below, in italics are the responses that we typically give for a genome sequencing project.
 
-+ Project type
+**Project type**
+
 + Project data type-_genome sequencing_ 
 + Sample scope-_monoisolate_
 + Material-_genome_
 + Capture-_whole_
 + Methodology-_sequencing_
 + Objective-_assembly_
-+ Target
-+   -Fill out the organism/strain name 
+
+**Target**
+
++ Organism Name 
 + If you have other information feel free to add it
-+ General info
+
+**General info**
+
 + We recommend choosing “_Release immediately following curation_”
 + Project Title
-+   -Public Description
++ Public Description
 + Relevance-_Environmental_
 + Biosample-_blank_
 + Publications-_blank_
