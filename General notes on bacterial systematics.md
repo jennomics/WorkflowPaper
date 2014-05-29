@@ -3,7 +3,7 @@ In order to identify to which organism a 16S rDNA sequence belongs, as well as t
 
 As with UNIX, we will list some basic terms with which you should make yourself familiar before attempting to make sense of your tree.
 
-***Branch*** All of the organisms in a tree are at the tips of brances (that's why they are sometimes referred to as leaves.) All of the branches show the way in which organisms are connected (related) to each other.
+***Branch*** All of the organisms in a tree are at the tips of branches (that's why they are sometimes referred to as leaves.) All of the branches show the way in which organisms are connected (related) to each other.
 
 ***Node*** These are the points where branches connect.
 
