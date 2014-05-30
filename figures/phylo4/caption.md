@@ -1,1 +1,1 @@
-This is an example of a poorly constructed, or uninformative tree. The species in question (Microbacterium sp. str. UCD-TDU) is located within a poorly defined clade containing multiple species.
+This is an example of a poorly constructed, or uninformative tree. The species in question (_Microbacterium sp._ str. UCD-TDU) is located within a poorly defined (EISEN: WHAT DOES THIS MEAN?) clade containing multiple species.
