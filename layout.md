@@ -12,7 +12,6 @@ figures/BLAST/BLAST.png
 figures/BLASTuseGOLD/BLASTuseGOLD.png
 figures/BLASTuseTREE/BLASTuseTREE.png
 figures/GOLD/GOLD.png
-figures/lysinibacillus1/lysinibacillus1.png
 figures/NCBI16Ssearch/NCBI16Ssearch.png
 figures/align2seqs/align2seqs.png
 figures/align2seqsresults/align2seqsresults.png
