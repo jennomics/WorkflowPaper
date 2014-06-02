@@ -24,6 +24,5 @@ figures/Classifier_Hierarchy/Classifier_Hierarchy.png
 figures/phylo1/phylo1.png
 figures/phylo2/phylo2.png
 figures/phylo3/phylo3.png
-figures/Screen Shot 2014-06-02 at 3.49.33 PM/Screen Shot 2014-06-02 at 3.49.33 PM.png
 Data Submission.md
 Discussion.md
