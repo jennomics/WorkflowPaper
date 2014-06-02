@@ -18,3 +18,6 @@ The capacity of an Ilumina MiSeq with PE300bp reads is around 15 Gigabases (Gb) 
 
 ##Collaborate
 Given the overcapacity of Illumina sequencing for bacterial genomes, sequencing a single genome presents a problem (unless willing to pay the ~$2000 total cost and throw away most of the data). Sequencing facilities will typically not "pool" samples from multiple groups because they don't want to oversee the pooling or deal with the associated accounting hassles. However, collaborating with other groups can be a great option.  Many labs sequence genomes or metageomes on a regular basis; adding in one additional sample isn't technically very difficult, but it will entail oversight of the pooling and the associated accounting hassles.  This will also entail a discussion of barcode compatibility, to ensure that all barcodes are sufficiently unique for demultiplexing.
+
+##Downsampling
+
