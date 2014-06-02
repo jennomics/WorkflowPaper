@@ -10,7 +10,6 @@ figures/SeqTrace4/SeqTrace4.png
 Organism Identification using 16s rRNA gene sequence.md
 figures/BLAST/BLAST.png
 figures/Screen Shot 2014-06-02 at 2.41.15 PM/Screen Shot 2014-06-02 at 2.41.15 PM.png
-figures/BLASTuseGOLD/BLASTuseGOLD.png
 figures/BLASTuseTREE/BLASTuseTREE.png
 figures/GOLD/GOLD.png
 figures/NCBI16Ssearch/NCBI16Ssearch.png
