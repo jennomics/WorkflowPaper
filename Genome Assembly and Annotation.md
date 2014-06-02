@@ -69,11 +69,17 @@ The number of raw reads/raw nucleotides "Raw reads"/"Raw nt" and error-corrected
 
 AARON DESCRIBE THE COVERAGE STATS HERE. For Illumina data we recommend that this number be between ~30X and 100X.  Much less than 30X coverage and the quality of any given base in the assembly may come into question.  Conversely, too much coverage can reduce the quality of the assembly and require downsampling. **Instructions or reference for downsampling?**
 If you have coverage significantly higher than 100x and wish to downsample your data we have written a script (sub_sample_reads) for this purpose. You will first need to calculate how many reads you want the script to sample. We recommend determining how many reads would be equivalent to 100x coverage (divide the genome size by the average read length and multiply by 100). You can download the script using the curl command. Create a new directory containing the reads you wish to downsample. In the terminal navigate the directory you just created and download the script using the following syntax
+
     curl https://raw.githubusercontent.com/gjospin/scripts/master/subsample_reads.pl > sub_sample_reads.pl
- To downsample the data use the following command 
+    
+To downsample the data use the following command 
+
     /sub_sample_reads file1 file2 #_reads_to_keep output_file_name
+    
 for example 
+
     /Users/Madison/Desktop/sub_sample/sub_sample_reads.pl test_1.fq test_2.fq 250 my_reads.fastq
+    
 For further directions/documentation you can view the script on github
 https://github.com/gjospin/scripts/blob/master/subsample_reads.pl
 
