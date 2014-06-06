@@ -13,7 +13,6 @@ figures/Screen Shot 2014-06-02 at 2.41.15 PM/Screen Shot 2014-06-02 at 2.41.15 P
 figures/BLASTuseTREE/BLASTuseTREE.png
 figures/Screen Shot 2014-06-02 at 2.37.39 PM1/Screen Shot 2014-06-02 at 2.37.39 PM1.png
 figures/Screen Shot 2014-06-02 at 2.37.27 PM1/Screen Shot 2014-06-02 at 2.37.27 PM1.png
-figures/NCBI16Ssearch/NCBI16Ssearch.png
 figures/align2seqs/align2seqs.png
 figures/align2seqsresults/align2seqsresults.png
 Building a 16S rDNA Phylogenetic Tree.md
