@@ -1,1 +1,1 @@
-This is what the RDP overview page will look like. 
+This is what the RDP overview page will look like. COULD WE JUST REMOVE THIS SCREENSHOT?
