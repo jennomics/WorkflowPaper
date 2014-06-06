@@ -1,1 +1,1 @@
-Replace this text with your caption
+This is GOLD's (Genome OnLine Database) search page. Enter the name of the organism you are interested in under project name.
