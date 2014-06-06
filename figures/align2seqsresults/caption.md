@@ -1,1 +1,1 @@
-align2seqs results page.
+align2seqs results page. IS THIS SCREENSHOT NECESSARY?
