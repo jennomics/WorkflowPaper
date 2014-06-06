@@ -1,1 +1,1 @@
-Replace this text with your caption
+This is an example of a poorly constructed, or uninformative tree. The species in question is located within a poorly defined (EISEN: WHAT DOES THIS MEAN?) clade which contains multiple species many of which are represented else where in the tree.
