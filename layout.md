@@ -14,6 +14,7 @@ figures/BLASTuseTREE/BLASTuseTREE.png
 figures/Screen Shot 2014-06-02 at 2.37.39 PM1/Screen Shot 2014-06-02 at 2.37.39 PM1.png
 figures/Screen Shot 2014-06-02 at 2.37.27 PM1/Screen Shot 2014-06-02 at 2.37.27 PM1.png
 figures/align2seqs/align2seqs.png
+figures/Screen Shot 2014-06-06 at 2.38.15 PM/Screen Shot 2014-06-06 at 2.38.15 PM.png
 figures/align2seqsresults/align2seqsresults.png
 Building a 16S rDNA Phylogenetic Tree.md
 Library Preparation and Sequencing .md
