@@ -24,7 +24,7 @@ Fill out the blue Organism Information (Organism Name) section, with information
 If you have relatively ambiguous identification results (e.g. you think you have some sort of Lysinibacillus but aren't sure which species) it could be worthwhile to perform an alignment of your 16S sequence with those from genomes already in Genbank.
 
 ##Align 16S Sequences using Align Sequences Nucleotide BLAST
-First locate the 16S sequences of the genome you'd like to compare to, in FigureX, we searched the NCBI Nucleotide database for "lysinibacillus fusiformis 16S gene ZB2".
+First locate the 16S sequences of the genome you'd like to compare to, in FigureX, we searched the NCBI Nucleotide database for "Tatumella 16s gene".
 
 http://www.ncbi.nlm.nih.gov/nuccore/
 
