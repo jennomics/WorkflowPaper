@@ -27,6 +27,5 @@ figures/phylo3/phylo3.png
 figures/Screen Shot 2014-06-02 at 3.53.52 PM1/Screen Shot 2014-06-02 at 3.53.52 PM1.png
 Data Submission.md
 Discussion.md
-figures/Projected Cost/Projected Cost.png
 /Projected Costs1.xlsx
 /Projected Costs.xlsx
