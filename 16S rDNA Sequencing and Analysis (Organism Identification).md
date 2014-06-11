@@ -13,7 +13,7 @@ Follow the protocol or kit instructions provided by the manufacturer and then pr
 Centrifuge 1 mL of the overnight culture until the cells form a pellet at the bottom of the tube (about 5 minutes at 10,000 g), pour off the liquid on top (a.k.a. the supernatant) and resuspend in 100\(\mu\)l of sterile DNAase-free water. Incubate the samples at \(100\,^{\circ}\mathrm{C}\) for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below.
 
 ##PCR reaction
-This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial 16S rRNA gene. (NOTE - SHOULD SAY SOMETHING HERE ABOUT ARCHAEA AND WHETHER THESE PRIMERS WILL WORK FOR THEM). Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of \(54\,^{\circ}\mathrm{C}\) and an extension at \(72\,^{\circ}\mathrm{C}\) of 90 seconds. Do not forget to include positive (any sample containing bacterial genomic DNA) and negative (e.g., just water) controls. 
+This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial (and many archaeal) 16S rRNA gene. Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of \(54\,^{\circ}\mathrm{C}\) and an extension at \(72\,^{\circ}\mathrm{C}\) of 90 seconds. Do not forget to include positive (any sample containing bacterial genomic DNA) and negative (e.g., just water) controls. 
 
 After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (~1350bp).  
 
