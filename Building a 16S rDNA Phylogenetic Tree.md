@@ -44,6 +44,14 @@ The RDP alignment will have taxon names that most of the downstream software too
     perl /Applications/CleanupRDP.pl -i RDP_alignment.fa -o RDP_alignemnt_clean.fa
 
 ##Building the Tree with FastTree 
+
+There are two ways to get FastTree, which will be required for building the tree from your alignment.  The first is to jump ahead to section 10.1.4 and install Phylosift which contains a working version of FastTree.  In this case, you will simply call the program from the Phylosift directory with the following command (be sure the path to Phylosift is correct):
+
+    /phylosift/osx/FastTree -nt RDP_alignemnt_clean.fa > tree_file.tre
+
+
+The other option is to install FastTree directly, which is a bit more involved.
+
 Go to http://www.microbesonline.org/fasttree/#Install
 and download the FastTree.c program by right clicking on it and saving the link to your Applications folder. To compile the software, navigate to your Applications folder in a Terminal window:
 
