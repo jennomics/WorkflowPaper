@@ -21,8 +21,7 @@ http://sourceforge.net/projects/ngopt/files/?source=navbar
 or
 
 Follow a video made by David Coil 
-http://youtu.be/ePGUIj9Qbvc
-
+https://www.youtube.com/watch?v=Ad6HJevC5U8
 
 or
  
