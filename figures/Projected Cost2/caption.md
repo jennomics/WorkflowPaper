@@ -1,1 +1,1 @@
-Replace this text with your caption
+This figure shows the estimated materials (i.e. without labor) cost of performing a genome sequencing project.  The "Best Case" shows the marginal cost of sequencing one more genome in a case where you are multiplexing 48 samples, and have the appropriate kits and reagents on hand.   The "Worst Case" shows the cost of doing a single genome, with no multiplexing, in a lab where every reagent needed to be purchased new and was not used for anything else.
