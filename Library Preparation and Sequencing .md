@@ -29,4 +29,6 @@ To downsample the data use the following command
     /sub_sample_reads file1 file2 #_reads_to_keep output_file_name  
 for example   
 
-    /Users/Madison/Desktop/sub_sample/sub_sample_reads.pl test_1.fq test_2.fq 250 my_reads.fastq  For further directions/documentation you can view the script on github  https://github.com/gjospin/scripts/blob/master/subsample_reads.pl
+    /Users/Madison/Desktop/sub_sample/sub_sample_reads.pl test_1.fq test_2.fq 250 my_reads.fastq  
+    
+For further directions/documentation you can view the script on github  https://github.com/gjospin/scripts/blob/master/subsample_reads.pl
