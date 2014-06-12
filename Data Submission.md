@@ -11,8 +11,6 @@ File types used in data submission:
 * SQN file (.sqn). The filetype for sequence data required by NCBI
 * SBT file (.sbt). This is a template filetype used by NCBI
 
-**The section below will have to be reconciled with the was the A5 instructions are currently written, but I don't want to change them if you are just going to have to go behind me and change it again...**
-
 ##FASTA2AGP
 First, create the .agp file 
 In the terminal, navigate to the directory containing your scaffolds file
