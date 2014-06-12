@@ -23,3 +23,10 @@ Given the overcapacity of Illumina sequencing for bacterial genomes, sequencing 
 Coverage (read depth) is the average number of reads representing a given nucleotide and is a function of the number and size of genomes pooled onto a run.  The optimal amount of coverage depends on the read length, the assembler being used, and other factors.  For Illumina data assembled using this workflow we recommend that this number be between 20x and 200x.  See our more detailed discussion in section ??? "Interpretation of A5-miseq stats".  If you have coverage significantly higher than 200x and wish to downsample your data we have written a script (sub_sample_reads) (sub\_sample\_reads)  for this purpose. You will first need to calculate how many reads you want the script to sample. We recommend determining how many reads would be equivalent to 100x coverage (divide the genome size by the average read length and multiply by 100). You can download the script using the curl command. Create a new directory containing the reads you wish to downsample. In the terminal navigate the directory you just created and download the script using the following syntax 
 
     curl https://raw.githubusercontent.com/gjospin/scripts/master/subsample_reads.pl > sub_sample_reads.pl   
+    
+To downsample the data use the following command
+
+    /sub_sample_reads file1 file2 #_reads_to_keep output_file_name  
+for example   
+
+    /Users/Madison/Desktop/sub_sample/sub_sample_reads.pl test_1.fq test_2.fq 250 my_reads.fastq  For further directions/documentation you can view the script on github  https://github.com/gjospin/scripts/blob/master/subsample_reads.pl
