@@ -1,4 +1,7 @@
 #Isolation
+
+This section will take you throught the basics of isolating, culturing, and storing your organism.
+
 ##Swab
 Using a sterile cotton swab, wipe (i.e., "swab") the area you intend to sample for 10 to 15 seconds, as if you were trying to clean the area. Try to rotate the swab to ensure that all sides touch the surface. 
 
