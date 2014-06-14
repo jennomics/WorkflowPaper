@@ -5,7 +5,6 @@ General notes on molecular and microbiology.md
 General notes on bacterial systematics.md
 figures/Screenshot 2014-06-14 09.07.1/Screenshot 2014-06-14 09.07.1.png
 Test this.md
-figures/Screenshot 2014-06-14 09.07.30/Screenshot 2014-06-14 09.07.30.png
 Isolation.md
 16S rDNA Sequencing and Analysis (Organism Identification).md
 figures/SeqTrace/SeqTrace.png
