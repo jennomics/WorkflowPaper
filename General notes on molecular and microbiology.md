@@ -5,11 +5,11 @@ Throughout the "Isolation" section we refer to "agar" and "culture media". The c
 
 1. What type of organism do you want to isolate?
 
-2. Are there types of organisms (e.g., pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at \(37\,^{\circ}\mathrm{C}\) is probably not advised in most cases.
+2. Are there types of organisms (e.g., pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at \(37\,^{\circ}\mathrm{C}\) is probably not advised in most cases. (THIS NEEDS MORE EXPLANATION - WHY IS THIS NOT ADVISED)
   
-
 3. How much time is available for growth and isolation?
-    + many bacteria will grow faster at higher temperatures, but at some point, a threshhold will be reached and many species won't grow
+    + growth rates differ both between organisms (e.g., species 1 versus species 2) and also in different conditions for the same organisms (e.g., species 1 at \(20\,^{\circ}\mathrm{C}\) vs. \(37\,^{\circ}\mathrm{C}\))
+    + many bacteria will grow faster at higher temperatures, but at some point, a threshhold will be reached and many species won't grow (PLEASE REMOVE ALL CONTRACTIONS LIKE WON'T)
     + you will be able to isolate a greater diversity of organisms if you allow a long time for slow-growing things to grow
    
 5. What types of equipment are available to you?
