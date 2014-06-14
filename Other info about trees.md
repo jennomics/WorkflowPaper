@@ -1,12 +1,12 @@
-## Some other information to know about trees. 
+# Some other information to know about trees. 
 
-### Branch rotation.
+## Branch rotation.
 
-### Groupings of taxa in trees
+## Groupings of taxa in trees
 * Clade.
 * Monophyly.
 * Paraphyly.
 
-### Support for trees.
+## Support for trees.
 Bootstrapping.
 
