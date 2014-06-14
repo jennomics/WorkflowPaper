@@ -4,7 +4,7 @@ General Notes on Bioinformatics.md
 General notes on molecular and microbiology.md
 General notes on bacterial systematics.md
 figures/Screenshot 2014-06-14 09.07.1/Screenshot 2014-06-14 09.07.1.png
-Test this.md
+Other info about trees.md
 Isolation.md
 16S rDNA Sequencing and Analysis (Organism Identification).md
 figures/SeqTrace/SeqTrace.png
