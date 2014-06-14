@@ -11,6 +11,8 @@ A phylogenetic tree is a diagram representing a model of evolutionary relationsh
 
 * ***Node*** These are the points where individual branches end.  In the internal parts of a pahylogenetic tree, single branches can "split" producing multiple descendant branches.  The point are which the branches split is known as an internal node.  If a branch ends at a taxon, the end point is known as a "terminal node". 
 
+
+
 A key part of interpreting phylogenetic trees lies in understanding the groupings of taxa in a tree.  Some terms relating to this are below:
 
 ***Clade*** A clade is a group of organism that share a common ancestor to the . Every node in the tree defines a unique clade.
