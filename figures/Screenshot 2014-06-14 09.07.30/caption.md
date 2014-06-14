@@ -1,1 +1,0 @@
-Figure. A model phylogenetic tree showing nodes, branches and taxa.
