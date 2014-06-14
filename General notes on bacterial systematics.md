@@ -5,11 +5,11 @@ As with UNIX, we will list some basic terms with which you should make yourself 
 
 A phylogenetic tree is a diagram representing a model of evolutionary relationships.  Phylogenetic trees have three main components: taxa, branches, and nodes. These are defined below:
 
-***Taxon***. An individual or grouping of individuals.  This could be individual sequences, species, families, phyla, etc.  For phylogenetic analyses taxa are drawn at the tips of branches and thus are sometimes referred to as "leaves" on the tree. 
+* ***Taxon***. An individual or grouping of individuals.  This could be individual sequences, species, families, phyla, etc.  For phylogenetic analyses taxa are drawn at the tips of branches and thus are sometimes referred to as "leaves" on the tree. 
 
-***Branch***  A representation of the evolution of a taxon over time (sometimes also known as an evolutionary lineage). There are three main types of branches in a tree.  Terminal branches are those that lead to the tips or leaves in the tree.  Internal branches connect branches to each other.  And the root branch, also known as the root of the tree, is the branch that leads from the base of the tree to the first node in the tree. 
+* ***Branch***  A representation of the evolution of a taxon over time (sometimes also known as an evolutionary lineage). There are three main types of branches in a tree.  Terminal branches are those that lead to the tips or leaves in the tree.  Internal branches connect branches to each other.  And the root branch, also known as the root of the tree, is the branch that leads from the base of the tree to the first node in the tree. 
 
-***Node*** These are the points where individual branches end.  In the internal parts of a pahylogenetic tree, single branches can "split" producing multiple descendant branches.  The point are which the branches split is known as an internal node.  If a branch ends at a taxon, the end point is known as a "terminal node". 
+* ***Node*** These are the points where individual branches end.  In the internal parts of a pahylogenetic tree, single branches can "split" producing multiple descendant branches.  The point are which the branches split is known as an internal node.  If a branch ends at a taxon, the end point is known as a "terminal node". 
 
 A key part of interpreting phylogenetic trees lies in understanding the groupings of taxa in a tree.  Some terms relating to this are below:
 
