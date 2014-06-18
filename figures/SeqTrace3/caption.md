@@ -1,1 +1,1 @@
-Refer to this screenshot of Trace Settings for step 4 of the "Creating and Editing a Consensus Sequence."  
+The above screenshot shows the appropriate Sequence Processing Settings for SeqTrace for step 4 of the "Creating and Editing a Consensus Sequence" for Sanger Sequence Processing. 
