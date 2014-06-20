@@ -9,7 +9,6 @@ Isolation.md
 16S rDNA Sequencing and Analysis (Organism Identification).md
 figures/SeqTrace/SeqTrace.png
 figures/SeqTrace3/SeqTrace3.png
-figures/SeqTrace4/SeqTrace4.png
 Organism Identification using 16s rRNA gene sequence.md
 figures/BLAST/BLAST.png
 figures/Screen Shot 2014-06-02 at 2.41.15 PM/Screen Shot 2014-06-02 at 2.41.15 PM.png
