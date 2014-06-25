@@ -9,7 +9,7 @@ Using a sterile cotton swab, wipe (i.e., "swab") the area you intend to sample f
 ##Plate
 Gently (so as not to break the agar surface) streak the swab across the entire surface of an agar plate. Be sure to rotate the swab as you are doing so to ensure that all sides of the swab make contact with the plate. Incubate the plate at the desired temperature (in our case, usually \(37\,^{\circ}\mathrm{C}\) or room temperature - but the desired temperature will depend on the project) for 1-3 days.
 
-##Dilution Streak (streaking for individual colonies) X2
+##Dilution Streak (streaking for individual colonies) x2
 After incubation, choose desired colonies (we typically attempt to maximize the diversity of colony morphologies) and dilution streak them onto individual plates.
 
 After growth to visible colonies, repeat the dilution streaking to help ensure purity of the culture.  Some organisms will only grow in tight association with others, and a mixed culture will prove difficult to work with and very difficult to sequence/assemble. 
