@@ -17,10 +17,10 @@ figures/BLASTuseTREE/BLASTuseTREE.png
 figures/Screen Shot 2014-06-02 at 2.37.39 PM1/Screen Shot 2014-06-02 at 2.37.39 PM1.png
 figures/Screen Shot 2014-06-02 at 2.37.27 PM1/Screen Shot 2014-06-02 at 2.37.27 PM1.png
 figures/align2seqsresults/align2seqsresults.png
-Building a 16S rDNA Phylogenetic Tree.md
 figures/Screen Shot 2014-06-12 at 11.18.34 AM/Screen Shot 2014-06-12 at 11.18.34 AM.png
 Library Preparation and Sequencing .md
 Genome Assembly and Annotation.md
+Building a 16S rDNA Phylogenetic Tree.md
 Obtain the Full Length 16S Sequence from the Assembly.md
 figures/phylo2/phylo2.png
 figures/phylo3/phylo3.png
