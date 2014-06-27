@@ -1,1 +1,1 @@
-Replace this text with your caption
+Figure X shows the RDP Hierarchy Browser with the recommended parameters selected (red box).
