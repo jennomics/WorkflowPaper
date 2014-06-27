@@ -1,4 +1,5 @@
 Introduction.md
+/workflow2.ai
 General Notes on Bioinformatics.md
 General notes on molecular and microbiology.md
 General notes on bacterial systematics.md
