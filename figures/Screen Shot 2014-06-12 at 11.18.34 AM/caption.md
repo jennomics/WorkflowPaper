@@ -1,1 +1,1 @@
-Replace this text with your caption
+Figure X shows the Dendroscope editing options. The expansion tools are circled while the arrow points to the phylogram option.
