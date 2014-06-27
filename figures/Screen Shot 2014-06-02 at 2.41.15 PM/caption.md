@@ -1,1 +1,1 @@
-Here are the results of BLASTing the 16s SSU rRNA sequence. SHOULD I EXPLAIN QUERY COVER, EVALUE and IDENTITY?
+Here are the results of BLASTing the 16s SSU rRNA sequence. 
