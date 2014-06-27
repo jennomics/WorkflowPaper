@@ -96,7 +96,7 @@ http://sequenceconversion.bugaco.com/converter/biology/sequences/
 Use the drop down menus to set it to convert .abi files to .fastq. Upload a file and convert it. The converted file will save to your downloads folder under the name sample.fastq. If you are working with a lot of reads we recommend immediately renaming the files to match the original abi file name to avoid confusion.
 
 ###Edit and Create a Consensus Sequence
-Once all of your files are in fastq format, move all of them to the Sanger\_seq folder in which you saved the merge\_sanger\_16s.pl script. Use the terminal to navigate to within this folder. Then, type:
+Once all of your files are in fastq format, move all of them to the Sanger\_seq folder in which you saved the merge\_sanger\_16s.pl script. Use the terminal to navigate to within this folder by typing:
 
     cd Desktop/Sanger_seq
 
