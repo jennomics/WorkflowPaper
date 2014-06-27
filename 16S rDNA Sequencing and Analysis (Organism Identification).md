@@ -79,9 +79,9 @@ click ok
 
 ##Custom Script to Create a Consensus Sequence (merge\_sanger\_16s.pl)
 ###Download/Install
-1. Create a new folder called Sanger_seq somewhere on your computer
-2. Download the script from https://github.com/gjospin/scripts
-3. Download a zip of all of the files, unzip it and move the merge\_sanger\_16s.pl script to the Sanger_seq folder
+1. Create a new folder called Sanger_seq on your desktop
+2. Download the zip file, containing three scripts (merge\_sanger\_16s.pl, CleanupRDP.pl and subsample_readsp.pl) from http://figshare.com/articles/Miscellaneous\_Scripts\_for\_Workflow/1086285
+3. Open the zip file and move the merge\_sanger\_16s.pl file to the new Sanger_seq folder
 
 ###MUSCLE
 In order to run this script you will need to download MUSCLE \cite{Edgar_2004} from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your Applications folder.
