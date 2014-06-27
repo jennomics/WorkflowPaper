@@ -1,6 +1,5 @@
 Feel free to add notes/critiques of the rocketship/summary figure here
 The Figure above illustrates all of the steps of the workflow. A short desescription of each step and its equivalent ??? are listed below.
-
 **Culture and Isolation**-Here Here we cover the steps necessary to take a sample through plating, dilution streaking, overnight growth, creating a glycerol stock, 16s PCR and preparation for Sanger sequencing.    
 We assume a starting point of wanting to isolate an organism from a particular environment and needing to identify it.  Users starting with a known organism should proceed to "Library Preparation and Sequencing”.
 Culture and Isolation covers steps 5 (Isolation) through 6.3 (PCR reaction)
