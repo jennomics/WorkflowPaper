@@ -1,14 +1,14 @@
 Introduction.md
 figures/workflow2/workflow2.jpg
-//General Notes on Bioinformatics.md
+General Notes on Bioinformatics.md
 General notes on molecular and microbiology.md
 General notes on bacterial systematics.md
 figures/Screenshot 2014-06-14 09.07.1/Screenshot 2014-06-14 09.07.1.png
 Other info about trees.md
 Isolation.md
-16S rDNA Sequencing and Analysis (Organism Identification).md
 figures/SeqTrace/SeqTrace.png
 figures/SeqTrace3/SeqTrace3.png
+16S rDNA Sequencing and Analysis (Organism Identification).md
 figures/Screen Shot 2014-06-18 at 9.13.45 AM/Screen Shot 2014-06-18 at 9.13.45 AM.png
 Organism Identification using 16s rRNA gene sequence.md
 figures/BLAST/BLAST.png
@@ -28,6 +28,6 @@ figures/Screen Shot 2014-06-02 at 3.53.52 PM1/Screen Shot 2014-06-02 at 3.53.52 
 Data Submission.md
 Discussion.md
 figures/Projected Cost2/Projected Cost2.png
-/Projected Cost2.docx
-/Projected Costs1.xlsx
-/Projected Costs.xlsx
+Projected Cost2.docx
+Projected Costs1.xlsx
+Projected Costs.xlsx
