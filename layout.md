@@ -6,9 +6,9 @@ General notes on bacterial systematics.md
 figures/Screenshot 2014-06-14 09.07.1/Screenshot 2014-06-14 09.07.1.png
 Other info about trees.md
 Isolation.md
+16S rDNA Sequencing and Analysis (Organism Identification).md
 figures/SeqTrace/SeqTrace.png
 figures/SeqTrace3/SeqTrace3.png
-16S rDNA Sequencing and Analysis (Organism Identification).md
 figures/Screen Shot 2014-06-18 at 9.13.45 AM/Screen Shot 2014-06-18 at 9.13.45 AM.png
 Organism Identification using 16s rRNA gene sequence.md
 figures/BLAST/BLAST.png
