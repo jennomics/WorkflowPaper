@@ -1,1 +1,1 @@
-\label{fig:FIGURE_ID} - This figure shows the Dendroscope editing options. The expansion tools are circled while the arrow points to the phylogram option.
+\label{fig:Dendroscope} - This figure shows the Dendroscope editing options. The expansion tools are circled while the arrow points to the phylogram option.
