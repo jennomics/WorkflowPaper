@@ -19,12 +19,12 @@ Go to: http://genomesonline.org/cgi-bin/GOLD/index.cgi
 
 Click the search button on the left side of the page and you should be taken to a page that looks like the screen shot displayed in FigureX.
 
-Fill out the blue Organism Information (Organism Name) section, with information about your microbe from BLAST and click submit search.  We usually search for only the genus to get a sense for how well that genus is represented in the database and which species are present. FigureX shows an example screen shot of the results for "Lysinibacillus." FigureX is zoomed in on the lower results window. In this case there are two sequenced strains of Lysinibacillus fusiformis, and one of Lysinibacillus sphericus. A couple other species are "incomplete". A choice of how to proceed in light of this information will depend on the goals of the project. Some "incomplete" projects will never progress and some could already be on their way to publication.
+Fill out the blue Organism Information (Organism Name) section, with information about your microbe from BLAST and click submit search.  We usually search for only the genus to get a sense for how well that genus is represented in the database and which species are present. Figure 10 shows an example screen shot of the results for "Brachybacterium." Clicking on a project ID will take you to a omre detailed description of the project including its project status (complete, permanent draft, incomplete, targeted).
 
-If you have relatively ambiguous identification results (e.g. you think you have some sort of Lysinibacillus but aren't sure which species) it could be worthwhile to perform an alignment of your 16S sequence with those from genomes already in Genbank.
+If you have relatively ambiguous identification results (e.g. you think you have some sort of Brachybacterium but aren't sure which species) it could be worthwhile to perform an alignment of your 16S sequence with those from genomes already in Genbank.
 
 ##Align 16S Sequences using Align Sequences Nucleotide BLAST
-First locate the 16S sequences of the genome you'd like to compare to, in FigureX, we searched the NCBI Nucleotide database for "Tatumella 16s gene".
+First locate the 16S sequences of the genome you'd like to compare to, by searching the NCBI Nucleotide database for "Species 16s gene".
 
 http://www.ncbi.nlm.nih.gov/nuccore/
 
@@ -32,7 +32,7 @@ Click on the sequence of interest, then click on the "FASTA" link to get the seq
 
 http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=align2seq
 
-Paste in the two 16S rDNA sequences and click on the "BLAST" button. In FigureX the identity was 98% over 87% of the query. Unless the primers used for both your sequence and the sequence you are comparing to were amplified with the same primers, the query coverage will not be 100%.  A low identity can be the result of poor sequence quality or taxonomic distance. 
+Paste in the two 16S rDNA sequences and click on the "BLAST" button. Unless the primers used for both your sequence and the sequence you are comparing to were amplified with the same primers, the query coverage will not be 100%.  A low identity can be the result of poor sequence quality or taxonomic distance. 
 
 A choice of whether to sequence an organism based on these results depends on the project goal. For example an identity of 100% suggests that at least at the 16S level, the candidate organism is very similar to what is already in the database. However, many organisms vary greatly in gene content between strains and an additional genome may still be informative. There is also significant debate over what level of relatedness at the 16S level should be used to determine the difference between species, or if this is even a relevant question \cite{Chan_2012}\cite{Drancourt_2005}\cite{Hanage_2006}\cite{Stackebrandt_2002}.
 
