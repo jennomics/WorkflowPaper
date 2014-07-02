@@ -11,8 +11,8 @@ Paste in your Sanger consensus sequence.  We recommend checking the box to exclu
 ##Interpreting the results
 Depending on the quality of the Sanger sequencing and the particular bacteria sequenced, the BLAST results can range from definitive to relatively uninformative. Examples of both are discussed below.
 
-1. In FigureX, it is not necessary to build a phylogenetic tree for further identification. All of the top hits are either Kocuria rosea or Kocuria sp, have e-values of 0.0, perfect query coverage, and 99% to 100% identity. In this case, proceed to "Using GOLD".
-2. In FigureX the results are much more ambiguous. The results show more than 99% identity to multiple species within multiple genera. In this case, proceed to "Making a Phylogenetic Tree", before using GOLD.
+1. In some cases it is not necessary to build a phylogenetic tree for further identification. If all of the top hits are the same species (or end in sp.), have e-values of 0.0, perfect query coverage, and 99% to 100% identity you can proceed to section XX "Using GOLD".
+2. In other cases the results are much more ambiguous. The results may show more than 99% identity to multiple species within multiple genera. In this case, proceed to section XX "Making a Phylogenetic Tree", before using GOLD.
 
 ##Using GOLD (the Genomes Online Database)
 Go to: http://genomesonline.org/cgi-bin/GOLD/index.cgi
