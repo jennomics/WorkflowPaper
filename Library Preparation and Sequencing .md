@@ -5,8 +5,8 @@ The first choice in library preparation is whether to do the library prep yourse
 ##Kit Options
 Whether you chose to make libraries yourself, or use a provider the next major choice is of the type of kit.  The two major different choices with Illumina kits are the Nextera transposase-based kits or the TruSeq kits (with or without PCR). These kits are available from Illumina, but there are also comparable options from other vendors (e.g. New England Biolabs and Kappa Bioscience). The pros and cons of each type of kit are listed below:
 
-+ Nextera: Pro – It allows for very low amounts of input DNA, down to 1ng in the case of the Nextera XT kit. Con – the transposase has an insertion bias and the extensive PCR required for low input samples will also impact the final assembly\cite{Aird_2011}.
-+ TruSeq (our recommendation): Pro – The PCR-free protocol minimizes library bias by using mechanical instead of enzymatic DNA fragmentation, and by eliminating PCR, resulting in better assemblies. Con – requires a large amount of DNA (at least 1\(\mu\)g for PCR-free).  There is also now a TruSeq LT kit which only requires 100ng of DNA but does entail some PCR so may provide a middle option between PCR-free TruSeq and Nextera.
++ Nextera: _Pro_ – It allows for very low amounts of input DNA, down to 1ng in the case of the Nextera XT kit. _Con_ – the transposase has an insertion bias and the extensive PCR required for low input samples will also impact the final assembly\cite{Aird_2011}.
++ TruSeq (our recommendation): _Pro_ – The PCR-free protocol minimizes library bias by using mechanical instead of enzymatic DNA fragmentation, and by eliminating PCR, resulting in better assemblies. _Con_ – requires a large amount of DNA (at least 1\(\mu\)g for PCR-free).  There is also now a TruSeq LT kit which only requires 100ng of DNA but does entail some PCR so may provide a middle option between PCR-free TruSeq and Nextera.
 
 When growing bacteria in culture, as described in this workflow, it should almost always be possible to get enough DNA to use PCR-free TruSeq and therefore minimize library preparation biases in the genome assembly.
 
