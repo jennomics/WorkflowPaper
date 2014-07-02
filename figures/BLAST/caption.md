@@ -1,1 +1,1 @@
-This is what the BLAST sumbission page looks like. BLAST stands for Basic Local Alignment Search Tool and allows you to search the database for a known sequence that matches, or is similiar to the sequence you provide.
+Figure 6-This is what the BLAST sumbission page looks like. BLAST stands for Basic Local Alignment Search Tool and allows you to search the database for a known sequence that matches, or is similiar to the sequence you provide.
