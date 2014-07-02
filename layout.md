@@ -1,7 +1,7 @@
 Introduction.md
 figures/workflow2/workflow2.jpg
 General Notes on Bioinformatics.md
-#General notes on molecular and microbiology.md
+General notes on molecular and microbiology.md
 General notes on bacterial systematics.md
 figures/Screenshot 2014-06-14 09.07.1/Screenshot 2014-06-14 09.07.1.png
 Other info about trees.md
