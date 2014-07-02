@@ -17,9 +17,9 @@ Depending on the quality of the Sanger sequencing and the particular bacteria se
 ##Using GOLD (the Genomes Online Database)
 Go to: http://genomesonline.org/cgi-bin/GOLD/index.cgi
 
-Click the search button on the left side of the page and you should be taken to a page that looks like the screen shot displayed in FigureX.
+Click the search button on the left side of the page and you should be taken to a page that looks like the screen shot displayed in Figure \ref{fig:GOLD}.
 
-Fill out the blue Organism Information (Organism Name) section, with information about your microbe from BLAST and click submit search.  We usually search for only the genus to get a sense for how well that genus is represented in the database and which species are present. Figure 10 shows an example screen shot of the results for "Brachybacterium." Clicking on a project ID will take you to a omre detailed description of the project including its project status (complete, permanent draft, incomplete, targeted).
+Fill out the blue Organism Information (Organism Name) section, with information about your microbe from BLAST and click submit search.  We usually search for only the genus to get a sense for how well that genus is represented in the database and which species are present. Figure \ref{fig:GOLD\_results} shows an example screen shot of the results for "Brachybacterium." Clicking on a project ID will take you to a more detailed description of the project including its project status (complete, permanent draft, incomplete, targeted).
 
 If you have relatively ambiguous identification results (e.g. you think you have some sort of Brachybacterium but aren't sure which species) it could be worthwhile to perform an alignment of your 16S sequence with those from genomes already in Genbank.
 
