@@ -12,7 +12,6 @@ figures/SeqTrace3/SeqTrace3.png
 figures/Screen Shot 2014-06-18 at 9.13.45 AM/Screen Shot 2014-06-18 at 9.13.45 AM.png
 Organism Identification using 16s rRNA gene sequence.md
 figures/BLAST/BLAST.png
-figures/Screen Shot 2014-07-02 at 11.47.51 AM/Screen Shot 2014-07-02 at 11.47.51 AM.png
 figures/Screen Shot 2014-06-02 at 2.41.15 PM/Screen Shot 2014-06-02 at 2.41.15 PM.png
 figures/BLASTuseTREE/BLASTuseTREE.png
 figures/Screen Shot 2014-06-02 at 2.37.39 PM1/Screen Shot 2014-06-02 at 2.37.39 PM1.png
