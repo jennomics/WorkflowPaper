@@ -1,1 +1,1 @@
-Figure 3-The above figure shows the appropriate Trace Settings for SeqTrace for step 4 of the "Creating and Editing a Consensus Sequence" for Sanger Sequence Processing. 
+Figure 3-The above figure shows the appropriate Trace Settings for SeqTrace for step 3 of the "Creating and Editing a Consensus Sequence" for Sanger Sequence Processing. 
