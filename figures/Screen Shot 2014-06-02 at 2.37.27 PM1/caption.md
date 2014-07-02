@@ -1,1 +1,1 @@
-This is GOLD's results page, 11 Brachybacterium species of strains have been sequenced.
+Figure 10-This is GOLD's results page, 11 Brachybacterium species of strains have been sequenced.
