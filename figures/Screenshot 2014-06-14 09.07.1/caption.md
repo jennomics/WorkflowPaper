@@ -1,1 +1,1 @@
-Figure. A model phylogenetic tree showing nodes, branches and taxa
+Figure 2. A model phylogenetic tree showing nodes, branches and taxa
