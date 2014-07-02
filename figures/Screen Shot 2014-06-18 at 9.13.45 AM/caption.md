@@ -1,1 +1,1 @@
-The above screen shot shows a chromotogram of an .abi trace file in SeqTrace. This is what you should see in step 7 of "8.7 Edit and Create a Consensus Sequence with SeqTrace".
+Figure 5-The above screen shot shows a chromotogram of an .abi trace file in SeqTrace. This is what you should see in step 7 of "8.7 Edit and Create a Consensus Sequence with SeqTrace".
