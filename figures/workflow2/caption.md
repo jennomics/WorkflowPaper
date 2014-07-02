@@ -1,4 +1,4 @@
-\label{fig:Figure 1}(**Feel free to add notes/critiques of the rocketship/summary figure here**)
+\label{fig:FIGURE_ID}(**Feel free to add notes/critiques of the rocketship/summary figure here**)
 Figure 1 illustrates all of the steps of the workflow. Short desescriptions of each step are listed below.
 
 **Culture and Isolation**-Here we cover the steps necessary to take a sample through plating, dilution streaking, overnight growth, creating a glycerol stock, 16s PCR and preparation for Sanger sequencing.    
