@@ -1,4 +1,3 @@
-
 #Isolation
 
 This section will take you throught the basics of isolating, culturing, and storing your organism.
