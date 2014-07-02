@@ -1,1 +1,1 @@
-\label{fig:FIGURE_ID} -This is GOLD's (Genome OnLine Database) search page. Enter the name of the organism you are interested in under project name.
+\label{fig:GOLD} -This is GOLD's (Genome OnLine Database) search page. Enter the name of the organism you are interested in under project name.
