@@ -28,7 +28,7 @@ The goal of this section is to obtain a 16S alignment from RDP that can be used 
 5. Assign it a group name (this is what the program will label your sequence/organism). Choose this carefully since that will be the name on the final tree. 
 6. Click the "+" next to the sequence, to add it to your cart
 7. Click on CLASSIFIER at the top of the page
-8. Click on "Do Classification With Selected Sequences" button. This will show you a hierarchical view of the classification of your sequence (from Phylum to Genus.) You will use this information to navigate to other sequences that you want to include in your alignment that you will use to build your phylogenetic tree. For example, Figure X shows the hierarchy for the _Tatumella_ 16S sequence. 
+8. Click on "Do Classification With Selected Sequences" button. This will show you a hierarchical view of the classification of your sequence (from Phylum to Genus.) You will use this information to navigate to other sequences that you want to include in your alignment that you will use to build your phylogenetic tree. For example, Figure \ref{fig:RDP} shows the hierarchy for the _Tatumella_ 16S sequence. 
 8. Click on BROWSERS. We recommend openining BROWSERS in a new tab so that you can keep the hierarchy information handy.
 9. Click on "Isolates" to select only isolates for further analysis.  Then click "Browse"
 10. Click on the + sign next to "Archaea outgroup." This will add an Archaeal sequence to your cart, which will be used to root your phylogenetic tree.
@@ -82,10 +82,10 @@ http://www-ab2.informatik.uni-tuebingen.de/software/dendroscope/register/
 
 Enter the license number into Dendrosope and then you can open your phylogenetic tree from the File menu to view it.
 
-Once the tree is visible, the first step is to re-root the tree to the outgroup. Expand the tree by clicking the expansion button (labeled in Figure X), then scroll through the tree to locate the outgroup. Click on the beginning of the taxa name, to select it, and reroot the tree by going to edit and selecting re-root.
+Once the tree is visible, the first step is to re-root the tree to the outgroup. Expand the tree by clicking the expansion button (labeled in Figure \ref{fig:Dendroscope}), then scroll through the tree to locate the outgroup. Click on the beginning of the taxa name, to select it, and reroot the tree by going to edit and selecting re-root.
 
-We recommend viewing the tree as a phylogram which can be accomplished by clicking on the phylogram button (labeled in Figure X). From this tree it should be possible to determine the phylogenetic placement of the candidate sequence, and in some cases to give it a name with more certainty than a simple BLAST search.  Below are examples of a relatively informative tree and a relatively uninformative tree:
+We recommend viewing the tree as a phylogram which can be accomplished by clicking on the phylogram button (labeled in Figure \ref{fig:Dendroscope}). From this tree it should be possible to determine the phylogenetic placement of the candidate sequence, and in some cases to give it a name with more certainty than a simple BLAST search.  Below are examples of a relatively informative tree and a relatively uninformative tree:
  
 In tree shown above (genus Brachybacterium), our sample of interest from an assembly is "Brachybacterium muris UCD-AY4" \cite{Lo\_2013}. It falls within a clade where every named member has the same name "Brachybacterium muris", and this name does not occur elsewhere on the tree. Hence, we were confident enough to name our sample as that species. In other words, this sequence falls within a well-supported monophyletic clade of _Brachybacterium muris_.
  
-UPDATE THIS FOR TATUMELLAIn the tree shown above (genus Microbacterium) our species of interest is Microbacterium sp. str. UCD-TDU \cite{Bendiks_2013}. In contrast to the Brachybacterium example, here our species falls within a poorly defined clade containing multiple species. In this case we did not assign a species name to this isolate.
+UPDATE THIS FOR TATUMELLAIn the tree shown above (genus Tatumella) our species of interest is Tatumella sp.  \cite{Bendiks_2013}. In contrast to the Brachybacterium example, here our species falls within a poorly defined clade containing multiple species. In this case we did not assign a species name to this isolate.
