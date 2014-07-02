@@ -1,1 +1,1 @@
-\label{fig:FIGURE_ID}-The above screen shot shows a chromotogram of an .abi trace file in SeqTrace. This is what you should see in step 7 of "8.7 Edit and Create a Consensus Sequence with SeqTrace".
+\label{fig:chromatogram}-The above screen shot shows a chromotogram of an .abi trace file in SeqTrace. This is what you should see in step 7 of "8.7 Edit and Create a Consensus Sequence with SeqTrace".
