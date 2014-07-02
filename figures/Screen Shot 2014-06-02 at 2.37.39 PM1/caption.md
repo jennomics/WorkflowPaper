@@ -1,1 +1,1 @@
-This is GOLD's (Genome OnLine Database) search page. Enter the name of the organism you are interested in under project name.
+Figure 9-This is GOLD's (Genome OnLine Database) search page. Enter the name of the organism you are interested in under project name.
