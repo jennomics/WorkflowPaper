@@ -1,1 +1,1 @@
-\label{fig:FIGURE_ID}-align2seqs results page. IS THIS SCREENSHOT NECESSARY?
+\label{fig:align2seq}-align2seqs results page. IS THIS SCREENSHOT NECESSARY?
