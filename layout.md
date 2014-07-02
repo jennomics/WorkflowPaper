@@ -22,7 +22,6 @@ Library Preparation and Sequencing .md
 Genome Assembly and Annotation.md
 Obtain the Full Length 16S Sequence from the Assembly.md
 figures/phylo5/phylo5.png
-figures/phylo3/phylo3.png
 Building a 16S rDNA Phylogenetic Tree.md
 figures/Screen Shot 2014-06-02 at 3.53.52 PM1/Screen Shot 2014-06-02 at 3.53.52 PM1.png
 Data Submission.md
