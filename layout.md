@@ -14,7 +14,6 @@ Organism Identification using 16s rRNA gene sequence.md
 figures/BLAST/BLAST.png
 figures/Screen Shot 2014-07-02 at 11.47.51 AM1/Screen Shot 2014-07-02 at 11.47.51 AM1.png
 figures/Screen Shot 2014-07-02 at 1.22.08 PM/Screen Shot 2014-07-02 at 1.22.08 PM.png
-figures/BLASTuseTREE/BLASTuseTREE.png
 figures/Screen Shot 2014-06-02 at 2.37.39 PM1/Screen Shot 2014-06-02 at 2.37.39 PM1.png
 figures/Screen Shot 2014-06-02 at 2.37.27 PM1/Screen Shot 2014-06-02 at 2.37.27 PM1.png
 figures/align2seqsresults/align2seqsresults.png
