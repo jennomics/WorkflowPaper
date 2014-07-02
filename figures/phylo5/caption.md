@@ -1,1 +1,1 @@
-Figure 13-Thi figure shows the RDP Hierarchy Browser with the recommended parameters selected (red box).
+Figure 13-This figure shows the RDP Hierarchy Browser with the recommended parameters selected (red box).
