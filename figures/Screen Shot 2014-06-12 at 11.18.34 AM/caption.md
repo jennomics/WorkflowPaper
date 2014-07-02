@@ -1,1 +1,1 @@
-Figure X shows the Dendroscope editing options. The expansion tools are circled while the arrow points to the phylogram option.
+Figure 12- This figure shows the Dendroscope editing options. The expansion tools are circled while the arrow points to the phylogram option.
