@@ -1,1 +1,1 @@
-Figure 10-This is GOLD's results page, 11 Brachybacterium species of strains have been sequenced.
+\label{fig:FIGURE_ID}-This is GOLD's results page, 11 Brachybacterium species of strains have been sequenced.
