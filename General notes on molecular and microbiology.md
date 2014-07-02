@@ -6,14 +6,14 @@ Throughout the "Isolation" section we refer to "agar" and "culture media". The c
 
 1. What type of organism do you want to isolate?
 
-2. Are there types of organisms (e.g., pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at \(37\,^{\circ}\mathrm{C}\) will often result in the isolation of pathogens.
+2. Are there types of organisms (e.g., pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at 37 deg C will often result in the isolation of pathogens.
   
 3. How much time is available for growth and isolation?
-    + growth rates differ both between organisms (e.g., species 1 versus species 2) and also in different conditions for the same organisms (e.g., species 1 at \(20\,^{\circ}\mathrm{C}\) vs. \(37\,^{\circ}\mathrm{C}\))
+    + growth rates differ both between organisms (e.g., species 1 versus species 2) and also in different conditions for the same organisms (e.g., species 1 at 20 deg C  vs. 37 deg C 
     + for many microbes there is an "optimal growth temperature"(OGT - the temperature at which it grows best) but the OGT varies between species
     + you will be able to isolate a greater diversity of organisms if you allow a long time for slow-growing things to grow
    
 4. What types of equipment are available to you?
-   + if something grows most happily at \(37\,^{\circ}\mathrm{C}\), then you will need to have an incubator and shaker available at that temperature.
+   + if something grows most happily at 37 deg C, then you will need to have an incubator and shaker available at that temperature.
 
- For our previous work we have simply used a rich media such as lysogeny broth (LB) and growth at either room temperature or \(37\,^{\circ}\mathrm{C}\).
+ For our previous work we have simply used a rich media such as lysogeny broth (LB) and growth at either room temperature or 37 deg C.
