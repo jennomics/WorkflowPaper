@@ -1,1 +1,1 @@
-\label{fig:GOLD\_results}-This is GOLD's results page, 11 Brachybacterium species of strains have been sequenced.
+\label{fig:GOLD\_results}-This is GOLD's results page, 11 Brachybacterium projects are listed, some of which may be complete and others in a more ambiguous state.
