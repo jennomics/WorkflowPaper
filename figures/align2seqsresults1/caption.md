@@ -1,1 +1,1 @@
-Replace this text with your caption
+\label{fig:align2seq}-This is the align2seqs results page showing the alignment between two sequences. The identity metric is circled above.
