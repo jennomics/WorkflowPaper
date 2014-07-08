@@ -16,6 +16,7 @@ figures/Screen Shot 2014-07-02 at 11.47.51 AM1/Screen Shot 2014-07-02 at 11.47.5
 figures/Screen Shot 2014-07-02 at 1.22.08 PM/Screen Shot 2014-07-02 at 1.22.08 PM.png
 figures/Screen Shot 2014-06-02 at 2.37.39 PM1/Screen Shot 2014-06-02 at 2.37.39 PM1.png
 figures/Screen Shot 2014-06-02 at 2.37.27 PM1/Screen Shot 2014-06-02 at 2.37.27 PM1.png
+figures/align2seqsresults1/align2seqsresults1.png
 figures/Screen Shot 2014-06-12 at 11.18.34 AM/Screen Shot 2014-06-12 at 11.18.34 AM.png
 Library Preparation and Sequencing .md
 Genome Assembly and Annotation.md
