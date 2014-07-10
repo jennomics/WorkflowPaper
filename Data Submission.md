@@ -118,7 +118,7 @@ Submitter
 Don’t check the box stating, “Genome assembly structured comment is in the contig .sq file”
 
 + Assembly Method-Choose _other_, fill in the blank with A5 Assembly Pipeline (version can be found in the asssembly_stats.csv file)
-+ Version or date program was run – _a5\_miseq\_macOS_20140521_
++ Version or date program was run – a5\_miseq\_macOS_20140521
 + Assembly name – give your assembly an appropriate name
 + Genome coverage- this is provided in the output from A5
 + Sequencing technology – _Illumina_ (Miseq or HiSeq)
