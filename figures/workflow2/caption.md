@@ -8,7 +8,7 @@ Culture and Isolation covers steps 5 (Isolation) through 6.3 (PCR reaction).
 
 **Alignment**-Upon receiving Sanger reads from a sequencing facility, it is necessary to quality trim the reads, reverse complement the sequences, align the reads and generate a consensus sequence. This is easiest to do visually via a chromatogram allowing the user to see the trace and process the sequences manually.
 
-**I.D. Species**-In a classroom or undergraduate research setting the researchers may not have a particular bacterial species in mind.  In this case it is necessary to screen the 16S Sanger sequencing results for possible genome project candidates.   We recommend starting with the BLAST results, then continuing onto the Genomes Online Database (GOLD), and simply Google searching.   In many cases it will be handy to first build a phylogenetic tree to aid in identification since the 16S results may not be sufficiently informative.
+**I.D. Species**-In a classroom or undergraduate research setting the researchers may not have a particular bacterial species in mind.  In this case it is necessary to screen the 16S Sanger sequencing results for possible genome project candidates.   We recommend starting with the BLAST results, then continuing onto the Genomes Online Database (GOLD), and simply Google searching.   In many cases it will be handy to first build a phylogenetic tree to aid in identification since the BLAST results may not be sufficiently informative.
 
 **DNA Extraction**-In this step, DNA is extracted from the species of interest.
 
