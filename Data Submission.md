@@ -1,12 +1,12 @@
 #Data Submission
 This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
 
-To submit a genome, you must first creat a "BioProject" at NCBI.  When that is complete, a separate process is required to submit the genome sequence. Before submitting your genome, you will need to have available X number of files. 
+To submit a genome, you must first creat a "BioProject" at NCBI.  When that is complete, a separate process is required to submit the genome sequence. Before submitting your genome, you will need to have available 4-5 files which are listed below. 
 
 File types used in data submission:
 
-* AGP file (.agp).  This is a file required by NCBI to describe scaffolding
-* FASTA file (.fasta).  This is the standard filetype for sequence data, produced in this case by A5
+* AGP file (.agp).  This is a file required by NCBI to describe scaffolding (if applicable)
+* FASTA file (.fasta).  This is the standard filetype for sequence data, produced in this case by A5-miseq
 * FSA file (.fsa). Same as a FASTA file but with a different extension
 * SQN file (.sqn). The filetype for sequence data required by NCBI
 * SBT file (.sbt). This is a template filetype used by NCBI
