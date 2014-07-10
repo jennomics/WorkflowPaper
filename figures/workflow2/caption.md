@@ -12,7 +12,8 @@ Culture and Isolation covers steps 5 (Isolation) through 6.3 (PCR reaction).
 
 **DNA Extraction**-In this step, DNA is extracted from the species of interest.
 
-**Library Prep**-The choice of sequencing technology and of library preparation method for genome sequencing is ever-changing and much-debated.   Here we recommend using Illumina MiSeq for reasons of cost, depth of coverage, and length of reads.   Furthermore, our recommended assembly pipeline, A5-miseq, requires Illumina data and is optimized for the longer reads from the MiSeq.   
+**Library Prep**-The choice of sequencing technology and of library preparation method for genome sequencing is ever-changing and much-debated.   Here we recommend using Illumina MiSeq for reasons of cost, depth of coverage, and length of reads.   Furthermore, our recommended assembly pipeline, A5-miseq, requires Illumina data and is optimized for the longer reads from the MiSeq.
+
 **Illumina Sequencing**-We recommend sending the samples to a DNA sequencing facility.
 
 **Genome Assembly**-Genome assembly typically consists of data cleaning (quality filtering and adaptor removal), error correction, contig assembly, scaffolding, and verification of scaffolds/contigs.  There are a large array of programs that can perform some, or most of these steps.  These programs include commercial and open-source options, with some choice being very user friendly and some being extremely difficult to use/install.For this workflow we recommend use of the open source A5 assembly pipeline which automates all of the steps described above with a single command . 
@@ -22,7 +23,7 @@ Culture and Isolation covers steps 5 (Isolation) through 6.3 (PCR reaction).
 **Annotation**-There are a number of different pipelines available for annotation of bacterial genomes.  These include Prokka, IMG, RAST, PGAP and others.
 
 **Tree Building**-There are two points during the workflow where making a 16S phylogenetic tree may be useful.  The first is after identification of candidate organisms by Sanger sequencing and the second is after assembly of the genome.   The process is identical in both cases, but the additional length and improved quality of the post-assembly 16S sequence may generate a better tree.  The tree can be used for identification of the candidate (e.g. is the candidate found in a single species clade), for naming of the candidate (does it fall in a clade containing only members of that species, and other members of the species are not found outside that clade), and for placement of the organism into a phylogenetic context.
-The outline of this step, is to use the Ribosomal Database Project (RDP) to generate an alignment of the sequence with close relative and an outgroup, following by cleanup of the RDP headers, tree-building with FastTree and viewing/analysis of the tree in Dendroscope.
+The outline of this step is to use the Ribosomal Database Project (RDP) to generate an alignment of the sequence with close relative and an outgroup, following by cleanup of the RDP headers, tree-building with FastTree and viewing/analysis of the tree in Dendroscope.
 
 **NCBI Submission**-This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank.  We also recommend allowing Genbank to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated.
 
