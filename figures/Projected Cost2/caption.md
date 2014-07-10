@@ -5,4 +5,4 @@ This assumes the purchase of a standard DNA extraction kit, good for 100 samples
 <sup>3</sup>PCR cleanup can be performed in a number of ways; gel extraction, beads, or columns for example.  Here we assume purchase of a standard column-based kit.  
 <sup>4</sup>Sanger sequencing cost is given as the price per reaction ($7 at our sequencing facility), times the forward and reverse reactions.  
 <sup>5</sup>This assumes the purchase of a 48-sample Nextera or TrueSeq kit from Illumina, however kits from other manufacterers can be cheaper.  
-<sup>6</sup>Our sequencing cost estimate assumes to purchase of an Illumina MiSeq run from a sequencing facility.
+<sup>6</sup>Our sequencing cost estimate assumes purchase of an Illumina MiSeq run from a sequencing facility.
