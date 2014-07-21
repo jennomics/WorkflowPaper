@@ -1,7 +1,6 @@
 Introduction.md
 figures/Slide1/Slide1.jpg
 /rocket.jae.pptx
-figures/workflow2/workflow2.jpg
 General Notes on Bioinformatics.md
 General notes on molecular and microbiology.md
 General notes on bacterial systematics.md
