@@ -1,1 +1,1 @@
-Replace this text with your caption
+\label{fig:Rocket} This figure illustrates all of the steps of the workflow. Short desescriptions of each step are listed to the side of the figure.
