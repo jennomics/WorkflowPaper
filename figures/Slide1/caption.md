@@ -1,1 +1,1 @@
-Figure 1
+Figure 1:  Overview of the workflow
