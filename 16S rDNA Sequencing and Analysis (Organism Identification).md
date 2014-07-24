@@ -18,13 +18,13 @@ This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) 
 After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (~1350bp).  
 
 ##Submit Samples for Sequencing
-Very few single-researcher labs maintain Sanger sequencing capacity. However, there are a number of DNA sequencing facilities (commercial and academic) that provide sequencing services for researchers. They will handle as few as 1 single sample, or will allow you to submit an unlimited number of samples, typically arrayed in 96-well plates.  You will typically provide both your PCR product as well as your PCR primers for sequencing.  Don't forget to submit forward (27F) and reverse (1391R) reactions for each sample. Each facility will have its own guidelines concerning DNA and primer concentration. Our lab uses the UC DNA Sequencing Facility-UC Davis
+Very few single-researcher labs maintain Sanger sequencing capacity. However, there are a number of DNA sequencing facilities (commercial and academic) that provide sequencing services for researchers. They will handle as little as a single sample, or will allow you to submit an unlimited number of samples, typically arrayed in 96-well plates.  You will typically provide both your PCR product as well as your PCR primers for sequencing.  Don't forget to submit forward (27F) and reverse (1391R) reactions for each sample. Each facility will have its own guidelines concerning DNA and primer concentration. Our lab uses the UC DNA Sequencing Facility-UC Davis
 http://dnaseq.ucdavis.edu. If a quick internet search does not reveal the presence of a Sequencing Facility near you, most sequencing centers will allow you to ship samples to them for sequencing.
 
 ##Sanger Sequence Processing
 Upon receiving Sanger reads from a sequencing facility, typically via e-mail, it is necessary to do some pre-processing before they can be analyzed.  These steps include quality trimming the reads, reverse complementing the reverse sequence, aligning the reads and generating a consensus sequence. There are very limited options for free software that allow the user to perform these steps. We recommend SeqTrace \cite{stucky2012seqtrace} for the user who wants to see the trace and process the sequences manually.
 
-We have also created a script that will do all of these steps automatically, but does not allow you to adjust any of the parameters The choice of our script (easy, little control) versus SeqTrace (more complex, more control) will depend on the user and the project. 
+We have also created a script that will do all of these steps automatically, but does not allow you to adjust any of the parameters. The choice of our script (easy, little control) versus SeqTrace (more complex, more control) will depend on the user and the project. 
 
 ##Install and run SeqTrace
 Download the program from
