@@ -15,7 +15,7 @@ File types used in data submission:
 First, create the .agp file 
 In the terminal, navigate to the directory containing your scaffolds file
 
-Run the fasta2agp.pl script included with A5 on the scaffold file outputted from the A5 assembly "my\_scaffolds.fasta". 
+Run the fasta2agp.pl script included with A5 on the scaffold file output by the A5 assembly "my\_scaffolds.fasta". 
 Syntax is: 
 
     perl fasta2agp.pl my_scaffolds.fasta > my_scaffolds.agp
