@@ -1,6 +1,6 @@
 #General Notes on Bioinformatics
 ##Command Line/Terminal Tutorial
-This workflow is written assuming that the user is using a computer running Mac OS or Linux.  It is possible to carry out many of the computational parts of this workflow in a Windows environment but getting these steps to work in Windows is outside the scope of this project.
+This workflow is written assuming that the user is using a computer running Mac OS or Linux.  It is also possible to carry out many of the computational parts of this workflow in a Windows environment but getting these steps to work in Windows is outside the scope of this project.
 
 Some parts of this workflow require the user to provide text instructions for software programs by using a command line interface. While potentially intimidating to computer novices, the use of command line interfaces is sometimes necessary (e.g., some programs do not have graphical interfaces) and is also sometimes much more efficient. To access the command line on a Mac open the Terminal program in the Utilities folder under Applications.
 
