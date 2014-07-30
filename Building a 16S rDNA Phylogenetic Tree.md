@@ -29,7 +29,7 @@ The goal of this section is to obtain a 16S alignment from RDP that can be used 
 6. Click the "+" next to the sequence, to add it to your cart
 7. Click on CLASSIFIER at the top of the page
 8. Click on "Do Classification With Selected Sequences" button. This will show you a hierarchical view of the classification of your sequence (from Phylum to Genus.) You will use this information to navigate to other sequences that you want to include in your alignment that you will use to build your phylogenetic tree. For example, Figure \ref{fig:RDP} shows the hierarchy for the _Tatumella_ 16S sequence. 
-8. Click on BROWSERS. We recommend openining BROWSERS in a new tab so that you can keep the hierarchy information handy.
+8. Click on BROWSERS. We recommend opening BROWSERS in a new tab so that you can keep the hierarchy information handy.
 9. Click on "Isolates" to select only isolates for further analysis.  Then click "Browse"
 10. Click on the + sign next to "Archaea outgroup." This will add an Archaeal sequence to your cart, which will be used to root your phylogenetic tree.
 11. If using the example sequence provided, click on "Proteobacteria", then Gammaproteobacteria, then "Enterobacteriales", then Enterobacteriaceae. This will take you to the Genus Tatumella, which currently has over 69 species in it. If the genus you are working with has too many sequences to analyze easily (for example, _Bacillus_ currently has >26000,) one way to reduce this number is to exclude the uncultured taxa in the database. To do this, scroll down to the Data Set Options and click on the "Isolates" button. Click "Refresh" and you will see that there are fewer sequences in the Genus. To reduce this number further, click on the "Type" Strain button (though if you do this you'll have to build a tree later for species identification since each species will only be represented once in the tree). As a worst-case scenario, you will need to manually select a subset of organisms to include in your alignment.
@@ -41,13 +41,13 @@ The goal of this section is to obtain a 16S alignment from RDP that can be used 
 
 The RDP alignment will have taxon names that most of the downstream software tools will not tolerate because they consist of special text characters. So, we have written a little Perl script (CleanupRDP.pl) that will remove those special characters and replace them with underscores. This script is included in the zip file of scripts on figshare(http://figshare.com/articles/Miscellaneous_Scripts_for_Workflow/1086285). To run CleanupRDP.pl, first move it to your Applications folder. Then, in a Terminal window, navigate to the directory that contains the RDP alignment that you've just downloaded. Then, type:
 
-    perl /Applications/CleanupRDP.pl -i RDP_alignment.fa -o RDP_alignemnt_clean.fa
+    perl /Applications/CleanupRDP.pl -i RDP_alignment.fa -o RDP_alignment_clean.fa
 
 ##Building the Tree with FastTree 
 
 There are two ways to get FastTree, which will be required for building the tree from your alignment.  The first is to jump ahead to section 10.1.4 and install Phylosift which contains a working version of FastTree.  In this case, you will simply call the program from the Phylosift directory with the following command (be sure the path to Phylosift is correct):
 
-    /phylosift/osx/FastTree -nt RDP_alignemnt_clean.fa > tree_file.tre
+    /phylosift/osx/FastTree -nt RDP_alignment_clean.fa > tree_file.tre
 
 
 The other option is to install FastTree directly, which is a bit more involved.
@@ -71,7 +71,7 @@ Once you have successfully downloaded and installed Xcode and the command line t
     
 Now, you should have a working version of FastTree. To build your tree, using the cleaned up RDP alignment, type the following (be sure the output name ends in ".tre" to ensure it will be recognized by Dendroscope):
 
-    /Applications/FastTree -nt RDP_alignemnt_clean.fa > tree_file.tre 
+    /Applications/FastTree -nt RDP_alignment_clean.fa > tree_file.tre 
 
 ##Viewing the Tree in Dendroscope
 Download and install Dendroscope.
