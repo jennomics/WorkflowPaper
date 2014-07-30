@@ -6,5 +6,5 @@ http://dx.doi.org/10.6084/m9.figshare.1064368)
 
 The sequencing and _de novo_ assembly of genomes has already yielded enormous scientific insight revolutionizing a wide range of fields, from epidemiology to ecology.   Our hope is that this workflow will help make this revolution more accessible to all scientists, as well as present educational opportunities for undergraduate researchers and classes.
  
-There are several excellent resources that focus on smaller portions of this entire process, usually assembly and/or annotation.   Examples include the Computational Geneomics Pipeline \cite{Kislyuk_2010}  and a "Beginner’s guide to comparative bacterial genome analysis" \cite{Edwards_2013} both of which start with already sequenced reads from a known organism.
+There are several excellent resources that focus on smaller portions of this entire process, usually assembly and/or annotation.   Examples include the Computational Genomics Pipeline \cite{Kislyuk_2010}  and a "Beginner’s guide to comparative bacterial genome analysis" \cite{Edwards_2013} both of which start with already sequenced reads from a known organism.
 
