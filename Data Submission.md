@@ -1,15 +1,15 @@
 #Data Submission
 This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
 
-To submit a genome, you must first creat a "BioProject" at NCBI.  When that is complete, a separate process is required to submit the genome sequence. Before submitting your genome, you will need to have available 4-5 files which are listed below. 
+To submit a genome, you must first create a "BioProject" at NCBI.  When that is complete, a separate process is required to submit the genome sequence. Before submitting your genome, you will need to have available 4-5 files which are listed below. 
 
 File types used in data submission:
 
 * AGP file (.agp).  This is a file required by NCBI to describe scaffolding (if applicable)
-* FASTA file (.fasta).  This is the standard filetype for sequence data, produced in this case by A5-miseq
+* FASTA file (.fasta).  This is the standard file type for sequence data, produced in this case by A5-miseq
 * FSA file (.fsa). Same as a FASTA file but with a different extension
-* SQN file (.sqn). The filetype for sequence data required by NCBI
-* SBT file (.sbt). This is a template filetype used by NCBI
+* SQN file (.sqn). The file type for sequence data required by NCBI
+* SBT file (.sbt). This is a template file type used by NCBI
 
 ##FASTA2AGP
 First, create the .agp file 
@@ -189,7 +189,7 @@ In the WebinDataUploader, in the blank area to the right of the Local Upload dir
 
 Select the file(s) containing the reads and click Upload. 
 
-(Note that paired-end data is required to be in two separate fastq files.  If your data came as one interleaved file, then the seperated fastq files can be found in the directory where the A5 assembly was performed as [project name].raw1\_p1.fastq.gz and [project name].raw1\_p2.fastq.gz )
+(Note that paired-end data is required to be in two separate fastq files.  If your data came as one interleaved file, then the separated fastq files can be found in the directory where the A5 assembly was performed as [project name].raw1\_p1.fastq.gz and [project name].raw1\_p2.fastq.gz )
 
 Note that the only acceptable file types for fastq files are gzip (.gz) and bzip (.bz2). To gzip files in the Terminal use the following syntax:
 
@@ -197,7 +197,7 @@ Note that the only acceptable file types for fastq files are gzip (.gz) and bzip
 
 After completion, return to EMBL (the new submission tab of the SRA Webin submission system) and select the Next button.   During this process, refreshing the page or navigating away from the page will reset the form and the information will be lost.
 
-Click Create a New Study. Fill in descriptions of the project and proceed to next tab. Select the appropriate metatdata format, or in most cases the ENL default sample checklist at the bottom.  Note that the default release date is three months from the current date, change this if the data should be released sooner.
+Click Create a New Study. Fill in descriptions of the project and proceed to next tab. Select the appropriate metadata format, or in most cases the ENL default sample checklist at the bottom.  Note that the default release date is three months from the current date, change this if the data should be released sooner.
 
 You should now be at the Sample page. Required fields are listed on the right and optional additional fields can be selected from the options on the right. Fill out the appropriate fields and click on Next.
 
