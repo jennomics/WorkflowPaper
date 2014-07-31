@@ -1,17 +1,17 @@
 #Building a 16S rDNA Phylogenetic Tree
 
-What _is_ this thing? At this point, you have an organism in pure culture, but you don't know what it is. If you found a creature crawling on the ground and
-wanted to identify (or classify) it, you might look at it's morphology and ask what it most _looks_ like. If it has six legs, you might guess it's some kind of
-insect. If it has hard outer wings folded over its back, you might guess that it's some kind of beetle. If it also had antler-style horns on its head, you might
-guess that it's some kind of stag beetle. If you don't have enough information available to guess what kind of stag beetle you have, then you have reached the
+What _is_ this thing? At this point, you have an organism in pure culture, but you do not know what it is. If you found a creature crawling on the ground and
+wanted to identify (or classify) it, you might look at it's morphology and ask what it most _looks_ like. If it has six legs, you might hypothesize it is some kind of
+insect. If it has hard outer wings folded over its back, you might hypothesize that it is some kind of beetle. If it also had antler-style horns on its head, you might
+hypothesize that it is some kind of stag beetle. If you do not have enough information available to hypothesize what kind of stag beetle you have, then you have reached the
 limit of *taxonomic resolution* for your creature. 
 
 With an unknown microbial species, the best way to identify it is to sequence one of its genes (most people
-use the 16S rRNA gene) and ask what _it_ most looks like. With animal classification, the key features to examine are things like legs and wings and horns; with microbial
+use the 16S rRNA gene) and ask what _it_ most looks like. With animal classification, commonly used key features are things like legs and wings and horns; with microbial
 classification, the key features to examine are the nucleotides in different positions in a DNA sequence. Fortunately, we have computer programs to help us make
 sense of the DNA sequence information. Our preferred approach to classifying microbial species is to place an unknown sequence in the context of a
 phylogenetic tree of known sequences. Building a phylogenetic tree from a 16S rRNA sequence is fairly straightforward, but the interpretation of the tree can be
-a bit of an art. Here, we attempt to guide you through both. However, some complicated cases will require consultation with an expert in the field of
+a bit complex. Here, we attempt to guide you through both. However, some complicated cases will require consultation with an expert in the field of
 phylogenetics or systematics.
 
 The outline of the workflow is to use the Ribosomal Database Project (RDP) to generate an alignment of the sequence with close relatives and an outgroup,
@@ -33,7 +33,7 @@ The goal of this section is to obtain a 16S alignment from RDP that can be used 
 9. Click on "Isolates" to select only isolates for further analysis.  Then click "Browse"
 10. Click on the + sign next to "Archaea outgroup." This will add an Archaeal sequence to your cart, which will be used to root your phylogenetic tree.
 11. If using the example sequence provided, click on "Proteobacteria", then Gammaproteobacteria, then "Enterobacteriales", then Enterobacteriaceae. This will take you to the Genus Tatumella, which currently has over 69 species in it. If the genus you are working with has too many sequences to analyze easily (for example, _Bacillus_ currently has >26000,) one way to reduce this number is to exclude the uncultured taxa in the database. To do this, scroll down to the Data Set Options and click on the "Isolates" button. Click "Refresh" and you will see that there are fewer sequences in the Genus. To reduce this number further, click on the "Type" Strain button (though if you do this you'll have to build a tree later for species identification since each species will only be represented once in the tree). As a worst-case scenario, you will need to manually select a subset of organisms to include in your alignment.
-12. Click on the + sign next to **genus** Tatumella to add all of those sequences to your cart.
+12. Click on the + sign next to **genus** _Tatumella_ to add all of those sequences to your cart.
 13. Click on "Sequence Cart" and confirm that your uploaded sequence, the outgroup sequence, and all of the other sequences you'd like to include in your tree are displayed.
 14. Click on "download," leave the download options as the defaults (fasta, aligned, uncorrected,) and then click on the appropriate download button. Save the file and then rename it to something informative.
 
