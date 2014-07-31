@@ -6,12 +6,12 @@ This section will take you through the basics of isolating, culturing, and stori
 Using a sterile cotton swab, wipe (i.e., "swab") the area you intend to sample for 10 to 15 seconds, as if you were trying to clean the area. Try to rotate the swab to ensure that all sides touch the surface. 
 
 ##Plate
-Gently (so as not to break the agar surface) streak the swab across the entire surface of an agar plate. Be sure to rotate the swab as you are doing so to ensure that all sides of the swab make contact with the plate. Incubate the plate at the desired temperature (in our case, usually 37 deg C or room temperature - but the desired temperature will depend on the project) for 1-3 days.
+Gently (so as not to break the agar surface) rub (aka "streak") the swab across the entire surface of an agar plate. Be sure to rotate the swab as you are doing so to ensure that all sides of the swab make contact with the plate. Incubate the plate at the desired temperature (in our case, usually 37 °C or room temperature - but the desired temperature will depend on the project) for 1-3 days.
 
 ##Dilution Streak (streaking for individual colonies) x2
-After incubation, choose desired colonies (we typically attempt to maximize the diversity of colony morphologies) and dilution streak them onto individual plates.
+After incubation, choose desired colonies (we typically attempt to maximize the diversity of colony morphologies) and dilution streak them onto individual plates. (I THINK DILUTION STREAKING NEEDS TO BE EXPLAINED)
 
 After growth to visible colonies, repeat the dilution streaking to help ensure purity of the culture.  Some organisms will only grow in tight association with others, and a mixed culture will prove difficult to work with and very difficult to sequence/assemble. 
 
 ##Liquid Culture
-After the second dilution streaking, a liquid culture is needed both for long-term storage and for DNA extraction. Pick a single colony from each dilution streak plate into 5 mls of culture media and grow for 1-3 days until cloudy. Once the liquid culture is ready, prepare a 10% final concentration glycerol stock for long-term storage at -80 deg C from 2 ml of the sample.
+After the second dilution streaking, a liquid culture is needed both for long-term storage and for DNA extraction. Pick a single colony from each dilution streak plate into 5 mls of culture media (IT MIGHT BE GOOD TO EXPLAIN THIS IN MORE DETAIL) and grow for 1-3 days until cloudy. Once the liquid culture is ready, prepare a 10% final concentration glycerol stock for long-term storage at -80 °C from 2 ml of the sample.
