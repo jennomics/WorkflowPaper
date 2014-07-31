@@ -21,10 +21,10 @@ following by cleanup of the RDP headers, tree-building with FastTree and viewing
 
 The goal of this section is to obtain a 16S alignment from RDP that can be used to build a tree. This procedure has the added benefit of providing an independent verification of the taxonomic assignment of your sequence based on the BLAST results.
 
-1. Go to rdp.cme.msu.edu 
+1. Go to [http://rdp.cme.msu.edu](http://rdp.cme.msu.edu) 
 2. Create an account 
 3. Click on my RDP/login 
-4. Upload the fasta file containing your 16s sequence 
+4. Upload the fasta file containing your 16S sequence 
 5. Assign it a group name (this is what the program will label your sequence/organism). Choose this carefully since that will be the name on the final tree. 
 6. Click the "+" next to the sequence, to add it to your cart
 7. Click on CLASSIFIER at the top of the page
