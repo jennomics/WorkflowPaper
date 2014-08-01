@@ -23,7 +23,7 @@ $ **cd ..**    			use to move up one directory
 
 $ **cd directory_name** 	use to move to that directory
 
-$ **cd ~**			use to move to the home directory	
+$ **cd ~**			use to move to the home directory of the current user	
 
 $ **grep "some pattern" file_name** displays lines that match the pattern you are looking for.   If a line contains the same character multiple times it will only be displayed once.
 
