@@ -87,7 +87,7 @@ Run
 
 For example:
 
-    ./phylosift search /Users/microBEnet/Desktop/Data-Genomes/Pantoea_Tatumella/tatumella/tatumella.final.scaffolds.fasta.contigs.fsa 
+    ./phylosift search /Users/microBEnet/Desktop/Data-Genomes/Pantoea_Tatumella/tatumella/tatumella.contigs.fasta 
 
 Note: The first time you run PhyloSift it has to download a marker gene database so it may take a few minutes.
 
