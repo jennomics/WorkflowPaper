@@ -25,7 +25,7 @@ eg:
     perl /Users/Madison/Desktop/a5_miseq_macOS_20140113/bin/fasta2agp.pl /Users/Madison/Desktop/a5_miseq_macOS_20140113/example/phiX.a5.final.scaffolds.fasta > phiX.a5.scaffolds.agp 
 
 
-If this runs successfully then you should see a both the FSA and .AGP files in your current directory.
+If this runs successfully then you should see a both the FSA and AGP files in your current directory.
 
 Important Note: NCBI considers a gap of less than 10 nucleotides to be "missing information" in a contig, not a gap between contigs (whereas A5 has no minimum gap size). Therefore NCBI requires that contigs separated by less than 10 nucleotides be merged. This script performs that merging, meaning that the number of contigs in the FSA file may be less than in your input file.  Therefore we recommend counting the contigs in the FSA file:
 
