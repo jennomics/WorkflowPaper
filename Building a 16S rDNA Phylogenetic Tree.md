@@ -39,13 +39,13 @@ The goal of this section is to obtain a 16S alignment from RDP that can be used 
 
 ##Clean up the RDP taxon names
 
-The RDP alignment will have taxon names that most of the downstream software tools will not tolerate because they consist of special text characters. So, we have written a little Perl script (CleanupRDP.pl) that will remove those special characters and replace them with underscores. This script is included in the zip file of scripts on figshare(http://figshare.com/articles/Miscellaneous_Scripts_for_Workflow/1086285). To run CleanupRDP.pl, first move it to your Applications folder. Then, in a Terminal window, navigate to the directory that contains the RDP alignment that you've just downloaded. Then, type:
+The RDP alignment will have taxon names that most of the downstream software tools will not tolerate because they consist of special text characters. So, we have written a little Perl script (CleanupRDP.pl) that will remove those special characters and replace them with underscores. This script is included in the zip file of scripts on figshare(http://figshare.com/articles/Miscellaneous_Scripts_for_Workflow/1086285). To run cleanup.pl, first move it to your Applications folder. Then, in a Terminal window, navigate to the directory that contains the RDP alignment that you've just downloaded. Then, type:
 
-    perl /Applications/CleanupRDP.pl -i RDP_alignment.fa -o RDP_alignment_clean.fa
+    perl /Applications/cleanup.pl -i RDP_alignment.fa -o RDP_alignment_clean.fa
 
 ##Building the Tree with FastTree 
 
-There are two ways to get FastTree, which will be required for building the tree from your alignment.  The first is to jump ahead to section 10.1.4 and install Phylosift which contains a working version of FastTree.  In this case, you will simply call the program from the Phylosift directory with the following command (be sure the path to Phylosift is correct):
+There are two ways to get FastTree, which will be required for building the tree from your alignment.  The first is to move to section 10.1.4 and install Phylosift which contains a working version of FastTree.  In this case, you will simply call the program from the Phylosift directory with the following command (be sure the path to Phylosift is correct):
 
     /phylosift/osx/FastTree -nt RDP_alignment_clean.fa > tree_file.tre
 
