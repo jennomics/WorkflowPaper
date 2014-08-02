@@ -61,7 +61,7 @@ Then, type:
 
     gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
 
-This compiling of FastTree requires a software tool called gcc (The Gnu Compiler Collection, if you want to know). If your attempt to compile FastTree with the instructions above fails, the most likely reason is that you do not know gcc. You can download and install gcc from Xcode here https://developer.apple.com/downloads/index.action?q=xcode
+This compiling of FastTree requires a software tool called gcc (the Gnu Compiler Collection, if you want to know - see [http://gcc.gnu.org](http://gcc.gnu.org) for more detail). If your attempt to compile FastTree with the instructions above fails, the most likely reason is that you do not know gcc. You can download and install gcc from Xcode here https://developer.apple.com/downloads/index.action?q=xcode
 
 In order to download Xcode you will need to register as a developer with Apple which takes only a couple of minutes. After you register, click on the apple next to "Developer" at the top of the page. Then, click on the Xcode download link, which will ultimately take you to the Mac App Store, where you can follow the instructions to install Xcode. Once it is installed, open the program and open preferences (under the Xcode tab). Click on the downloads option and install the command line tools. 
 
