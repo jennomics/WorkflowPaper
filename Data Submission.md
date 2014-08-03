@@ -191,7 +191,7 @@ Select the file(s) containing the reads and click Upload.
 
 (Note that paired-end data is required to be in two separate fastq files.  If your data came as one interleaved file, then the separated fastq files can be found in the directory where the A5 assembly was performed as [project name].raw1\_p1.fastq.gz and [project name].raw1\_p2.fastq.gz )
 
-Note that the only acceptable file types for fastq files are gzip (.gz) and bzip (.bz2). To gzip files in the Terminal use the following syntax:
+Note that the only acceptable file types for submission are gzip (.gz) and bzip (.bz2). To gzip files in the Terminal use the following syntax:
 
     gzip [filename] 
 
