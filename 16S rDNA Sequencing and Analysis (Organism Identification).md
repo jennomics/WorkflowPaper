@@ -73,7 +73,7 @@ click ok
 6. Under Sequences go to Generate Finished Sequences and click on for all trace files. (you will need to redo this every time you change the project settings).
 7. To view your consensus sequence, click on the read pair group and then click on the magnifying glass at the top of the page. You should see something like Figure \ref{fig:chromatogram}.
 8. The Trace View shows the quality scores, the chromatogram display, and the raw base calls from both the forward and reverse reads, as well as the consensus sequence. The consensus sequence is the middle list of nucleotides. If the program is giving you a string of Ns where your forward and reverse reads do not overlap, you need to decrease the Min confidence score.
-9. To export the consensus from the trace view, go to Sequence, hover on Export Sequences  and select Export Sequences from Selected Trace Files. This will create a file containing the consensus sequence, which can then be used for analysis such as for searching for closely related sequences using the BLAST program (ADD CITATION) which can be used to identify the organism.
+9. To export the consensus from the trace view, go to Sequence, hover on Export Sequences  and select Export Sequences from Selected Trace Files. This will create a file containing the consensus sequence, which can then be used for analysis such as for searching for closely related sequences using the BLAST program \cite{Altschul_1990} which can be used to identify the organism.
 
 ##Custom Script to Create a Consensus Sequence (merge\_sanger\_16s.pl)
 ###Download/Install
