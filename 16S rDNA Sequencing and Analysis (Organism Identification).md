@@ -78,7 +78,7 @@ click ok
 ##Custom Script to Create a Consensus Sequence (merge\_sanger\_16s.pl)
 ###Download/Install
 1. Create a new folder called Sanger_seq on your desktop
-2. Download the zip file, containing three scripts (merge\_sanger\_16s.pl, CleanupRDP.pl and subsample\_reads.pl) from http://figshare.com/articles/Miscellaneous_Scripts_for_Workflow/1086285
+2. Download the zip file, containing three scripts (merge\_sanger\_16s.pl, cleanup.pl and subsample\_reads.pl) from \cite{47b41cbb-81bb-44cb-8430-1218ddad365c}
 3. Open the zip file and move the merge\_sanger\_16s.pl file to the new Sanger_seq folder
 
 ###MUSCLE
