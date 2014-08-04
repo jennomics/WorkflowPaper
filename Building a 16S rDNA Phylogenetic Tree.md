@@ -45,7 +45,7 @@ The RDP alignment will have taxon names that most of the downstream software too
 
 ##Building the Tree with FastTree 
 
-There are two ways to get FastTree, which will be required for building the tree from your alignment.  The first is to move to section 10.1.4 and install Phylosift which contains a working version of FastTree.  In this case, you will simply call the program from the Phylosift directory with the following command (be sure the path to Phylosift is correct):
+There are two ways to get FastTree, which will be required for building the tree from your alignment.  The first is to use Phylosift (installed in 9.1.4) which contains a working version of FastTree.  In this case, you will simply call the program from the Phylosift directory with the following command (be sure the path to Phylosift calls the correct version):
 
     /phylosift/osx/FastTree -nt RDP_alignment_clean.fa > tree_file.tre
 
