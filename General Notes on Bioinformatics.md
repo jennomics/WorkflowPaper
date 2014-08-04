@@ -7,11 +7,10 @@ Some parts of this workflow require the user to provide text instructions for so
 When this application is launched a new window will appear.  This is known as a "terminal" or a "terminal window." In the terminal window, you can interact with your computer without using a mouse. Many popular programs have a GUI (Graphical User Interface) but some programs used in this workflow will not. So, instead of double-clicking to make a program run, you will type a command in the terminal window. We will walk you through how to run all of the programs required for this workflow, but you must first acquire a basic familiarity with how to interact with your computer through the terminal window. Below is a list of commands that will be required to use this workflow. There are many tutorials available to help you get started. 
 
 For more information on operating in the terminal, check out
-this video:
-https://www.youtube.com/watch?v=zRZT4nQP3sE
+this informative video: \cite{Coil_2010}
 
-And this interactive tutorial:
-http://www.ee.surrey.ac.uk/Teaching/Unix/
+
+And this interactive tutorial: \cite{Stonebank_2001}
 
 
 ##Summary of commands and terms
