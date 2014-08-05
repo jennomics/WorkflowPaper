@@ -8,7 +8,7 @@ Follow the protocol or kit instructions provided by the manufacturer and then pr
 
 ##Direct PCR (if not extracting DNA)
 
-Centrifuge 1 ml of the overnight culture until the cells form a pellet at the bottom of the tube (about 5 minutes at 10,000 g), pour off the liquid on top (a.k.a. the supernatant) and resuspend in 100\(\mu\)l of sterile DNAase-free water. Incubate the samples at 100 deg C for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below.
+Centrifuge 1 ml of the overnight culture until the cells form a pellet at the bottom of the tube (about 5 minutes at 10,000 g), pour off the liquid on top (a.k.a. the supernatant) and resuspend in 100\(\mu\l) of sterile DNAase-free water. Incubate the samples at 100 deg C for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below.
 
 ##PCR reaction
 This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial (and many archaeal) 16S rRNA gene. Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of 54 deg C and an extension at 72 deg C of 90 seconds. Do not forget to include positive (any sample containing bacterial genomic DNA) and negative (e.g., just water) controls. 
