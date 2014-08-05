@@ -82,10 +82,9 @@ click ok
 3. Open the zip file and move the merge\_sanger\_16s.pl file to the new Sanger_seq folder
 
 ###MUSCLE
-In order to run this script you will need to download MUSCLE \cite{Edgar_2004} from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your bin directory via the terminal with the following syntax(you will need admin privileges on your machine:
+In order to run this script you will need to download MUSCLE \cite{Edgar_2004} from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your bin directory via the terminal with the following syntax (you will need admin privileges on your machine:
 
-sudo cp /Downloads/muscle /usr/bin
-
+    sudo cp /Downloads/muscle /usr/bin
 
 ###Convert Files from .abi to . fastq
 
