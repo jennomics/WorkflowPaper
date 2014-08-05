@@ -28,4 +28,3 @@ Data Submission.md
 Discussion.md
 figures/Projected Cost2/Projected Cost2.png
 Projected Cost2.docx
-Projected Costs1.xlsx
