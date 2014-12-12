@@ -163,6 +163,12 @@ If you do have scaffolding:
 
 Click "Submit" and you're done! You will receive a series of e-mails from NCBI confirming your submission and notifying you of any problems. Once the submission is pre-processed you'll get an Accession Number. Note however that the data will not be released until final processing.  The Accession Number is not acceptable for publication until after the final release of the data.
 
+Potential problems with data submission:
+
+Sometimes contigs that are submitted belong to contaminating organisms, or the phiX that is often used in sequencing.  In this case you will recieve an e-mail from NCBI telling you which contigs to remove.   It's important to note that after removing contigs, you need to rename all of your remaining contigs so as to not be missing numbers in the sequence.  A simple command for this is below (test.fa is the name of your cleaned file and test2.fa is the name you want the renumbered file to have):
+
+    cat test.fa | awk '{print (NR%2==1) ? ">contigs_" ++i : $0}' > test2.fa
+
 **Submitting Raw Reads to ENA/SRA**
 
 We recommend using Safari or Firefox for this step, in our hands Chrome can have issues with the Java requirements for uploading files.
