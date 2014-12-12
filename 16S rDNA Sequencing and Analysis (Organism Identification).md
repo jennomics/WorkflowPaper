@@ -20,11 +20,27 @@ Very few single-researcher labs maintain Sanger sequencing capacity. However, th
 http://dnaseq.ucdavis.edu. If a quick internet search does not reveal the presence of a Sequencing Facility near you, most sequencing centers will allow you to ship samples to them for sequencing.
 
 ##Sanger Sequence Processing
-Upon receiving Sanger reads from a sequencing facility, typically via e-mail, it is necessary to do some pre-processing before they can be analyzed.  These steps include quality trimming the reads, reverse complementing the reverse sequence, aligning the reads and generating a consensus sequence. There are very limited options for free software that allow the user to perform these steps. We recommend SeqTrace \cite{stucky2012seqtrace} for the user who wants to see the trace and process the sequences manually.
+Upon receiving Sanger reads from a sequencing facility, typically via e-mail, it is necessary to do some pre-processing before they can be analyzed.  These steps include quality trimming the reads, reverse complementing the reverse sequence, aligning the reads, generating a consensus sequence, and converting to FASTA format. There are very limited options for free software that allow the user to perform these steps. 
 
-We have also created a script that will do all of these steps automatically, but does not allow you to adjust any of the parameters. The choice of our script (easy, little control) versus SeqTrace (more complex, more control) will depend on the user and the project. 
+In this workflow we recommend using an automated pipeline available at the Ribosomal Database Project (REF) if working with a large number of sequences.   This pipeline only provides a rough view, since it doesn't complement or align the reads, it simply quality trims them and outputs the data in a format that can be fed directly to the BLAST program at NCBI (REF).  This will at least give an idea of what genera, and sometimes which species, each sample belongs to.  We then recommend processing samples of interest using SeqTrace \cite{stucky2012seqtrace} which allows the user to see the trace, process the sequences manually, and a get a longer, more accurate sequence for analysis.
 
-##Install and run SeqTrace
+We have also created a script that will perform the same steps at SeqTrace automatically, but does not allow you to adjust any of the parameters. The choice of our script (easy, little control) versus SeqTrace (more complex, more control) will depend on the user and the project.
+
+##RDP Sanger pipeline
+
+The RDP Sanger analysis pipeline can be found at the following URL: (https://rdp.cme.msu.edu/login/pipeline/libSummary). 
+
+This pipeline allows you to upload one zipped folder containing multiple abi traces. It cleans and processes the sequences and generates a FASTA file of the processed sequences; which can then be uploaded to BLAST and analyzed. This allows you to quickly screen your samples before running the files through the more time consuming SeqTrace analysis which will reverse complement and align the reads to generate a consensus sequence.
+
+ After signing in to (https://rdp.cme.msu.edu/login/pipeline/libSummary) you will be on the Library Run Summary page. Click on the Create New Run tab near the top of the page. Select the appropriate 16s rRNA gene (Archaea or Bacteria depending on your sample) name your library and choose a  library name abbreviation and select any vector (this pipeline assumes cloned PCR fragments but will work fine regardless of what you select here). Select the Upload the data without well mapping button at the bottom of the page. You will now be directed to the Data Loader page, choose a zipped folder containing the abi traces you wish to analyze and click Load Data (to create the folder, put all of the abi traces you are working with into a folder, right click on the folder and select Compress “folder name”—if you downloaded the files as a group from your sequencing facility they may already be in a zipped folder).
+
+When the pipeline is finished, you will be directed to click a link and open a new window containing the library run stats. Select the Download Raw Sequence button. Navigate to BLAST (http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and select the Choose File button underneath the area for the FASTA sequence. Select the file you just downloaded from the library run stats page. We recommend checking the box to exclude Uncultured/environmental sample sequences then click BLAST. If you are working with a large number of FASTA sequences it may take a few minutes. When the BLAST is complete you can cycle through the sequences you blasted using the pull down menu to the right of the Results for: heading. 
+
+
+##SeqTrace
+
+We recommend using SeqTrace first if only working with a couple of sequences, but if working with a large batch it might be easier to screen the samples using the RDP Sanger pipeline above and only using SeqTrace for samples of interest.
+
 Download the program from
 https://code.google.com/p/seqtrace/downloads/list
 
@@ -76,6 +92,9 @@ click ok
 9. To export the consensus from the trace view, go to Sequence, hover on Export Sequences  and select Export Sequences from Selected Trace Files. This will create a file containing the consensus sequence, which can then be used for analysis such as for searching for closely related sequences using the BLAST program \cite{Altschul_1990} which can be used to identify the organism.
 
 ##Custom Script to Create a Consensus Sequence (merge\_sanger\_16s.pl)
+
+This custom script is for users who prefer to quickly trim and align their sequences.  It is to be used in place of SeqTrace, with our without having pre-screened samples using the RDP Sanger pipeline described above.
+
 ###Download/Install
 1. Create a new folder called Sanger_seq on your desktop
 2. Download the zip file, containing three scripts (merge\_sanger\_16s.pl, cleanup.pl and subsample\_reads.pl) from \cite{47b41cbb-81bb-44cb-8430-1218ddad365c}
