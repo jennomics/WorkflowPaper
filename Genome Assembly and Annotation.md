@@ -103,7 +103,7 @@ Open the marker\_summary.txt file in the blastDir
 
 The DNGNGWU0001-00040 markers represent 37 highly conserved bacterial genes, if one is missing it won't show up as a zero, it is necessary to manually verify the list. Most of the genes should only appear once. An occasional 2 is fine, but if all/a majority of the genes appear twice or even three times you have most likely sequenced multiple bacteria together. Additionally check to make sure there is no 18S RNA (at the top of the list) to ensure your sample has not been contaminated with a eukaryote (e.g. yeast). 
 
-Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift analysis so do not be concerned if they are not listed.
+Important Note: Markers 4, 8 and 38 are no longer included in the Phylosift analysis so do not be concerned if they are not listed.  Conversely, Marker 13 is sometimes present in multiple copies and this is not a cause for concern.
 
 ##Annotation
 ###Options
