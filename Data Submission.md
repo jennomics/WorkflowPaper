@@ -1,7 +1,19 @@
 #Data Submission
 This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
 
-To submit a genome, you must first create a "BioProject" at NCBI.  When that is complete, a separate process is required to submit the genome sequence. Before submitting your genome, you will need to have available 4-5 files which are listed below. 
+Before going any further you must decide if you are submitting contigs or scaffolds.  Because recent versions of A5 have very good contig generation, often scaffolding doesn't prove much additional information.   For example a genome with 35 contigs in 30 scaffolds should probably be submitted as contigs only.   Submitting scaffolds is more complicated than submitting contigs, instructions for both are given below (scaffolding instructions are in italics).
+
+To submit a genome, you must first create a "BioProject" at NCBI.  When that is complete, a separate process is required to submit the genome sequence. 
+
+##Submitting contigs only
+Use this section if submitting only contigs, presumably in FASTA format
+
+STUFF HERE
+
+##Submitting scaffolds
+Only use this section if you are submitting scaffolds, in most cases assembly with A5 will render this step uneccessary.
+
+Before submitting your scaffolded genome, you will need to have available 4-5 files which are listed below. 
 
 File types used in data submission:
 
@@ -165,7 +177,7 @@ Click "Submit" and you're done! You will receive a series of e-mails from NCBI c
 
 Potential problems with data submission:
 
-Sometimes contigs that are submitted belong to contaminating organisms, or the phiX that is often used in sequencing.  In this case you will recieve an e-mail from NCBI telling you which contigs to remove.   It's important to note that after removing contigs, you need to rename all of your remaining contigs so as to not be missing numbers in the sequence.  A simple command for this is below (test.fa is the name of your cleaned file and test2.fa is the name you want the renumbered file to have):
+Sometimes contigs that are submitted belong to contaminating organisms, or to the phiX that is often used in sequencing.  In this case you will recieve an e-mail from NCBI telling you which contigs to remove.   It's important to note that after removing contigs, you need to rename all of your remaining contigs so as to not be missing numbers in the sequence.  A simple command for this is below (test.fa is the name of your cleaned file and test2.fa is the name you want the renumbered file to have):
 
     cat test.fa | awk '{print (NR%2==1) ? ">contigs_" ++i : $0}' > test2.fa
 
