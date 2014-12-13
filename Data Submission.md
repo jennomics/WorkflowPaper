@@ -1,14 +1,12 @@
 #Data Submission
 This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
 
-Before going any further you must decide if you are submitting contigs or scaffolds.  Because recent versions of A5 have very good contig generation, often scaffolding doesn't prove much additional information.   For example a genome with 35 contigs in 30 scaffolds should probably be submitted as contigs only.   Submitting scaffolds is more complicated than submitting contigs, instructions for both are given below (scaffolding instructions are in italics).
-
-To submit a genome, you must first create a "BioProject" at NCBI.  When that is complete, a separate process is required to submit the genome sequence. 
+Before going any further you must decide if you are submitting contigs or scaffolds.  Because recent versions of A5 have very good contig generation, often scaffolding doesn't prove much additional information.   For example a genome with 35 contigs in 30 scaffolds should probably be submitted as contigs only.   Submitting scaffolds is significantly more complicated than submitting contigs, instructions for both are given below.
 
 ##Submitting contigs only
 Use this section if submitting only contigs, presumably in FASTA format
 
-Now, navigate to http://www.ncbi.nlm.nih.gov. Create an account and/or login. Then, create a BioProject at NCBI by navigating to https://submit.ncbi.nlm.nih.gov/subs/bioproject/ and clicking on "New submission." Fill in the personal information for the submitter.
+Navigate to http://www.ncbi.nlm.nih.gov. Create an account and/or login. Then, create a BioProject at NCBI by navigating to https://submit.ncbi.nlm.nih.gov/subs/bioproject/ and clicking on "New submission." Fill in the personal information for the submitter.
 
 Below, in italics are the responses that we typically give for a genome sequencing project.
 
@@ -75,20 +73,15 @@ Don’t check the box stating, “Genome assembly structured comment is in the c
 + Isolation source
 + Files
 + Select _We have files for traditional split contigs OR gapped sequences_ 
-+ Select _AS.1 (.sqn)___ and upload your .sqn file
-+“Do you have AGP files that assemble the split contigs into scaffolds and/or chromosomes, OR assemble the gapped sequences into chromosomes?” If you have scaffolds that are not identical to your contigs select yes, if not select no and continue onto the next section
-
-If you do have scaffolding:
-
-+ “Do you have an AGP file for unplaced scaffolds built from the split contigs (these are scaffolds without chromosome or plasmid information)?” _Yes_ -upload the AGP file
-+ “Are there also AGP files that assemble chromosomes, plasmids and/or unlocalized scaffolds?” _No_
-+ “Did you annotate the scaffolds or chromosomes that are assembled in the AGP files (not gapped submissions)?” _No_
++ Select _ **FIGURE THIS OUT**
 + "Bacteria is available from" _If the bacteria is available in a culture collection, feel free to indicate where. We recommend submission of sequenced strains to a culture collection if possible._
 + Source DNA is available from-_See above_
 
 -Check the box below to annotate this prokaryotic genome in the NCBI prokaryotic annotation pipeline before being released. This will allow NCBI to use their PGAAP pipeline to annotate the genome, and this annotation will be automatically attached to the project.
 
 **Files**
+
+CHECK ALL OF THIS
 
 + Click on “We have files for contigs”
 + Did you assemble the contigs or other components into scaffolds and/or chromosomes? _Yes_
@@ -144,7 +137,7 @@ Important Note: If after running the fasta2agp.pl script and counting the contig
 **Create a SBT template**
 Create a SBT template file at NCBI 
 http://www.ncbi.nlm.nih.gov/WebSub/template.cgi
-The BioProject # is the Bioproject ID starting with "PRJNA" which you received in the previous step, BioSample can be left blank
+The BioProject # is the Bioproject ID starting with "PRJNA" which you received above, BioSample can be left blank
 
 When you click create the template, it will automatically download to your computer as template.sbt. We recommend immediately renaming the file to the appropriate project.
 
@@ -179,6 +172,7 @@ The program will output the necessary files into the directory you created earli
 
 (ensure no errors were generated by opening the errorsummary.val file and making sure it is blank, or listing the directory contents ($ ls –lh) to ensure it has zero bytes)
 
+Once these files are created, submission is similar to that for contigs.  However, you will have to specify that you are using **????????** and to upload the .agp file in addition to the .sqn file.
 
 
 **Submitting Raw Reads to ENA/SRA**
