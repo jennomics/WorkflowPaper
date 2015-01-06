@@ -28,6 +28,8 @@ We have also created a script that will perform the same steps at SeqTrace autom
 
 ##RDP Sanger pipeline
 
+_(recommended as a starting place, or for many sequences)_
+
 The RDP Sanger analysis pipeline can be found at the following URL: (https://rdp.cme.msu.edu/login/pipeline/libSummary). 
 
 This pipeline allows you to upload one zipped folder containing multiple abi traces. It cleans and processes the sequences and generates a FASTA file of the processed sequences; which can then be uploaded to BLAST and analyzed. This allows you to quickly screen your samples before running the files through the more time consuming SeqTrace analysis which will reverse complement and align the reads to generate a consensus sequence.
@@ -39,7 +41,7 @@ When the pipeline is finished, you will be directed to click a link and open a n
 
 ##SeqTrace
 
-We recommend using SeqTrace first if only working with a couple of sequences, but if working with a large batch it might be easier to screen the samples using the RDP Sanger pipeline above and only using SeqTrace for samples of interest.
+_We recommend using SeqTrace first if only working with a couple of sequences, but if working with a large batch it might be easier to screen the samples using the RDP Sanger pipeline above and only using SeqTrace for samples of interest._
 
 Download the program from
 https://code.google.com/p/seqtrace/downloads/list
@@ -93,7 +95,7 @@ click ok
 
 ##Custom Script to Create a Consensus Sequence (merge\_sanger\_16s.pl)
 
-This custom script is for users who prefer to quickly trim and align their sequences.  It is to be used in place of SeqTrace, with our without having pre-screened samples using the RDP Sanger pipeline described above.
+_This custom script is for users who prefer to quickly trim and align their sequences.  It is to be used in place of SeqTrace, with or without having pre-screened samples using the RDP Sanger pipeline described above._
 
 ###Download/Install
 1. Create a new folder called Sanger_seq on your desktop
