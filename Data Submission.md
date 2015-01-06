@@ -73,21 +73,12 @@ Don’t check the box stating, “Genome assembly structured comment is in the c
 + Isolation source
 + Files
 + Select _We have files for traditional split contigs OR gapped sequences_ 
-+ Select _ **FIGURE THIS OUT**
-+ "Bacteria is available from" _If the bacteria is available in a culture collection, feel free to indicate where. We recommend submission of sequenced strains to a culture collection if possible._
-+ Source DNA is available from-_See above_
++ Select _ "FASTA", upload the files
++ Select "No" for the question about scaffolds
++ "Is any sequence a complete chromosome?" _No_
++ "Does any sequence belong to a plasmid" _No_
 
 -Check the box below to annotate this prokaryotic genome in the NCBI prokaryotic annotation pipeline before being released. This will allow NCBI to use their PGAAP pipeline to annotate the genome, and this annotation will be automatically attached to the project.
-
-**Files**
-
-CHECK ALL OF THIS
-
-+ Click on “We have files for contigs”
-+ Did you assemble the contigs or other components into scaffolds and/or chromosomes? _Yes_
-+ Do you have unplaced scaffolds (scaffolds without chromosome or plasmid information)? _Yes_-upload AGP file
-+ Did you assemble chromosomes, plasmids and/or unlocalized scaffolds? _No_
-+ Do you have sequence files for scaffolds and/or chromosomes and/or plasmids? _No_
 
 Click "Submit" and you're done! You will receive a series of e-mails from NCBI confirming your submission and notifying you of any problems. Once the submission is pre-processed you'll get an Accession Number. Note however that the data will not be released until final processing.  The Accession Number is not acceptable for publication until after the final release of the data.
 
@@ -98,7 +89,7 @@ Sometimes contigs that are submitted belong to contaminating organisms, or to th
     cat test.fa | awk '{print (NR%2==1) ? ">contigs_" ++i : $0}' > test2.fa
 
 ##Submitting scaffolds
-Only use this section if you are submitting scaffolds, in most cases assembly with A5 will render this step uneccessary.  Many of the steps are the same as for submitting contigs, only the diferences are shown here.
+_**Only use this section if you are submitting scaffolds**, in most cases assembly with A5 will render this step uneccessary.  Many of the steps are the same as for submitting contigs, only the diferences are shown here._
 
 Before submitting your scaffolded genome, you will need to have available 4-5 files which are listed below. 
 
