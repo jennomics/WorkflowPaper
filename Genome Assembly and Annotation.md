@@ -72,8 +72,9 @@ A5-miseq reports three depth of coverage statistics which can be used to assess 
 A separate metric of the base call quality is also reported by A5-miseq as "bases >= Q40". Following assembly, A5-miseq realigns the reads to the assembled sequence and estimates the accuracy of the nucleotide called at each site in the assembly. These accuracies are provided as PHRED quality scores \cite{green2009phrap}, which represent log-scaled probabilities of accuracy. For example a PHRED score of 20 indicates a 99% chance of the correct base, while Q30 and Q40 indicate 99.9% and 99.99% probabilities of the correct base being called. A5-miseq reports the number of assembly bases called with at least Q40.
 
 ###Verification of 16S Sequence
-Follow the steps described in Section 11, "Making a Phylogenetic Tree" for obtaining and performing a BLAST search of the full length 16s sequence.
+Follow the steps described in Sections 10-11 to obtain the 16S sequence from the assembly, and verify that what you sequenced is what you were expecting.
 
+###Assessing Completeness with Phylosift
 PhyloSift:
 Navigate to 
 http://phylosift.wordpress.com
