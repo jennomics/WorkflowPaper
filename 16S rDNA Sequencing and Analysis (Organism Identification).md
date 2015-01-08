@@ -40,7 +40,7 @@ When the pipeline is finished, you will be directed to click a link and open a n
 
 ##SeqTrace
 
-_We recommend using SeqTrace first if only working with a couple of sequences, but if working with a large batch it might be easier to screen the samples using the RDP Sanger pipeline above and only using SeqTrace for samples of interest._
+_We recommend using SeqTrace first if only working with a couple of sequences, if working with a large batch it might be easier to screen the samples using the RDP Sanger pipeline above and only using SeqTrace for samples of interest._
 
 Download the program from
 https://code.google.com/p/seqtrace/downloads/list
