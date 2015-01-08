@@ -1,3 +1,3 @@
 ##Acknowledgements##
 
-The authors would like to thank the many people who contributed to this workflow by field-testing various sections;  Makayla Betts, Camilla Dayrit, Andrew Stump, Muntaha Samad, Henna Hundal, Cassie Ettinger, Hannah Holland-Moritz.  Funding for this project was provided by the Alfred P. Sloan Foundation through a grant to J. A. Eisen as part of their "Microbiology of the Built Environment" program.
+The authors would like to thank the many people who contributed to this workflow by field-testing various sections;  Makayla Betts, Camilla Dayrit, Andrew Stump, Muntaha Samad, Henna Hundal, Cassie Ettinger, and Hannah Holland-Moritz.  Funding for this project was provided by the Alfred P. Sloan Foundation through a grant to J. A. Eisen as part of their "Microbiology of the Built Environment" program.
