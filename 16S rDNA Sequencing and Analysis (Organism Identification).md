@@ -66,7 +66,7 @@ After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace m
 
 Open a Terminal window and type:
 
-    ./Applications/seqtrace-0.9.0/seqtrace.py
+    /Applications/seqtrace-0.9.0/seqtrace.py
 
 This syntax will only work if the SeqTrace folder’s name is seqtrace-0.9.0, if you saved it under a different name you will need to replace seqtrace-0.9.0 with the name of that folder
 
@@ -105,7 +105,7 @@ _This custom script is for users who prefer to quickly trim and align their sequ
 ###MUSCLE
 In order to run this script you will need to download MUSCLE \cite{Edgar_2004} from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your bin directory via the terminal with the following syntax (you will need to know your admin password to do this):
 
-    sudo cp /Downloads/muscle /usr/bin
+    sudo cp ~/Downloads/muscle /usr/bin
 
 ###Convert Files from .abi to . fastq
 
