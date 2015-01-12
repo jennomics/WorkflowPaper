@@ -3,7 +3,7 @@
 
 This workflow assumes a basic knowledge of molecular biology and "sterile technique" (methods for carrying out lab experiments without contamination from living microorganisms). The starting point is the collection of microbes from a surface with a swab. We will cover the steps necessary to take a sample through plating, dilution streaking, overnight growth, creating a glycerol stock, 16S rDNA PCR, and preparation for Sanger sequencing to determine the identity of your bacterial or archaeal isolate.  
 
-Throughout the "Isolation" section we refer to "agar" and "culture media". The choice of media will depend on the goals of the particular project. Some factors to consider when selecting media and conditions for growth include: 
+Throughout the "Isolation" section we refer frequently to "media" and "culture media".  This is in reference to the type of substrate (sometimes liquid, sometimes a gel) used to grow microbes in the lab. The choice of media will depend on the goals of the particular project. Some factors to consider when selecting media and conditions for growth include: 
 1. What type of organism do you want to isolate?
 
 2. Are there types of organisms (e.g., pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at 37 °C will often result in the isolation of pathogens.
