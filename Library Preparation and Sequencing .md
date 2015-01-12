@@ -24,9 +24,9 @@ Coverage (read depth) is the average number of reads representing a given nucleo
     
 To downsample the data navigate to the directory you just created (in the terminal) and use the following command
 
-    /sub_sample_reads file1 file2 #_reads_to_keep output_file_name  
+    ./subsample_reads.pl file1 file2 #_reads_to_keep output_file_name  
 for example   
 
-    /Users/Madison/Desktop/sub_sample/sub_sample_reads.pl test_1.fq test_2.fq 250 my_reads.fastq  
+    ./subsample_reads.pl test_1.fq test_2.fq 250 my_reads.fastq  
     
 For further directions and documentation you can view the script on github  https://github.com/gjospin/scripts/blob/master/subsample_reads.pl
