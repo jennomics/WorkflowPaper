@@ -1,7 +1,7 @@
 
 #General notes on molecular and microbiology
 
-This workflow assumes a basic knowledge of molecular biology and "sterile technique" (methods for carrying out lab experiments without contamination from living microorganisms). The starting point is the collection of microbes from a surface with a swab. We will cover the steps necessary to take a sample through plating, dilution streaking, overnight growth, creating a glycerol stock, 16S rDNA PCR, and preparation for Sanger sequencing to determine the identity of your bacterial or archaeal isolate.  
+This workflow assumes a basic knowledge of molecular biology and sterile technique (methods for carrying out lab experiments without contamination from living microorganisms). The starting point is the collection of microbes from a surface with a swab. We will cover the steps necessary to take a sample through plating, dilution streaking, overnight growth, creating a glycerol stock, 16S rDNA PCR, and preparation for Sanger sequencing to determine the identity of your bacterial or archaeal isolate.  
 
 Throughout the "Isolation" section we refer frequently to "media" and "culture media".  This is in reference to the type of substrate (sometimes liquid, sometimes a gel like material such as agar) used to grow microbes in the lab. The choice of media will depend on the goals of the particular project. Some factors to consider when selecting media and conditions for growth include: 
 
