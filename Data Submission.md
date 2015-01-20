@@ -1,14 +1,14 @@
 #Data Submission
-This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome themselves, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well.  This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
+This section describes how to submit contigs and scaffolds (if applicable) as a Whole Genome Shotgun (WGS) submission to Genbank. We also recommend allowing NCBI to annotate the genome, since submitting RAST annotations to Genbank can be prohibitively complicated. The genomes are automatically shared with the DNA Data Bank of Japan (DDBJ) and the European Molecular Biology Laboratory (EBML). In addition, genomes from Genbank are automatically pulled into the Integrated Microbial Genomes (IMG) database hosted at the Joint Genome Institute (JGI), and are annotated there as well. This section also describes how to submit the raw reads, in this case we use the European Nucleotide Archive (ENA) for ease of use but the reads will be automatically incorporated into the Short Read Archive (SRA) at NCBI as well.
 
-Before going any further you must decide if you are submitting contigs or scaffolds.  Because recent versions of A5 have very good contig generation, often scaffolding doesn't prove much additional information.   For example a genome with 35 contigs in 30 scaffolds should probably be submitted as contigs only.   Submitting scaffolds is significantly more complicated than submitting contigs, instructions for both are given below.
+Before going any further you must decide if you are submitting contigs or scaffolds.  Because recent versions of A5 have very good contig generation, often scaffolding doesn't prove much additional information. For example a genome with 35 contigs in 30 scaffolds should probably be submitted as contigs only. Submitting scaffolds is significantly more complicated than submitting contigs, instructions for both are given below.
 
 ##Submitting contigs only
 Use this section if submitting only contigs, presumably in FASTA format
 
 Navigate to http://www.ncbi.nlm.nih.gov. Create an account and/or login. Then, create a BioProject at NCBI by navigating to https://submit.ncbi.nlm.nih.gov/subs/bioproject/ and clicking on "New submission." Fill in the personal information for the submitter.
 
-Below, in italics are the responses that we typically give for a genome sequencing project.
+Below, in italics, are the responses that we typically give for a genome sequencing project.
 
 **Project type**
 
@@ -48,7 +48,7 @@ Submitter
 + Biosample-_No_
 + Release date-Optional but we recommend “_Release immediately following curation_”
 
-Don’t check the box stating, “Genome assembly structured comment is in the contig .sq file”
+Do not check the box stating, “Genome assembly structured comment is in the contig .sq file”
 
 + Assembly Method-Choose _other_, fill in the blank with A5 Assembly Pipeline (version can be found in the asssembly_stats.csv file)
 + Version or date program was run – _a5-miseq-macOS-20140521_
@@ -84,7 +84,7 @@ Click "Submit" and you're done! You will receive a series of e-mails from NCBI c
 
 Potential problems with data submission:
 
-Sometimes contigs that are submitted belong to contaminating organisms, or to the phiX that is often used in sequencing.  In this case you will recieve an e-mail from NCBI telling you which contigs to remove.   It's important to note that after removing contigs, you need to rename all of your remaining contigs so as to not be missing numbers in the sequence.  A simple command for this is below (test.fa is the name of your cleaned file and test2.fa is the name you want the renumbered file to have):
+Sometimes contigs that are submitted belong to contaminating organisms, or to the phiX that is often used in sequencing. If this is the case, you will recieve an e-mail from NCBI telling you which contigs to remove. It's important to note that after removing contigs, you need to rename all of your remaining contigs so as to not be missing numbers in the sequence.A simple command for this is below (test.fa is the name of your cleaned file and test2.fa is the name you want the renumbered file to have):
 
     cat test.fa | awk '{print (NR%2==1) ? ">contigs_" ++i : $0}' > test2.fa
 
@@ -117,7 +117,7 @@ eg:
 
 If this runs successfully then you should see a both the FSA and AGP files in your current directory.
 
-Important Note: NCBI considers a gap of less than 10 nucleotides to be "missing information" in a contig, not a gap between contigs (whereas A5 has no minimum gap size). Therefore NCBI requires that contigs separated by less than 10 nucleotides be merged. This script performs that merging, meaning that the number of contigs in the FSA file may be less than in your input file.  Therefore we recommend counting the contigs in the FSA file:
+Important Note: NCBI considers a gap of less than 10 nucleotides to be "missing information" in a contig, not a gap between contigs (whereas A5 has no minimum gap size). Therefore NCBI requires that contigs separated by less than 10 nucleotides be merged. This script performs that merging, meaning that the number of contigs in the FSA file may be less than in your input file. Therefore we recommend counting the contigs in the FSA file:
 
 To count them in the terminal use the syntax
 
@@ -163,7 +163,7 @@ The program will output the necessary files into the directory you created earli
 
 (ensure no errors were generated by opening the errorsummary.val file and making sure it is blank, or listing the directory contents ($ ls –lh) to ensure it has zero bytes)
 
-Once these files are created, submission is similar to that for contigs.  However, you will have to specify that you are using scaffolds and to upload the .agp file in addition to the .sqn file.
+Once these files are created, submission is similar to that for contigs. However, you will have to specify that you are using scaffolds and to upload the .agp file in addition to the .sqn file.
 
 
 **Submitting Raw Reads to ENA/SRA**
@@ -192,13 +192,13 @@ In the WebinDataUploader, in the blank area to the right of the Local Upload dir
 
 Select the file(s) containing the reads and click Upload. 
 
-(Note that paired-end data is required to be in two separate fastq files.  If your data came as one interleaved file, then the separated fastq files can be found in the directory where the A5 assembly was performed as [project name].raw1\_p1.fastq.gz and [project name].raw1\_p2.fastq.gz )
+(Note that paired-end data is required to be in two separate fastq files. If your data came as one interleaved file, then the separated fastq files can be found in the directory where the A5 assembly was performed as [project name].raw1\_p1.fastq.gz and [project name].raw1\_p2.fastq.gz )
 
 Note that the only acceptable file types for submission are gzip (.gz) and bzip (.bz2). To gzip files in the Terminal use the following syntax:
 
     gzip [filename] 
 
-After completion, return to EMBL (the new submission tab of the SRA Webin submission system) and select the Next button.   During this process, refreshing the page or navigating away from the page will reset the form and the information will be lost.
+After completion, return to EMBL (the new submission tab of the SRA Webin submission system) and select the Next button. During this process, refreshing the page or navigating away from the page will reset the form and the information will be lost.
 
 Click Create a New Study. Fill in descriptions of the project and proceed to next tab. Select the appropriate metadata format, or in most cases the ENL default sample checklist at the bottom.  Note that the default release date is three months from the current date, change this if the data should be released sooner.
 
