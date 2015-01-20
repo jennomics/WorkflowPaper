@@ -11,7 +11,7 @@ Follow the protocol or kit instructions provided by the manufacturer and then pr
 Centrifuge 1 ml of the overnight culture until the cells form a pellet at the bottom of the tube (about 5 minutes at 10,000 g), pour off the liquid on top (the supernatant) and resuspend the pellet in 100 ul of sterile DNAase-free water. Incubate the samples at 100 deg C for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below.
 
 ##PCR reaction
-This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial (and many archaeal) 16S rRNA gene. Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of 54 deg C and an extension at 72 deg C of 90 seconds. Do not forget to include positive (any sample containing bacterial genomic DNA) and negative (_e.g_., replace DNA with water) controls. 
+This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial (and many archaeal) 16S rRNA gene. Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of 54 °C and an extension at 72 °C of 90 seconds. Do not forget to include positive (any sample containing bacterial genomic DNA that you have successfully amplified before) and negative (_e.g_., replace DNA with water) controls. 
 
 After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (~1350bp).  
 
@@ -35,11 +35,11 @@ This pipeline allows you to upload one zipped folder containing multiple .abi tr
 
 After signing in to (https://rdp.cme.msu.edu/login/pipeline/libSummary) you will be on the Library Run Summary page. Click on the Create New Run tab near the top of the page. Select the appropriate 16S rRNA gene (Archaea or Bacteria depending on your sample) name your library and choose a library name abbreviation and select any vector (this pipeline assumes cloned PCR fragments but will work fine regardless of what you select here). Select the Upload the data without well mapping button at the bottom of the page. You will now be directed to the Data Loader page, choose a zipped folder containing the abi traces you wish to analyze and click Load Data (to create the folder, put all of the abi traces you are working with into a folder, right click on the folder and select Compress “folder name”—if you downloaded the files as a group from your sequencing facility they may already be in a zipped folder).
 
-When the pipeline is finished, you will be directed to click a link and open a new window containing the library run stats. Select the Download Raw Sequence button. Navigate to BLAST (http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and select the Choose File button underneath the area for the FASTA sequence. Select the file you just downloaded from the library run stats page. We recommend checking the box to exclude Uncultured/environmental sample sequences then click BLAST. If you are working with a large number of FASTA sequences it may take a few minutes. When the BLAST is complete you can cycle through the sequences you blasted using the pull down menu to the right of the Results for: heading. 
+When the pipeline is finished, you will be directed to click a link that will open a new window containing the library run stats. Select the Download Raw Sequence button. Navigate to BLAST (http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and select the Choose File button underneath the area for the FASTA sequence. Select the file you just downloaded from the library run stats page. We recommend checking the box to exclude Uncultured/environmental sample sequences then click BLAST. If you are working with a large number of FASTA sequences it may take a few minutes. When the BLAST search is complete, you can cycle through the sequences you blasted using the pull down menu to the right of the Results for: heading. 
 
 ##SeqTrace
 
-_We recommend using SeqTrace first if only working with a couple of sequences. When working with a large batch it might be easier to screen the samples using the RDP Sanger pipeline above and only using SeqTrace for samples of interest._
+_We recommend using SeqTrace first if only working with a couple of sequences. When working with a large batch it might be easier to do a preliminary screening of the sequences using the RDP Sanger pipeline above and only using SeqTrace for sequences of interest._
 
 Download the program from
 https://code.google.com/p/seqtrace/downloads/list
@@ -47,20 +47,20 @@ https://code.google.com/p/seqtrace/downloads/list
 Installation Directions
 https://code.google.com/p/seqtrace/wiki/Installation
 
-Installing and running SeqTrace on a PC is simple, installing it on a Mac requires a few more steps than for a PC. The installation guide offers two options for installing SeqTrace on a Mac, we recommend running SeqTrace with native GTK+
+Installing and running SeqTrace on a PC is simple; installing it on a Mac requires a few more steps than for a PC. The installation guide offers two options for installing SeqTrace on a Mac; we recommend running SeqTrace with native GTK+.
 
-To install SeqTrace on a Mac you will need to download the PyGTK package from OSX. 
+To install SeqTrace on a Mac, you will need to download the PyGTK package from OSX. 
 http://sourceforge.net/projects/macpkg/files/PyGTK/2.24.0/PyGTK.pkg/download
 
 Confirm that you have Python version 2.x. You can do this by typing:
 
     python --version
 
-You should see something that looks like "Python 2.6.9" If you see Python 3.x, seek outside help to invoke an earlier version directly.
+You should see something that looks like "Python 2.6.9" If you see Python 3.x, seek outside help to run an earlier version.
 
 http://www.python.org/download/releases/
 
-After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace must be launched from a Terminal window. For a refresher or introduction to the Terminal see section 2. Move SeqTrace to your Applications folder. 
+After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace must be launched from a Terminal window. For a refresher or introduction to the Terminal, see section 2. Move SeqTrace to your Applications folder. 
 
 Open a Terminal window and copy/paste or type:
 
@@ -77,14 +77,13 @@ For this workflow we have found that the following is the simplest way to edit a
 
 1. Create a new project (File > New Project) 
 Add your forward and reverse primer sequences here, we used 27F (AGAGTTTGATCMTGGCTCAG) 
-and 1391R (GACGGGCGGTGTGTRCA) 
-click ok
-2. To add files go to Traces and click on Add trace files, then select the reads 
+and 1391R (GACGGGCGGTGTGTRCA) and click OK.
+2. To add files, go to Traces and click on Add trace files, then select the reads 
 (.abi files) you want to work with. 
 3. The program is able to recognize forward and reverse reads from information in the file name if they are properly formatted.
- + Go to Traces and click on Find and mark forward/reverse. The default setting looks for \_F for forward and \_R for reverse. This can be edited in the Project settings (you can pull it up by clicking on the picture of the tools at the top of the page) and changing the search strings under trace settings. For an example see Figure \ref{fig:seqtrace\_1}
+ + Go to Traces and click on Find and mark forward/reverse. The default setting looks for \_F for forward and \_R for reverse. This can be edited in the Project settings (you can pull it up by clicking on the picture of the tool at the top of the page) and changing the search strings under trace settings. For an example see Figure \ref{fig:seqtrace\_1}
  + If the program is able to recognize the forward/reverse reads it will place an orange left pointing arrow in front of reverse reads and a blue right pointing arrow in front of forward reads. This step is not necessary to get a consensus sequence, it just makes organizing the reads easier. 
-4. Pull up the Project Settings by clicking on the picture of tools at the top of the page. Click on the Sequence Processing tab, under Sequence trimming unclick the Automatically trim sequence ends button. You should also decrease the Min. confidence score under Consensus settings. The default option is 30, which represents a 99.9% quality score, for many reads this will be too stringent and will not allow you to get enough overlap to create a consensus sequence. A minimum confidence score between 15 and 25 is normally okay but tuning may be required depending on your read quality. For an example see Figure \ref{fig:seqtrace\_2}.
+4. Pull up the Project Settings by clicking on the picture of tool at the top of the page. Click on the Sequence Processing tab, under Sequence trimming unclick the Automatically trim sequence ends button. You should also decrease the Min. confidence score under Consensus settings. The default option is 30, which represents a 99.9% quality score, for many reads this will be too stringent and will not allow you to get enough overlap to create a consensus sequence. A minimum confidence score between 15 and 25 is normally okay but tuning may be required depending on your read quality. For an example see Figure \ref{fig:seqtrace\_2}.
 5. Group your forward and reverse reads by highlighting both of them and clicking Group selected forward/reverse files (under Traces)
 6. Under Sequences go to Generate Finished Sequences and click on for all trace files. (you will need to redo this every time you change the project settings).
 7. To view your consensus sequence, click on the read pair group and then click on the magnifying glass at the top of the page. You should see something like Figure \ref{fig:chromatogram}.
@@ -93,7 +92,7 @@ click ok
 
 ##Custom Script to Create a Consensus Sequence (merge\_sanger\_16s.pl)
 
-_This custom script is for users who prefer to quickly trim and align their sequences.  It is to be used in place of SeqTrace, with or without having pre-screened samples using the RDP Sanger pipeline described above._
+_This custom script is for users who prefer to quickly trim and align their sequences. It is to be used in place of SeqTrace, with or without having pre-screened samples using the RDP Sanger pipeline described above._
 
 ###Download/Install
 1. Create a new folder called Sanger_seq on your desktop
@@ -128,8 +127,8 @@ The script will return one of 2 messages:
 1. "Found N conflicting case(s) during merging of X residues" 
 2. "Not enough data to overlap confidently." 
 
-In the first case the merging happened, however there may be some conflicting bases. The fewer the better. It can be an indication of how confident the user should be with the results. Since this is a very crude method, it should be noted that there is no fancy algorithm behind the merge. There is a crude comparison for which we keep the base that had the highest quality score.
+In the first case, the merging happened, however there may be some conflicting bases. The fewer the better. It can be an indication of how confident the user should be with the results. Since this is a very crude method, it should be noted that there is no fancy algorithm behind the merge. There is a simple comparison for which we keep the base that had the highest quality score.
 
 In the second outcome, the sequences were trimmed too much when doing the quality-trimming. The length of both sequences end to end was smaller than the fragment length that we are looking for. This is an indication of poor quality sequence and most users should not proceed (others can lower the quality threshold set by the script).
 
-The newly merged file will be saved as file1\_merged.fasta and can be uploaded to BLAST for identification.
+The newly merged file will be saved as file1\_merged.fasta and can be uploaded to BLAST for identification (see section 7.1).
