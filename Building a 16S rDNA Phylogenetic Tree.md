@@ -39,7 +39,7 @@ The goal of this section is to obtain an alignment of 16S rRNA gene sequences fr
 
 ##Clean up the RDP taxon names
 
-The RDP alignment will have taxon names that most of the downstream software tools will not tolerate because they consist of special text characters. So, we have written a little Perl script (cleanup.pl) that will remove those special characters and replace them with underscores. This script is included in the zip file of scripts on Figshare \cite{852a8297-50f7-4630-ae05-7645b7fb6d11}. To run cleanup.pl, first move it to your Applications folder. Then, in a Terminal window, navigate to the directory that contains the RDP alignment that you've just downloaded. Then, type:
+The RDP alignment will have taxon names that most of the downstream software tools will not tolerate because they consist of special text characters. So, we have written a little Perl script (cleanup.pl) that will remove those special characters and replace them with underscores. This script is included in the zip file of scripts on Figshare \cite{852a8297-50f7-4630-ae05-7645b7fb6d11}. To run cleanup.pl, first move it to your Applications folder. Then, in a Terminal window, navigate to the directory that contains the RDP alignment that you've just downloaded. Then, type or copy/paste:
 
     perl /Applications/cleanup.pl -i RDP_alignment.fa -o RDP_alignment_clean.fa
 
@@ -57,7 +57,7 @@ and download the FastTree.c program by right clicking on it and saving the link 
 
     cd /Applications
 
-Then, type:
+Then, type or copy/paste:
 
     gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
 
@@ -65,11 +65,11 @@ This compiling of FastTree requires a software tool called gcc (the Gnu Compiler
 
 In order to download Xcode, you will need to register as a developer with Apple which takes only a couple of minutes. After you register, click on the apple next to "Developer" at the top of the page. Then, click on the Xcode download link, which will ultimately take you to the Mac App Store, where you can follow the instructions to install Xcode. Once it is installed, open the program and open preferences (under the Xcode tab). Click on the downloads option and install the command line tools. 
 
-Once you have successfully downloaded and installed Xcode and the command line tools, return to your Applications folder in a Terminal window and type again:
+Once you have successfully downloaded and installed Xcode and the command line tools, return to your Applications folder in a Terminal window and type or copy/paste again:
 
     gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
     
-Now, you should have a working version of FastTree. To build your tree, using the cleaned up RDP alignment, type the following (be sure the output name ends in ".tre" to ensure it will be recognized by Dendroscope):
+Now, you should have a working version of FastTree. To build your tree, using the cleaned up RDP alignment, type or copy/paste the following (be sure the output name ends in ".tre" to ensure it will be recognized by Dendroscope):
 
     /Applications/FastTree -nt RDP_alignment_clean.fa > tree_file.tre 
 
