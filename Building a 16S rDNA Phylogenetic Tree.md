@@ -19,7 +19,7 @@ following by cleanup of the RDP headers, tree-building with FastTree and viewing
 
 ##Obtain an RDP alignment
 
-The goal of this section is to obtain a 16S alignment from RDP that can be used to build a tree. This procedure has the added benefit of providing an independent verification of the taxonomic assignment of your sequence based on the BLAST results.
+The goal of this section is to obtain an alignment of 16S rRNA gene sequences from RDP that can be used to build a tree. This procedure has the added benefit of providing an independent verification of the taxonomic assignment of your sequence based on the BLAST results.
 
 1. Go to [http://rdp.cme.msu.edu](http://rdp.cme.msu.edu) 
 2. Create an account 
