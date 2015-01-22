@@ -36,7 +36,7 @@ Open a Terminal window and navigate to a5\_output. A5-miseq will write all of th
 
     cd Desktop/a5_output/
 
-Now that you are in the folder where you want your genome assembly to appear, you are ready to run the program. First, type (don't hit return yet!):
+Now that you are in the folder where you want your genome assembly to appear, you are ready to run the program. First, type or copy/paste (don't hit return yet!):
 
     /Applications/a5_pipeline/bin/a5_pipeline.pl
     
