@@ -1,5 +1,5 @@
 #Organism identification using 16S rRNA gene sequence
-It is necessary to screen the 16S rDNA Sanger sequencing results for possible genome sequencing candidates. We recommend starting with BLAST results, then continuing onto the Genomes Online Database (GOLD), and performing an internet search to obtain information about the organism you have isolated. In many cases, it will be useful to build a phylogenetic tree to aid in identification, as the BLAST search results may not be sufficiently informative.
+It is necessary to screen the 16S rDNA Sanger sequencing results for possible genome sequencing candidates. We recommend starting with BLAST results, then continuing onto the Genomes Online Database (GOLD).  This is a large database containing most sequenced genomes and many ongoing sequencing projects.  Sometimes the use of GOLD and an internet search will be sufficient to obtain information about the organism you have isolated. In many cases, it will be useful to build a phylogenetic tree to aid in identification, as the BLAST search results may not be sufficiently informative.
 
 ##BLAST 16S rDNA sequence
 Begin by navigating to the Standard Nucleotide BLAST at NCBI:
