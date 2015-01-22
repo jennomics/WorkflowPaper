@@ -104,6 +104,8 @@ In order to run this script you will need to download MUSCLE \cite{Edgar_2004} f
 
     sudo cp ~/Downloads/muscle /usr/bin
 
+Be careful using the "sudo" command since this will give you access to commands that are normally restricted.
+
 ###Convert Files from .abi to .fastq
 
 To run the merge\_sanger\_16s.pl you will first need to convert your read files from .abi to .fastq
