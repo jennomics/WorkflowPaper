@@ -184,7 +184,7 @@ Select Submit sequence reads and experiments
 
 Click on Data Upload Instructions towards bottom of page	
 
-This takes you to a variety of options for uploading files depending on your preference and operating system. We use the Webin Data Uploader. Click on the link which will download a .jlnp file. Open and run this file. Depending on your system you may have to download and install a new version of java. On some systems you may have to right-click the .jlnp file and Open with “Java Web Start”.
+This takes you to a variety of options for uploading files depending on your preference and operating system. We use the Webin Data Uploader. Click on the link which will download a .jlnp file. Open and run this file. Depending on your system you may have to download and install a new version of Java. On some systems you may have to right-click the .jlnp file and Open with “Java Web Start”.
 
 Login using your e-mail address and password
 
