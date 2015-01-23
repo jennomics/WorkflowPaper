@@ -60,7 +60,7 @@ Do not check the box stating, “Genome assembly structured comment is in the co
 + Do you intend to annotate this version? _No_
 + Is it a part of a multiisolate project? _No_
 + Is it a de novo assembly? _Yes_
-+ Is it an update of existing submission? For most projects the answer to this will be _no_
++ Is it an update of existing submission? For most projects the answer to this will be _No_
 + BioSample Type: _Microbe_
 
 **BioSample attributes** 
