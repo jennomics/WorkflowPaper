@@ -84,7 +84,7 @@ Click "Submit" and you're done! You will receive a series of e-mails from NCBI c
 
 Potential problems with data submission:
 
-Sometimes contigs that are submitted belong to contaminating organisms, or to the phiX that is often used in sequencing. If this is the case, you will recieve an e-mail from NCBI telling you which contigs to remove. It's important to note that after removing contigs, you need to rename all of your remaining contigs so as to not be missing numbers in the sequence.A simple command for this is below (test.fa is the name of your cleaned file and test2.fa is the name you want the renumbered file to have):
+Sometimes contigs that are submitted belong to contaminating organisms, or to the phiX that is often used in sequencing. If this is the case, you will recieve an e-mail from NCBI telling you which contigs to remove. It's important to note that after removing contigs, you need to rename all of your remaining contigs so as to not be missing numbers in the sequence. A simple command for this is below (test.fa is the name of your cleaned file and test2.fa is the name you want the renumbered file to have):
 
     cat test.fa | awk '{print (NR%2==1) ? ">contigs_" ++i : $0}' > test2.fa
 
