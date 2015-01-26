@@ -26,5 +26,5 @@ figures/phylo5/phylo5.png
 Building a 16S rDNA Phylogenetic Tree.md
 Data Submission.md
 Discussion.md
-figures/Projected Cost2/Projected Cost2.png
+figures/Projected Cost2/Projected Costs_2015 Sheet2.png
 Acknowledgements.md
