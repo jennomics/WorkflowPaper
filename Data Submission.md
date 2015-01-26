@@ -26,7 +26,7 @@ Below, in italics, are the responses that we typically give for a genome sequenc
 
 **General info**
 
-+ We recommend choosing “_Release immediately following curation_”
++ We recommend choosing _Release immediately following curation_
 + Project Title
 + Public Description
 + Relevance-_Environmental_
@@ -46,7 +46,7 @@ Submitter
 
 + BioProject-_Yes_, add the BioProject identification sequence (from the BioProject submission, starts with PRJNA)
 + Biosample-_No_
-+ Release date-Optional but we recommend “_Release immediately following curation_”
++ Release date-Optional but we recommend _Release immediately following curation_
 
 Do not check the box stating, “Genome assembly structured comment is in the contig .sq file”
 
