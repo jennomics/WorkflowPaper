@@ -89,7 +89,7 @@ Sometimes contigs that are submitted belong to contaminating organisms, or to th
     cat test.fa | awk '{print (NR%2==1) ? ">contigs_" ++i : $0}' > test2.fa
 
 ##Submitting scaffolds
-_**Only use this section if you are submitting scaffolds**, in most cases assembly with A5 will render this step uneccessary.  Many of the steps are the same as for submitting contigs, only the diferences are shown here._
+_**Only use this section if you are submitting scaffolds**, in most cases assembly with A5 will render this step unnecessary.  Many of the steps are the same as for submitting contigs, only the differences are shown here._
 
 Before submitting your scaffolded genome, you will need to have available 4-5 files which are listed below. 
 
