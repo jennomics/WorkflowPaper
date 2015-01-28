@@ -1,1 +1,1 @@
-\label{fig:GOLD\_results}-This is GOLD's results page, 11 _Brachybacterium_ projects are listed, some of which may be complete and others in a more ambiguous state.
+\label{fig:GOLDresults}-This is GOLD's results page, 11 _Brachybacterium_ projects are listed, some of which may be complete and others in a more ambiguous state.
