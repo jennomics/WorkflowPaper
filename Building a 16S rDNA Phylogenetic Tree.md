@@ -52,7 +52,7 @@ There are two ways to get FastTree, which will be required for building the tree
 
 The other option is to install FastTree directly, which is a bit more involved.
 
-Go to http://www.microbesonline.org/fasttree/#Install
+[Go to http://www.microbesonline.org/fasttree/#Install](Go to http://www.microbesonline.org/fasttree/#Install)
 and download the FastTree.c program by right clicking on it and saving the link to your Applications folder. To compile the software, navigate to your Applications folder in a Terminal window:
 
     cd /Applications
@@ -75,10 +75,10 @@ Now, you should have a working version of FastTree. To build your tree, using th
 
 ##Viewing the Tree in Dendroscope
 Download and install Dendroscope.
-http://ab.inf.uni-tuebingen.de/software/dendroscope/
+[http://ab.inf.uni-tuebingen.de/software/dendroscope/](http://ab.inf.uni-tuebingen.de/software/dendroscope/)
 
 You will need to obtain a license here
-http://www-ab2.informatik.uni-tuebingen.de/software/dendroscope/register/
+[http://www-ab2.informatik.uni-tuebingen.de/software/dendroscope/register/](http://www-ab2.informatik.uni-tuebingen.de/software/dendroscope/register/)
 
 Enter the license number into Dendrosope and then you can open your phylogenetic tree from the File menu to view it.
 
