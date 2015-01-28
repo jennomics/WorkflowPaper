@@ -29,7 +29,7 @@ We have also created a script that will perform the same steps as SeqTrace autom
 
 _(recommended as a starting place, or for many sequences)_
 
-The RDP Sanger analysis pipeline can be found at the following URL: (https://rdp.cme.msu.edu/login/pipeline/libSummary). 
+The RDP Sanger analysis pipeline can be found [at the following URL](https://rdp.cme.msu.edu/login/pipeline/libSummary). 
 
 This pipeline allows you to upload one zipped folder containing multiple .abi traces. It cleans and processes the sequences and generates a FASTA file of the processed sequences; which can then be uploaded to BLAST and analyzed. This allows you to quickly screen your samples before running the files through the more time consuming SeqTrace analysis which will reverse complement and align the reads to generate a consensus sequence.
 
