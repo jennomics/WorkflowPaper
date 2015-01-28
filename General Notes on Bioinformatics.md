@@ -10,7 +10,7 @@ For more information on operating in the terminal, check out
 this informative video: [https://www.youtube.com/watch?v=zRZT4nQP3sE](https://www.youtube.com/watch?v=zRZT4nQP3sE)
 
 
-And this interactive tutorial: http://www.ee.surrey.ac.uk/Teaching/Unix/
+And this interactive tutorial: [http://www.ee.surrey.ac.uk/Teaching/Unix/](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 
 ##Summary of commands and terms
