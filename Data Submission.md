@@ -6,7 +6,7 @@ Before going any further you must decide if you are submitting contigs or scaffo
 ##Submitting contigs only
 Use this section if submitting only contigs, presumably in FASTA format
 
-Navigate to http://www.ncbi.nlm.nih.gov. Create an account and/or login. Then, create a BioProject at NCBI by navigating to https://submit.ncbi.nlm.nih.gov/subs/bioproject/ and clicking on "New submission." Fill in the personal information for the submitter.
+Navigate to [http://www.ncbi.nlm.nih.gov](http://www.ncbi.nlm.nih.gov). Create an account and/or login. Then, create a BioProject at NCBI by navigating to [https://submit.ncbi.nlm.nih.gov/subs/bioproject/](https://submit.ncbi.nlm.nih.gov/subs/bioproject/) and clicking on "New submission." Fill in the personal information for the submitter.
 
 Below, in italics, are the responses that we typically give for a genome sequencing project.
 
@@ -37,7 +37,7 @@ Once the project is submitted, refresh the page and copy down the Bioproject ID 
 
 ##Create a Whole Genome Shotgun (WGS) Submission
 Navigate to
-https://submit.ncbi.nlm.nih.gov/subs/wgs/
+[https://submit.ncbi.nlm.nih.gov/subs/wgs/](https://submit.ncbi.nlm.nih.gov/subs/wgs/)
 Click on the New Submission button at the top
 Submitter
 -fill in your own information
@@ -127,14 +127,14 @@ Important Note: If after running the fasta2agp.pl script and counting the contig
 
 **Create a SBT template**
 Create a SBT template file at NCBI 
-http://www.ncbi.nlm.nih.gov/WebSub/template.cgi
+[http://www.ncbi.nlm.nih.gov/WebSub/template.cgi](http://www.ncbi.nlm.nih.gov/WebSub/template.cgi)
 The BioProject # is the Bioproject ID starting with "PRJNA" which you received above, BioSample can be left blank
 
 When you click create the template, it will automatically download to your computer as template.sbt. We recommend immediately renaming the file to the appropriate project.
 
 **Tbl2asn**
 Download the tbl2asn program from 
-ftp://ftp.ncbi.nih.gov/toolbox/ncbi\_tools/converters/by\_program/tbl2asn/
+[ftp://ftp.ncbi.nih.gov/toolbox/ncbi\_tools/converters/by\_program/tbl2asn/](ftp://ftp.ncbi.nih.gov/toolbox/ncbi\_tools/converters/by\_program/tbl2asn/)
 
 If you are using Safari, a window will pop up asking for login information, just choose guest and unzip the version of the program that is compatible with your operating system. Other browsers will take you to a page with a lot of tbl2asn programs, download the one compatible with your operating system.
 
@@ -172,7 +172,7 @@ We recommend using Safari or Firefox for this step, in our hands Chrome can have
 
 Go to:
 
-https://www.ebi.ac.uk/ena/about/sra_submissions
+[https://www.ebi.ac.uk/ena/about/sra_submissions](https://www.ebi.ac.uk/ena/about/sra_submissions)
 
 And create an account
 
