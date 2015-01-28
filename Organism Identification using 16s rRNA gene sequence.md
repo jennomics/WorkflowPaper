@@ -2,9 +2,7 @@
 It is necessary to screen the 16S rDNA Sanger sequencing results for possible genome sequencing candidates. We recommend starting with BLAST results, then continuing onto the Genomes Online Database (GOLD).  This is a large database containing most sequenced genomes and many ongoing sequencing projects.  Sometimes the use of GOLD and an internet search will be sufficient to obtain information about the organism you have isolated. In many cases, it will be useful to build a phylogenetic tree to aid in identification, as the BLAST search results may not be sufficiently informative.
 
 ##BLAST 16S rDNA sequence
-Begin by navigating to the Standard Nucleotide BLAST at NCBI:
-
-http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome
+Begin by navigating to the Standard Nucleotide [BLAST at NCBI](http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
 
 Paste in your Sanger consensus sequence. We recommend checking the box to exclude Uncultured/environmental sample sequences, since these will not be informative for identification. Be sure the nucleotide collection (nr/nt) is selected under database and click the BLAST button.
 
@@ -29,9 +27,7 @@ First locate the 16S sequences of the genome you'd like to compare to, by search
 
 http://www.ncbi.nlm.nih.gov/nuccore/
 
-Click on the sequence of interest, then click on the "FASTA" link to get the sequence in FASTA format. Now navigate to the "Align Sequences Nucleotide BLAST" page:
-
-http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=align2seq
+Click on the sequence of interest, then click on the "FASTA" link to get the sequence in FASTA format. Now navigate to the ["Align Sequences Nucleotide BLAST" page](http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=align2seq)
 
 Paste in the two 16S rDNA sequences and click on the "BLAST" button. Unless both your sequence and the sequence to which you are comparing were amplified with the same primers, the query coverage will not be 100%. A low identity can be the result of poor sequence quality or taxonomic distance. 
 
