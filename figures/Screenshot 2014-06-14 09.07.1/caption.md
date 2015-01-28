@@ -1,1 +1,1 @@
-\label{fig:model\_Tree}-A model phylogenetic tree showing nodes, branches and taxa
+\label{fig:modelTree}-A model phylogenetic tree showing nodes, branches and taxa
