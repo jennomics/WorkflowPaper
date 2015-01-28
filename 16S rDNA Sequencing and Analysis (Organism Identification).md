@@ -16,7 +16,7 @@ This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) 
 After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (~1350bp).  
 
 ##Submit Samples for Sequencing
-Very few single-researcher labs currently have the capacity to do Sanger sequencing. However, there are a number of DNA sequencing facilities (commercial and academic) that provide Sanger sequencing services for researchers. They will handle as little as a single sample, or will allow you to submit an unlimited number of samples, typically arrayed in 96-well plates. You will typically provide both your PCR product as well as primers for sequencing (typically, the same primers used for PCR are used for sequencing). To get the most data, do not forget to request forward (_e.g_., using primer 27F) and reverse (_e.g._, using primer 1391R) reactions for each sample. Each facility will have its own guidelines concerning DNA and primer concentration. Our lab uses the UC Davis DNA Sequencing Facility http://dnaseq.ucdavis.edu. If an internet search does not reveal the presence of a Sequencing Facility near you, most sequencing centers will allow you to ship samples to them for sequencing.
+Very few single-researcher labs currently have the capacity to do Sanger sequencing. However, there are a number of DNA sequencing facilities (commercial and academic) that provide Sanger sequencing services for researchers. They will handle as little as a single sample, or will allow you to submit an unlimited number of samples, typically arrayed in 96-well plates. You will typically provide both your PCR product as well as primers for sequencing (typically, the same primers used for PCR are used for sequencing). To get the most data, do not forget to request forward (_e.g_., using primer 27F) and reverse (_e.g._, using primer 1391R) reactions for each sample. Each facility will have its own guidelines concerning DNA and primer concentration. Our lab uses the [UC Davis Sequencing Facility](http://dnaseq.ucdavis.edu). If an internet search does not reveal the presence of a Sequencing Facility near you, most sequencing centers will allow you to ship samples to them for sequencing.
 
 ##Sanger Sequence Processing
 The end product of Sanger sequencing is the production of sequences (reads) for each sample submitted. Upon receiving Sanger reads from a sequencing facility, typically via e-mail, it is necessary to do some pre-processing before they can be analyzed. These steps include quality trimming the reads, reverse complementing the reverse sequence, aligning the reads, generating a consensus sequence, and converting to FASTA format. Note - there are dozens of different formats used for sequence information. FASTA format is one of the simplest. In the FASTA format a sequence file is given a name in one line (the name follows the character '>') and then the sequence information is in the following lines. There are very limited options for free software that allow the user to perform these steps. 
@@ -29,28 +29,28 @@ We have also created a script that will perform the same steps as SeqTrace autom
 
 _(recommended as a starting place, or for many sequences)_
 
-The RDP Sanger analysis pipeline can be found [at the following URL](https://rdp.cme.msu.edu/login/pipeline/libSummary). 
+The RDP Sanger analysis pipeline can be found here [https://rdp.cme.msu.edu/login/pipeline/libSummary](https://rdp.cme.msu.edu/login/pipeline/libSummary). 
 
 This pipeline allows you to upload one zipped folder containing multiple .abi traces. It cleans and processes the sequences and generates a FASTA file of the processed sequences; which can then be uploaded to BLAST and analyzed. This allows you to quickly screen your samples before running the files through the more time consuming SeqTrace analysis which will reverse complement and align the reads to generate a consensus sequence.
 
-After signing in to (https://rdp.cme.msu.edu/login/pipeline/libSummary) you will be on the Library Run Summary page. Click on the Create New Run tab near the top of the page. Select the appropriate 16S rRNA gene (Archaea or Bacteria depending on your sample) name your library and choose a library name abbreviation and select any vector (this pipeline assumes cloned PCR fragments but will work fine regardless of what you select here). Select the Upload the data without well mapping button at the bottom of the page. You will now be directed to the Data Loader page, choose a zipped folder containing the abi traces you wish to analyze and click Load Data (to create the folder, put all of the abi traces you are working with into a folder, right click on the folder and select Compress “folder name”—if you downloaded the files as a group from your sequencing facility they may already be in a zipped folder).
+After signing in to RDP you will be on the Library Run Summary page. Click on the Create New Run tab near the top of the page. Select the appropriate 16S rRNA gene (Archaea or Bacteria depending on your sample) name your library and choose a library name abbreviation and select any vector (this pipeline assumes cloned PCR fragments but will work fine regardless of what you select here). Select the Upload the data without well mapping button at the bottom of the page. You will now be directed to the Data Loader page, choose a zipped folder containing the abi traces you wish to analyze and click Load Data (to create the folder, put all of the abi traces you are working with into a folder, right click on the folder and select Compress “folder name”—if you downloaded the files as a group from your sequencing facility they may already be in a zipped folder).
 
-When the pipeline is finished, you will be directed to click a link that will open a new window containing the library run stats. Select the Download Raw Sequence button. Navigate to [BLAST](http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and select the Choose File button underneath the area for the FASTA sequence. Select the file you just downloaded from the library run stats page. We recommend checking the box to exclude Uncultured/environmental sample sequences then click BLAST. If you are working with a large number of FASTA sequences it may take a few minutes. When the BLAST search is complete, you can cycle through the sequences you blasted using the pull down menu to the right of the Results for: heading. 
+When the pipeline is finished, you will be directed to click a link that will open a new window containing the library run stats. Select the Download Raw Sequence button. Navigate to [http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome](http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and select the Choose File button underneath the area for the FASTA sequence. Select the file you just downloaded from the library run stats page. We recommend checking the box to exclude Uncultured/environmental sample sequences then click BLAST. If you are working with a large number of FASTA sequences it may take a few minutes. When the BLAST search is complete, you can cycle through the sequences you blasted using the pull down menu to the right of the Results for: heading. 
 
 ##SeqTrace
 
 _We recommend using SeqTrace first if only working with a couple of sequences. When working with a large batch it might be easier to do a preliminary screening of the sequences using the RDP Sanger pipeline above and only using SeqTrace for sequences of interest._
 
 Download the program from
-https://code.google.com/p/seqtrace/downloads/list
+[https://code.google.com/p/seqtrace/downloads/list](https://code.google.com/p/seqtrace/downloads/list)
 
 Installation Directions
-https://code.google.com/p/seqtrace/wiki/Installation
+[https://code.google.com/p/seqtrace/wiki/Installation](https://code.google.com/p/seqtrace/wiki/Installation)
 
 Installing and running SeqTrace on a PC is simple; installing it on a Mac requires a few more steps than for a PC. The installation guide offers two options for installing SeqTrace on a Mac; we recommend running SeqTrace with native GTK+.
 
 To install SeqTrace on a Mac, you will need to download the PyGTK package from OSX. 
-http://sourceforge.net/projects/macpkg/files/PyGTK/2.24.0/PyGTK.pkg/download
+[http://sourceforge.net/projects/macpkg/files/PyGTK/2.24.0/PyGTK.pkg/download](http://sourceforge.net/projects/macpkg/files/PyGTK/2.24.0/PyGTK.pkg/download)
 
 Confirm that you have Python version 2.x. You can do this by typing:
 
@@ -58,7 +58,7 @@ Confirm that you have Python version 2.x. You can do this by typing:
 
 You should see something that looks like "Python 2.6.9" If you see Python 3.x, seek outside help to run an earlier version.
 
-http://www.python.org/download/releases/
+[http://www.python.org/download/releases/](http://www.python.org/download/releases/)
 
 After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace must be launched from a Terminal window. For a refresher or introduction to the Terminal, see section 2. Move SeqTrace to your Applications folder. 
 
@@ -70,7 +70,7 @@ This syntax will only work if the SeqTrace folder’s name is seqtrace-0.9.0, if
 
 This will launch SeqTrace from the terminal in a Python shell; you will need to keep the terminal window open while you are using the program. 
 
-SeqTrace provides excellent directions for using the program at https://code.google.com/p/seqtrace/wiki/WorkingWithProjects
+SeqTrace provides excellent directions for using the program at [https://code.google.com/p/seqtrace/wiki/WorkingWithProjects](https://code.google.com/p/seqtrace/wiki/WorkingWithProjects)
 
 ##Edit and Create a Consensus Sequence with SeqTrace
 For this workflow we have found that the following is the simplest way to edit and create a consensus sequence from a forward and reverse read in SeqTrace. 
@@ -100,7 +100,7 @@ _This custom script is for users who prefer to quickly trim and align their sequ
 3. Open the zip file and move the merge\_sanger\_16s.pl file to the new Sanger_seq folder
 
 ###MUSCLE
-In order to run this script you will need to download MUSCLE \cite{Edgar_2004} from here: http://www.drive5.com/muscle/downloads.htm. Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your bin directory via the terminal with the following syntax (you will need to know your admin password to do this):
+In order to run this script you will need to download MUSCLE \cite{Edgar_2004} from here: [http://www.drive5.com/muscle/downloads.htm](http://www.drive5.com/muscle/downloads.htm). Use the Archive Utility to open the file, change the name of the executable file from something like "muscle3.8.31\_i86darwin64" to "muscle," and move it into your bin directory via the terminal with the following syntax (you will need to know your admin password to do this):
 
     sudo cp ~/Downloads/muscle /usr/bin
 
@@ -111,7 +111,7 @@ Be careful using the "sudo" command since this will give you access to commands 
 To run the merge\_sanger\_16s.pl you will first need to convert your read files from .abi to .fastq
 
 This can be done at 
-http://sequenceconversion.bugaco.com/converter/biology/sequences/
+[http://sequenceconversion.bugaco.com/converter/biology/sequences/](http://sequenceconversion.bugaco.com/converter/biology/sequences/)
 
 Use the drop down menus to set it to convert .abi files to .fastq. Upload a file and convert it. The converted file will save to your downloads folder under the name sample.fastq. If you are working with a lot of reads we recommend immediately renaming the files to match the original .abi file name to avoid confusion.
 
