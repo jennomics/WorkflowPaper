@@ -30,4 +30,4 @@ for example
 
     ./subsample_reads.pl test_1.fq test_2.fq 250 my_reads.fastq  
     
-For further directions and documentation you can view the script on github  https://github.com/gjospin/scripts/blob/master/subsample_reads.pl
+For further directions and documentation you can view the script [on github](https://github.com/gjospin/scripts/blob/master/subsample_reads.pl)
