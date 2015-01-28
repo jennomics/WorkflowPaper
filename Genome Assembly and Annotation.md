@@ -15,15 +15,15 @@ There is a plethora of programs that can perform some, or most of these steps. T
 In this workflow, we recommend use of the open source A5 assembly pipeline which automates all of the steps described above with a single command \cite{Tritt\_2012}. A5 is designed to work with raw, demultiplexed Illumina data and a recent version (A5-miseq) has been optimized for longer reads from the MiSeq \cite{25338718}. Input reads must be paired, and the files can be separate (forward reads in one file, reverse reads in another) or interleaved. These files should have the .fastq extension. See (http://en.wikipedia.org/wiki/FASTQ_format) for a description of the fastq format. You may need assistance from your sequencing center in locating and accessing these files. You will need one of the two following (per genome): 1) a single .fastq file that contains both forward and reverse reads, or 2) two .fastq files, one with forward reads and one with the corresponding reverse reads. These FastQ files can optionally be gzip compressed (as indicated by the .gz file name extension).
 
 Download/Install A5 from 
-http://sourceforge.net/projects/ngopt/
+[http://sourceforge.net/projects/ngopt/](http://sourceforge.net/projects/ngopt/)
 
 Follow the (expert) instructions located 
-http://sourceforge.net/projects/ngopt/files/?source=navbar
+[http://sourceforge.net/projects/ngopt/files/?source=navbar](http://sourceforge.net/projects/ngopt/files/?source=navbar)
 
 or
 
 Follow a video made by David Coil 
-https://www.youtube.com/watch?v=Ad6HJevC5U8
+[https://www.youtube.com/watch?v=Ad6HJevC5U8](https://www.youtube.com/watch?v=Ad6HJevC5U8)
 
 or
  
@@ -79,7 +79,7 @@ Follow the steps described in Section 10, then Section 7, to obtain the 16S sequ
 ###Assessing Completeness with Phylosift
 PhyloSift:
 Navigate to 
-http://phylosift.wordpress.com
+[http://phylosift.wordpress.com](http://phylosift.wordpress.com)
 
 Download and unzip the latest version of Phylosift 
 
@@ -118,7 +118,7 @@ There are a number of different pipelines available for annotation of bacterial 
 Each of these pipelines has advantages and disadvantages, and each will give slightly different results. Here we recommend RAST since it is web-based, easy to use, returns results within hours, and provides a convenient toolbox for analyzing the results. However, RAST annotations are very difficult to submit to NCBI so we recommend allowing NCBI to re-annotate the genome with PGAP upon submission. Also, we recommend reporting the annotation results from the PGAP annotations in the genome announcement (for consistency.) 
 
 ###RAST Annotation
-Navigate to http://rast.nmpdr.org/ and register a new account. Once you have created an account, log in. 
+Navigate to [http://rast.nmpdr.org/](http://rast.nmpdr.org/) and register a new account. Once you have created an account, log in. 
 Hover over the "Your Jobs" tab at the top of the page and click on "Upload New Job." In order to proceed you must specify a domain, a genus, a species, and the genetic code (usually "11".) Click "Finish the Upload."
 
 The annotation will take some time, ranging from 2 hours to a few days, depending on server load. RAST will email you when it is complete. Once the annotation is complete, use their SEED Viewer to explore the annotation and metabolic pathways of the organism. From the RAST results, you can obtain information such as the presence or absence of a particular gene/pathway and you can compare the annotation to other genomes in their database.
