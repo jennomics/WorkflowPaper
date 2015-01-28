@@ -1,1 +1,1 @@
-\label{fig:seqtrace\_2}-The above screenshot shows the appropriate Sequence Processing Settings for SeqTrace for step 4 of the "Creating and Editing a Consensus Sequence" for Sanger Sequence Processing. 
+\label{fig:seqtrace2}-The above screenshot shows the appropriate Sequence Processing Settings for SeqTrace for step 4 of the "Creating and Editing a Consensus Sequence" for Sanger Sequence Processing. 
