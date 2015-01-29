@@ -112,7 +112,9 @@ Syntax is:
 
 eg: 
 
-    perl /Users/Madison/Desktop/a5_miseq_macOS_20140113/bin/fasta2agp.pl /Users/Madison/Desktop/a5_miseq_macOS_20140113/example/phiX.a5.final.scaffolds.fasta > phiX.a5.scaffolds.agp 
+    perl /Users/Madison/Desktop/a5_miseq_macOS_20140113/bin/fasta2agp.pl
+    /Users/Madison/Desktop/a5_miseq_macOS_20140113/example/
+    phiX.a5.final.scaffolds.fasta > phiX.a5.scaffolds.agp 
 
 
 If this runs successfully then you should see a both the FSA and AGP files in your current directory.
