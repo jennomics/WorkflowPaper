@@ -39,7 +39,7 @@ The goal of this section is to obtain an alignment of 16S rRNA gene sequences fr
 
 ##Clean up the RDP taxon names
 
-The RDP alignment will have taxon names that most of the downstream software tools will not tolerate because they consist of special text characters. So, we have written a little Perl script (cleanup.pl) that will remove those special characters and replace them with underscores. This script is included in the zip file of scripts on Figshare \cite{852a8297-50f7-4630-ae05-7645b7fb6d11}. To run cleanup.pl, first move it to your Applications folder. Then, in a Terminal window, navigate to the directory that contains the RDP alignment that you've just downloaded. Then, type or copy/paste:
+The RDP alignment will have taxon names that most of the downstream software tools will not tolerate because they consist of special text characters. So, we have written a little Perl script (cleanup.pl) that will remove those special characters and replace them with underscores. This script is included in the zip file of scripts on Figshare \cite{47b41cbb-81bb-44cb-8430-1218ddad365c}. To run cleanup.pl, first move it to your Applications folder. Then, in a Terminal window, navigate to the directory that contains the RDP alignment that you've just downloaded. Then, type or copy/paste:
 
     perl /Applications/cleanup.pl -i RDP_alignment.fa -o RDP_alignment_clean.fa
 
