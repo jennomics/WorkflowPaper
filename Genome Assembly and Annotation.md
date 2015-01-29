@@ -42,7 +42,8 @@ Now that you are in the folder where you want your genome assembly to appear, yo
     
 Then, drag and drop in the input file(s) into the same Terminal window (or type the path to them if you know it). Finally, type a name that will be used as part of all of your output files. So, your command line should look like this:
 
-    /Applications/a5_pipeline/bin/a5_pipeline.pl SequenceFile1.fastq SequenceFile2.fastq MyGenome
+    /Applications/a5_pipeline/bin/a5_pipeline.pl SequenceFile1.fastq 
+    SequenceFile2.fastq MyGenome
 
 The program may take a few hours to run. Once it is completed, the terminal will display 
 Final assembly in MyGenome.final.scaffolds.fasta. The complete assembly will be located in the a5\_output folder. 
