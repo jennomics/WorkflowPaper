@@ -152,13 +152,18 @@ Once you have changed the permissions, create a new directory and place tbl2asn 
 
 Run the tbl2asn program using the following syntax. You will need to fill out the organism name, strain, location, collection date, isolation source specific to your own project. 
 
-    path_to_program/tbl2asn -p path_to_files -t template_file_name -M n -Z discrep -j "[organism=X] [strain=X] [country=X: city, state abbreviation] [collection_date=X] [isolation-source=X] [gcode=11]"
+    path_to_program/tbl2asn -p path_to_files -t template_file_name 
+    -M n -Z discrep -j "[organism=X] [strain=X] [country=X: city, 
+    state abbreviation] [collection_date=X] [isolation-source=X] [gcode=11]"
 
 Following the -p is the path to the directory containing the FSA file, following the -t is the path to and name of the SBT template file
 
 Sample syntax
 
-    Desktop/ncbi/tbl2asn -p ~/Desktop/ncbi -t ~/Desktop/ncbi/template-1.sbt -M n -Z discrep –j "[organism=Ruthia magnifica str. UCD-CM][strain=UCD-CM] [country=USA: Davis, CA][collection_date=2002][isolation-source=Calyptogena magnifica tissue][gcode=11]"
+    Desktop/ncbi/tbl2asn -p ~/Desktop/ncbi -t ~/Desktop/ncbi/template-1.sbt 
+    -M n -Z discrep –j "[organism=Ruthia magnifica str. UCD-CM][strain=UCD-CM]
+    [country=USA: Davis, CA][collection_date=2002][isolation-source=Calyptogena 
+    magnifica tissue][gcode=11]"
 
 
 The program will output the necessary files into the directory you created earlier
