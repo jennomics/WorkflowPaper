@@ -11,7 +11,7 @@ Follow the protocol or kit instructions provided by the manufacturer and then pr
 Centrifuge 1 ml of the overnight culture until the cells form a pellet at the bottom of the tube (about 5 minutes at 10,000 g), pour off the liquid on top (the supernatant) and resuspend the pellet in 100 μl of sterile DNAase-free water. Incubate the samples at 100°C for 10 minutes to help lyse the cells. Use the resulting solution as the template in the PCR reaction below.
 
 ##PCR reaction
-This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GACGGGCGGTGTGTRCA) primers which amplify a near full-length bacterial (and many archaeal) 16S rRNA gene. Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of 54°C and an extension at 72°C of 90 seconds. Do not forget to include positive (any sample containing bacterial genomic DNA that you have successfully amplified before) and negative (_e.g_., replace DNA with water) controls. 
+This reaction uses the 27F (AGAGTTTGATCMTGGCTCAG) and 1391R (GAC\-GGGCGGTG\-TGTRCA) primers which amplify a near full-length bacterial (and many archaeal) 16S rRNA gene. Our lab uses standard PCR reagents (Qiagen or Kappa), with an annealing temperature of 54°C and an extension at 72°C of 90 seconds. Do not forget to include positive (any sample containing bacterial genomic DNA that you have successfully amplified before) and negative (_e.g_., replace DNA with water) controls. 
 
 After PCR is completed, confirm the PCR reaction worked by agarose gel electrophoresis, all controls behaved as expected, and that you have DNA fragments of the correct size (~1350bp).  
 
