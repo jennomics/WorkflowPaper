@@ -15,6 +15,6 @@ Throughout the "Isolation" section we refer frequently to "media" and "culture m
     + you will be able to isolate a greater diversity of organisms if you allow a long time for slow-growing organisms to grow
    
 4. What types of equipment are available to you?
-   + if an organism grows most happily at 37 °C, then you will need to have an incubator and shaker available at that temperature.
+     + if an organism grows most happily at 37 °C, then you will need to have an incubator and shaker available at that temperature.
 
  For our previous work we have simply used a rich media such as lysogeny broth (LB) and growth at either room temperature or 37 °C.
