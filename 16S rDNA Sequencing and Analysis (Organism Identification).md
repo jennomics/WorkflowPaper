@@ -58,7 +58,7 @@ Confirm that you have Python version 2.x. You can do this by typing:
 
 You should see something that looks like "Python 2.6.9" If you see Python 3.x, seek outside help to run an earlier version.
 
-[http://www.python.org/download/releases/](http://www.python.org/download/releases/)
+[http://www.python.org/downloads/](http://www.python.org/downloads/)
 
 After downloading and unpacking the program, SeqTrace is ready to go. SeqTrace must be launched from a Terminal window. For a refresher or introduction to the Terminal, see section 2. Move SeqTrace to your Applications folder. 
 
