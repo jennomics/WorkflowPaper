@@ -13,7 +13,7 @@ this informative video: [https://www.youtube.com/watch?v=zRZT4nQP3sE](https://ww
 And this interactive tutorial: [http://www.ee.surrey.ac.uk/Teaching/Unix/](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 
 
-##Summary of commands and terms
+##Summary of Unix/Linux commands and terms
 $ **ls**			lists files and directories (folders).  If left as just "ls" this command will list the files and directories in your current location.  If a "path" is added afterwards (e.g., ls /usr) this command will list the files and directories in that location.
 
 $ **cd**			use to change directories
