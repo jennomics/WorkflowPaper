@@ -42,7 +42,7 @@ _compile_ - turning a human-readable file into a computer-executable program
 
 
 ##Software updates
-Software packages are updated with varying frequencies. Some such updates will render the instructions offered here obsolete. When this occurs, you should consult with the software manual for help. An internet search with a description of the problem you are having may prove helpful. Another option is to email the software developer; many are remarkably responsive. As a last resort, consult with a colleague who is more comfortable with bioinformatics or computer programming. It is customary to offer a small favor or gift. Most software updates will require only minor modifications. For example, we might provide you with instructions to type:
+Software packages are updated with varying frequencies. Some such updates will render the instructions offered here obsolete. When this occurs, you should consult with the software manual for help. An internet search with a description of the problem you are having may prove helpful. Another option is to email the software developer; many are remarkably responsive. As a last resort, consult with a colleague who is more comfortable with bioinformatics or computer programming.  Most software updates will require only minor modifications. For example, we might provide you with instructions to type:
 
     ./software_1.2.0/software.py
 but a more recent release might necessitate:
