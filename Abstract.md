@@ -1,1 +1,3 @@
+##Abstract
+
 The sequencing, assembly, and basic analysis of microbial genomes, once a painstaking and expensive undertaking, has become almost trivial for research labs with access to standard molecular biology and computational tools. However, there are a wide variety of options available for DNA library preparation and sequencing, and inexperience with bioinformatics can pose a significant barrier to entry for many who may be interested in microbial genomics. The objective of the present study was to design, test, troubleshoot, and publish a simple, comprehensive workflow from the collection of an environmental sample (a swab) to a published microbial genome; empowering even a lab or classroom with limited resources and bioinformatics experience to perform it.
