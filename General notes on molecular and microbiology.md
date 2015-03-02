@@ -17,4 +17,4 @@ Throughout the "Isolation" section we refer frequently to "media" and "culture m
 4. What types of equipment are available to you?
      + if an organism grows most happily at 37 °C, then you will need to have an incubator and shaker available at that temperature.
 
- For our previous work we have simply used a rich media such as lysogeny broth (LB) and growth at either room temperature or 37 °C.
+ For our previous work we have simply used a rich media such as lysogeny broth (LB) and growth at either room temperature (~25 °C)  or 37 °C.
