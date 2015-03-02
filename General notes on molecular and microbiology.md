@@ -7,7 +7,7 @@ Throughout the "Isolation" section we refer frequently to "media" and "culture m
 
 1. What type of organism do you want to isolate?
 
-2. Are there types of organisms (_e.g._, pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at 37 °C will often result in the isolation of pathogens.
+2. Are there types of organisms (_e.g._, pathogens) that you would prefer not to isolate?  For example, swabbing people and growing samples on blood agar at 37 °C can preferentially isolate human pathogens.
   
 3. How much time is available for growth and isolation?
     + growth rates differ both between organisms (_e.g._, species 1 versus species 2) and also in different conditions for the same organisms (_e.g._, species 1 at 20 °C  vs. 37 °C)
